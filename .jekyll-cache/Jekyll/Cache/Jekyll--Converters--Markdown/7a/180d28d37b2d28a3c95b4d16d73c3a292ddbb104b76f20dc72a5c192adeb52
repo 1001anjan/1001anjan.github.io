@@ -1,0 +1,76 @@
+I"Å+<h1 id="ransom-note">Ransom Note</h1>
+
+<p>Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.</p>
+
+<p>Each letter in magazine can only be used once in ransomNote.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: ransomNote = "a", magazine = "b"
+Output: false
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: ransomNote = "aa", magazine = "ab"
+Output: false
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: ransomNote = "aa", magazine = "aab"
+Output: true
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>1 &lt;= ransomNote.length, magazine.length &lt;= 105</li>
+  <li>ransomNote and magazine consist of lowercase English letters.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">canConstruct</span><span class="o">(</span><span class="nc">String</span> <span class="n">ransomNote</span><span class="o">,</span> <span class="nc">String</span> <span class="n">magazine</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">length</span><span class="o">()&gt;</span><span class="n">magazine</span><span class="o">.</span><span class="na">length</span><span class="o">())</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+        
+        <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">m1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span> <span class="nc">Integer</span><span class="o">&gt;();</span>
+        <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">m2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span> <span class="nc">Integer</span><span class="o">&gt;();</span>
+        
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++){</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">m1</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))){</span>
+                <span class="n">m1</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),(</span><span class="kt">int</span><span class="o">)</span><span class="n">m1</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))+</span><span class="mi">1</span><span class="o">);</span>
+            <span class="o">}</span><span class="k">else</span><span class="o">{</span>
+                <span class="n">m1</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),</span><span class="mi">1</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span><span class="n">magazine</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++){</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">m2</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">magazine</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))){</span>
+                <span class="n">m2</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">magazine</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),(</span><span class="kt">int</span><span class="o">)</span><span class="n">m2</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">magazine</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))+</span><span class="mi">1</span><span class="o">);</span>
+            <span class="o">}</span><span class="k">else</span><span class="o">{</span>
+                <span class="n">m2</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">magazine</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),</span><span class="mi">1</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        
+        <span class="k">for</span><span class="o">(</span><span class="nc">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">e</span> <span class="o">:</span> <span class="n">m1</span><span class="o">.</span><span class="na">entrySet</span><span class="o">()){</span>
+            <span class="k">if</span><span class="o">(!</span><span class="n">m2</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">e</span><span class="o">.</span><span class="na">getKey</span><span class="o">()))</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+            <span class="k">else</span>
+                <span class="nf">if</span><span class="o">((</span><span class="kt">int</span><span class="o">)</span><span class="n">e</span><span class="o">.</span><span class="na">getValue</span><span class="o">()</span> <span class="o">&gt;</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span><span class="n">m2</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">e</span><span class="o">.</span><span class="na">getKey</span><span class="o">()))</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<h5 id="faster-solution">Faster Solution</h5>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">canConstruct</span><span class="o">(</span><span class="nc">String</span> <span class="n">ransomNote</span><span class="o">,</span> <span class="nc">String</span> <span class="n">magazine</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span><span class="o">[]</span> <span class="n">count</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">26</span><span class="o">];</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">magazine</span><span class="o">.</span><span class="na">length</span><span class="o">();</span><span class="n">i</span><span class="o">++){</span>
+            <span class="kt">char</span> <span class="n">ch</span><span class="o">=</span><span class="n">magazine</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+            <span class="n">count</span><span class="o">[</span><span class="n">ch</span><span class="o">-</span><span class="sc">'a'</span><span class="o">]++;</span>
+        <span class="o">}</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">length</span><span class="o">();</span><span class="n">i</span><span class="o">++){</span>
+            <span class="kt">char</span> <span class="n">ch</span><span class="o">=</span><span class="n">ransomNote</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+            <span class="k">if</span><span class="o">(--</span><span class="n">count</span><span class="o">[</span><span class="n">ch</span><span class="o">-</span><span class="sc">'a'</span><span class="o">]&lt;</span><span class="mi">0</span><span class="o">){</span>
+                <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+            <span class="o">}</span>    
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,97 @@
+I"B<h1 id="reverse-vowels-of-a-string">Reverse Vowels of a String</h1>
+
+<p>Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.</p>
+
+<p>Implement the MinStack class:</p>
+
+<ul>
+  <li>MinStack() initializes the stack object.</li>
+  <li>void push(int val) pushes the element val onto the stack.</li>
+  <li>void pop() removes the element on the top of the stack.</li>
+  <li>int top() gets the top element of the stack.</li>
+  <li>int getMin() retrieves the minimum element in the stack.</li>
+</ul>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input
+["MinStack","push","push","push","getMin","pop","top","getMin"]
+[[],[-2],[0],[-3],[],[],[],[]]
+
+Output
+[null,null,null,null,-3,null,0,-2]
+
+Explanation
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin(); // return -3
+minStack.pop();
+minStack.top();    // return 0
+minStack.getMin(); // return -2
+</code></pre></div></div>
+
+<h3 id="constraints">Constraints:</h3>
+<ul>
+  <li>-231 &lt;= val &lt;= 231 - 1</li>
+  <li>Methods pop, top and getMin operations will always be called on non-empty stacks.</li>
+  <li>At most 3 * 104 calls will be made to push, pop, top, and getMin.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">MinStack</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">class</span> <span class="nc">Node</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">val</span><span class="o">;</span>
+        <span class="nc">Node</span> <span class="n">above</span><span class="o">;</span>
+        <span class="nc">Node</span> <span class="n">below</span><span class="o">;</span>
+        <span class="nc">Node</span><span class="o">()</span> <span class="o">{</span>
+            <span class="n">val</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+            <span class="n">above</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+            <span class="n">below</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    
+    <span class="nc">Node</span> <span class="n">top</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nf">MinStack</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">top</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Node</span><span class="o">();</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">push</span><span class="o">(</span><span class="kt">int</span> <span class="n">val</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">Node</span> <span class="n">newNode</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Node</span><span class="o">();</span>
+        <span class="n">newNode</span><span class="o">.</span><span class="na">val</span> <span class="o">=</span> <span class="n">val</span><span class="o">;</span>
+        <span class="n">top</span><span class="o">.</span><span class="na">above</span> <span class="o">=</span> <span class="n">newNode</span><span class="o">;</span>
+        <span class="n">newNode</span><span class="o">.</span><span class="na">below</span> <span class="o">=</span> <span class="n">top</span><span class="o">;</span>
+        <span class="n">top</span> <span class="o">=</span> <span class="n">newNode</span><span class="o">;</span>
+    <span class="o">}</span>
+    
+    <span class="c1">// old top node gets lost to the abyss of rubbish data</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">pop</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">top</span> <span class="o">=</span> <span class="n">top</span><span class="o">.</span><span class="na">below</span><span class="o">;</span>
+        <span class="n">top</span><span class="o">.</span><span class="na">above</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">top</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">top</span><span class="o">.</span><span class="na">val</span><span class="o">;</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getMin</span><span class="o">()</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">min</span> <span class="o">=</span> <span class="mi">2147483647</span><span class="o">;</span>  <span class="c1">// max int</span>
+        <span class="nc">Node</span> <span class="n">traverse</span> <span class="o">=</span> <span class="n">top</span><span class="o">;</span>
+        <span class="k">while</span> <span class="o">(</span><span class="n">traverse</span><span class="o">.</span><span class="na">below</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">traverse</span><span class="o">.</span><span class="na">val</span> <span class="o">&lt;</span> <span class="n">min</span><span class="o">)</span> <span class="n">min</span> <span class="o">=</span> <span class="n">traverse</span><span class="o">.</span><span class="na">val</span><span class="o">;</span>
+            <span class="n">traverse</span> <span class="o">=</span> <span class="n">traverse</span><span class="o">.</span><span class="na">below</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">min</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="cm">/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(val);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */</span>
+</code></pre></div></div>
+:ET

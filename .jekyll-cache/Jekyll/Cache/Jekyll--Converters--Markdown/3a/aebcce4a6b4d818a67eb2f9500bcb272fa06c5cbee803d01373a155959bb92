@@ -1,0 +1,39 @@
+I"7<h1 id="first-unique-character-in-a-string">First Unique Character in a String</h1>
+<p>Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "leetcode"
+Output: 0
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "loveleetcode"
+Output: 2
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "aabb"
+Output: -1
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>1 &lt;= s.length &lt;= 105</li>
+  <li>s consists of only lowercase English letters.
+    <h5 id="solution">Solution</h5>
+    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">firstUniqChar</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+     <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">m</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span><span class="nc">Integer</span><span class="o">&gt;();</span>
+      <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++){</span>
+          <span class="k">if</span><span class="o">(</span><span class="n">m</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">)))</span>
+              <span class="n">m</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),(</span><span class="kt">int</span><span class="o">)</span><span class="n">m</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))+</span><span class="mi">1</span><span class="o">);</span>
+          <span class="k">else</span>
+              <span class="n">m</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">),</span><span class="mi">1</span><span class="o">);</span>
+      <span class="o">}</span>
+      <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++){</span>
+          <span class="k">if</span><span class="o">((</span><span class="kt">int</span><span class="o">)</span><span class="n">m</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="k">return</span> <span class="n">i</span><span class="o">;</span>
+      <span class="o">}</span>
+      <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

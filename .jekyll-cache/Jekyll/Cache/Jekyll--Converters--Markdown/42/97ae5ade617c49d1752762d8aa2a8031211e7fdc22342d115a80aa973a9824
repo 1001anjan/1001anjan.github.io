@@ -1,0 +1,38 @@
+I"µ
+<h1 id="reverse-string">Reverse String</h1>
+
+<p>Write a function that reverses a string. The input string is given as an array of characters s.</p>
+
+<p>You must do this by modifying the input array in-place with O(1) extra memory.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>1 &lt;= s.length &lt;= 105</li>
+  <li>s[i] is a printable ascii character.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">reverseString</span><span class="o">(</span><span class="kt">char</span><span class="o">[]</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+        <span class="kt">char</span> <span class="n">ch</span><span class="o">;</span>
+        <span class="k">while</span><span class="o">(</span><span class="n">i</span><span class="o">&lt;=</span><span class="n">j</span><span class="o">){</span>
+           <span class="n">ch</span> <span class="o">=</span> <span class="n">s</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+            <span class="n">s</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">s</span><span class="o">[</span><span class="n">j</span><span class="o">];</span>
+            <span class="n">s</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="n">ch</span><span class="o">;</span>
+            <span class="n">i</span><span class="o">++;</span>
+            <span class="n">j</span><span class="o">--;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+:ET

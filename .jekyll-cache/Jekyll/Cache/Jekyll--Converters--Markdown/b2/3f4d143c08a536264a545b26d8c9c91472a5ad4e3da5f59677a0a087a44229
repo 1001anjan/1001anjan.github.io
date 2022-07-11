@@ -1,0 +1,94 @@
+I"g-<h1 id="binary-tree-paths">Binary Tree Paths</h1>
+
+<p>Given the root of a binary tree, return all root-to-leaf paths in any order.</p>
+
+<p>A leaf is a node with no children.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<p><img src="../../assets/images/ds/paths-tree.jpeg" alt="" /></p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [1,2,3,null,5]
+Output: ["1-&gt;2-&gt;5","1-&gt;3"]
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>The number of nodes in the tree is in the range [1, 100].</li>
+  <li>-100 &lt;= Node.val &lt;= 100</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<h5 id="non-recursive">Non-recursive</h5>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */</span>
+
+<span class="kd">class</span> <span class="nc">NodeMap</span><span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">TreeNode</span> <span class="n">head</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nc">StringBuilder</span> <span class="n">sb</span><span class="o">;</span>
+    <span class="nc">NodeMap</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">head</span><span class="o">,</span> <span class="nc">String</span> <span class="n">val</span><span class="o">){</span>
+        <span class="n">sb</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">StringBuilder</span><span class="o">(</span><span class="n">val</span><span class="o">);</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">head</span> <span class="o">=</span> <span class="n">head</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="nf">binaryTreePaths</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">list</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;();</span>
+       <span class="nc">Stack</span><span class="o">&lt;</span><span class="nc">NodeMap</span><span class="o">&gt;</span> <span class="n">stack</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Stack</span><span class="o">&lt;</span><span class="nc">NodeMap</span><span class="o">&gt;();</span>
+        <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="k">new</span> <span class="nc">NodeMap</span><span class="o">(</span><span class="n">root</span><span class="o">,</span> <span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">val</span><span class="o">)));</span>
+        <span class="nc">NodeMap</span> <span class="n">nodeMap</span><span class="o">;</span>
+        <span class="k">while</span><span class="o">(!</span><span class="n">stack</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">()){</span>
+            <span class="n">nodeMap</span> <span class="o">=</span> <span class="n">stack</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">left</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">&amp;&amp;</span> <span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">right</span> <span class="o">==</span> <span class="kc">null</span><span class="o">){</span>
+                <span class="n">list</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">sb</span><span class="o">.</span><span class="na">toString</span><span class="o">().</span><span class="na">substring</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">sb</span><span class="o">.</span><span class="na">length</span><span class="o">()));</span>
+            <span class="o">}</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">right</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">){</span>
+                <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="k">new</span> <span class="nc">NodeMap</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">nodeMap</span><span class="o">.</span><span class="na">sb</span><span class="o">.</span><span class="na">toString</span><span class="o">()+</span><span class="s">"-&gt;"</span><span class="o">+</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">right</span><span class="o">.</span><span class="na">val</span><span class="o">)));</span>
+            <span class="o">}</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">left</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">){</span>
+                <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="k">new</span> <span class="nc">NodeMap</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">nodeMap</span><span class="o">.</span><span class="na">sb</span><span class="o">.</span><span class="na">toString</span><span class="o">()+</span><span class="s">"-&gt;"</span><span class="o">+</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">nodeMap</span><span class="o">.</span><span class="na">head</span><span class="o">.</span><span class="na">left</span><span class="o">.</span><span class="na">val</span><span class="o">)));</span>
+            <span class="o">}</span> 
+        <span class="o">}</span>
+      <span class="k">return</span> <span class="n">list</span><span class="o">;</span>             
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<h5 id="recursive">Recursive</h5>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">res</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+    
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="nf">binaryTreePaths</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">helper</span><span class="o">(</span><span class="n">root</span><span class="o">,</span> <span class="k">new</span> <span class="nc">StringBuilder</span><span class="o">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="o">;</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">helper</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">node</span><span class="o">,</span> <span class="nc">StringBuilder</span> <span class="n">sb</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">node</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="n">sb</span><span class="o">.</span><span class="na">length</span><span class="o">();</span>
+        <span class="n">sb</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">val</span><span class="o">);</span>
+        
+        <span class="k">if</span> <span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">&amp;&amp;</span> <span class="n">node</span><span class="o">.</span><span class="na">right</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">res</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">sb</span><span class="o">.</span><span class="na">toString</span><span class="o">());</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+            <span class="n">sb</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="s">"-&gt;"</span><span class="o">);</span>
+            <span class="n">helper</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">sb</span><span class="o">);</span>
+            <span class="n">helper</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">sb</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="c1">// deleting the extra characters we added</span>
+        <span class="n">sb</span><span class="o">.</span><span class="na">setLength</span><span class="o">(</span><span class="n">len</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+:ET

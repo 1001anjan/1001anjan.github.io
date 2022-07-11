@@ -1,0 +1,38 @@
+I"c<h1 id="number-of-segments-in-a-string">Number of Segments in a String</h1>
+
+<p>Given a string s, return the number of segments in the string.</p>
+
+<p>A segment is defined to be a contiguous sequence of non-space characters.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "Hello, my name is John"
+Output: 5
+Explanation: The five segments are ["Hello,", "my", "name", "is", "John"]
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "Hello"
+Output: 1
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>0 &lt;= s.length &lt;= 300</li>
+  <li>s consists of lowercase and uppercase English letters, digits, or one of the following characters “!@#$%^&amp;*()_+-=’,.:”.</li>
+  <li>The only space character in s is ‘ ‘.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">countSegments</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+        <span class="nc">String</span><span class="o">[]</span> <span class="n">ar</span> <span class="o">=</span>  <span class="n">s</span><span class="o">.</span><span class="na">split</span><span class="o">(</span><span class="s">" "</span><span class="o">);</span>
+        <span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="n">ar</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+        <span class="k">for</span><span class="o">(</span><span class="nc">String</span> <span class="n">st</span> <span class="o">:</span> <span class="n">ar</span><span class="o">){</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">st</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span>
+                <span class="n">len</span><span class="o">--;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">len</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+:ET

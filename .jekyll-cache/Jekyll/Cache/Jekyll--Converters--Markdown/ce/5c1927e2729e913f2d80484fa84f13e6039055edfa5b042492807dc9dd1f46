@@ -1,0 +1,10 @@
+I"X<h1 id="palindrome-linked-list">Palindrome Linked List</h1>
+
+<p>Given the head of a singly linked list, return true if it is a palindrome.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: head = [1,2,2,1]
+Output: true
+</code></pre></div></div>
+
+:ET

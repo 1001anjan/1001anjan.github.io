@@ -1,0 +1,36 @@
+I"�<h1 id="island-perimeter">Island Perimeter</h1>
+
+<p>You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.</p>
+
+<p>Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).</p>
+
+<p>The island doesn’t have “lakes”, meaning the water inside isn’t connected to the water around the island. One cell is a square with side length 1. The grid is rectangular, width and height don’t exceed 100. Determine the perimeter of the island.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<p><img src="../../assets/images/ds/island.png" alt="" /></p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+Output: 16
+Explanation: The perimeter is the 16 yellow stripes in the image above.
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: grid = [[1]]
+Output: 4
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: grid = [[1,0]]
+Output: 4
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>row == grid.length</li>
+  <li>col == grid[i].length</li>
+  <li>1 &lt;= row, col &lt;= 100</li>
+  <li>grid[i][j] is 0 or 1.</li>
+  <li>There is exactly one island in grid.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+:ET

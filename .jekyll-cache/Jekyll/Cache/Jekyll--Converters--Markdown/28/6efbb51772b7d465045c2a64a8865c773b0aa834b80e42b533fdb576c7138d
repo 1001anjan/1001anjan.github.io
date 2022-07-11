@@ -1,0 +1,26 @@
+I"w<h1 id="remove-linked-list-elements">Remove Linked List Elements</h1>
+<p>Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<p><img src="../../assets/images/ds/removelinked-list.jpeg" alt="" /></p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: head = [1,2,6,3,4,5,6], val = 6
+Output: [1,2,3,4,5]
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: head = [], val = 1
+Output: []
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: head = [7,7,7,7], val = 7
+Output: []
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>The number of nodes in the list is in the range [0, 104].</li>
+  <li>1 &lt;= Node.val &lt;= 50</li>
+  <li>0 &lt;= val &lt;= 50</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+
+:ET

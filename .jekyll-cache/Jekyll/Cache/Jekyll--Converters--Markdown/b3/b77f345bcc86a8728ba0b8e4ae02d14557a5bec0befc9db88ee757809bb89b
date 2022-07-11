@@ -1,0 +1,54 @@
+I";	<h1 id="lowest-common-ancestor-of-a-binary-search-tree">Lowest Common Ancestor of a Binary Search Tree</h1>
+
+<p>Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.</p>
+
+<p>According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”</p>
+
+<h5 id="example-1">Example 1:</h5>
+<p><img src="../../assets/images/ds/binarysearchtree_improved.png" alt="" /></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+Output: 6
+Explanation: The LCA of nodes 2 and 8 is 6.
+</code></pre></div></div>
+<h6 id="example-2">Example 2:</h6>
+<p><img src="../../assets/images/ds/binarysearchtree_improved_1.png" alt="" /></p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+Output: 2
+Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [2,1], p = 2, q = 1
+Output: 2
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>The number of nodes in the tree is in the range [2, 105].</li>
+  <li>-109 &lt;= Node.val &lt;= 109</li>
+  <li>All Node.val are unique.</li>
+  <li>p != q</li>
+  <li>p and q will exist in the BST.
+    <h3 id="solution">Solution:</h3>
+    <p>```java
+/**</p>
+  </li>
+  <li>Definition for a binary tree node.</li>
+  <li>public class TreeNode {</li>
+  <li>int val;</li>
+  <li>TreeNode left;</li>
+  <li>TreeNode right;</li>
+  <li>TreeNode(int x) { val = x; }</li>
+  <li>}
+ */</li>
+</ul>
+
+<p>class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if ( p.val &lt; root.val &amp;&amp; q.val &lt; root.val ) return this.lowestCommonAncestor(root.left, p, q);
+        if ( p.val &gt; root.val &amp;&amp; q.val &gt; root.val ) return this.lowestCommonAncestor(root.right, p, q);
+        return root;
+    }
+}
+```</p>
+
+:ET

@@ -1,0 +1,49 @@
+I"B<h1 id="reverse-vowels-of-a-string">Reverse Vowels of a String</h1>
+<p>Given a string s, reverse only all the vowels in the string and return it.</p>
+
+<p>The vowels are ‘a’, ‘e’, ‘i’, ‘o’, and ‘u’, and they can appear in both cases.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "hello"
+Output: "holle"
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "leetcode"
+Output: "leotcede"
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>1 &lt;= s.length &lt;= 3 * 105</li>
+  <li>s consist of printable ASCII characters.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">String</span> <span class="nf">reverseVowels</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">char</span><span class="o">[]</span> <span class="n">str</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span><span class="o">[</span><span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()];</span>
+        <span class="n">str</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">();</span>
+        <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span>
+        <span class="kt">char</span> <span class="n">ch</span><span class="o">;</span>
+        <span class="k">while</span><span class="o">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">j</span><span class="o">){</span>
+            <span class="k">while</span><span class="o">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">j</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isVowel</span><span class="o">(</span><span class="n">str</span><span class="o">[</span><span class="n">i</span><span class="o">]))</span> <span class="n">i</span><span class="o">++;</span>
+            <span class="k">while</span><span class="o">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">j</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isVowel</span><span class="o">(</span><span class="n">str</span><span class="o">[</span><span class="n">j</span><span class="o">]))</span> <span class="n">j</span><span class="o">--;</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">j</span><span class="o">){</span>
+               <span class="n">ch</span> <span class="o">=</span> <span class="n">str</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+                <span class="n">str</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">str</span><span class="o">[</span><span class="n">j</span><span class="o">];</span>
+                <span class="n">str</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="n">ch</span><span class="o">;</span>
+                <span class="n">i</span><span class="o">++;</span>
+                <span class="n">j</span><span class="o">--;</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">str</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isVowel</span><span class="o">(</span><span class="kt">char</span> <span class="n">ch</span><span class="o">){</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">ch</span> <span class="o">==</span> <span class="sc">'A'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span><span class="sc">'a'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'e'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'E'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'I'</span> <span class="o">||</span>
+           <span class="n">ch</span> <span class="o">==</span><span class="sc">'i'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'O'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'o'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'u'</span> <span class="o">||</span> <span class="n">ch</span> <span class="o">==</span> <span class="sc">'U'</span><span class="o">)</span> <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+:ET

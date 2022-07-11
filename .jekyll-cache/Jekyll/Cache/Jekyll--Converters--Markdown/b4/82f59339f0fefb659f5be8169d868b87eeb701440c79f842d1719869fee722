@@ -1,0 +1,22 @@
+I"�<h1 id="number-of-segments-in-a-string">Number of Segments in a String</h1>
+
+<p>Given a string s, return the number of segments in the string.</p>
+
+<p>A segment is defined to be a contiguous sequence of non-space characters.</p>
+
+<h5 id="example-1">Example 1:</h5>
+
+<p>Input: s = “Hello, my name is John”
+Output: 5
+Explanation: The five segments are [“Hello,”, “my”, “name”, “is”, “John”]
+Example 2:</p>
+
+<p>Input: s = “Hello”
+Output: 1</p>
+
+<p>Constraints:</p>
+
+<p>0 &lt;= s.length &lt;= 300
+s consists of lowercase and uppercase English letters, digits, or one of the following characters “!@#$%^&amp;*()_+-=’,.:”.
+The only space character in s is ‘ ‘.</p>
+:ET

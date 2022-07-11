@@ -1,0 +1,25 @@
+I"K<h1 id="longest-palindrome">Longest Palindrome</h1>
+
+<p>Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters.</p>
+
+<p>Letters are case sensitive, for example, “Aa” is not considered a palindrome here.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "abccccdd"
+Output: 7
+Explanation:
+One longest palindrome that can be built is "dccaccd", whose length is 7.
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "a"
+Output: 1
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: s = "bb"
+Output: 2
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+
+<p>1 &lt;= s.length &lt;= 2000
+s consists of lowercase and/or uppercase English letters only.</p>
+:ET

@@ -1,0 +1,7 @@
+I"K<h1 id="remove-linked-list-elements">Remove Linked List Elements</h1>
+<p>Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<p><img src="../../assets/images/ds/removelinked-list.jpeg" alt="" /></p>
+
+:ET

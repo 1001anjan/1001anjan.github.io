@@ -1,0 +1,8 @@
+I"<h1 id="sum-of-left-leaves">Sum of Left Leaves</h1>
+
+<p>Given the root of a binary tree, return the sum of all left leaves.</p>
+
+<p>A leaf is a node with no children. A left leaf is a leaf that is the left child of another node.</p>
+
+<h5 id="example-1">Example 1:</h5>
+:ET

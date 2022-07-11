@@ -1,0 +1,54 @@
+I"#<h1 id="lowest-common-ancestor-of-a-binary-search-tree">Lowest Common Ancestor of a Binary Search Tree</h1>
+
+<p>Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.</p>
+
+<p>According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”</p>
+
+<h5 id="example-1">Example 1:</h5>
+<p><img src="../../assets/images/ds/binarysearchtree_improved.png" alt="" /></p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+Output: 6
+Explanation: The LCA of nodes 2 and 8 is 6.
+</code></pre></div></div>
+<h6 id="example-2">Example 2:</h6>
+<p><img src="../../assets/images/ds/binarysearchtree_improved_1.png" alt="" /></p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+Output: 2
+Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: root = [2,1], p = 2, q = 1
+Output: 2
+</code></pre></div></div>
+<h5 id="constraints">Constraints:</h5>
+<ul>
+  <li>The number of nodes in the tree is in the range [2, 105].</li>
+  <li>-109 &lt;= Node.val &lt;= 109</li>
+  <li>All Node.val are unique.</li>
+  <li>p != q</li>
+  <li>p and q will exist in the BST.</li>
+</ul>
+
+<h3 id="solution">Solution:</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */</span>
+
+<span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">TreeNode</span> <span class="nf">lowestCommonAncestor</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">p</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">q</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span> <span class="n">p</span><span class="o">.</span><span class="na">val</span> <span class="o">&lt;</span> <span class="n">root</span><span class="o">.</span><span class="na">val</span> <span class="o">&amp;&amp;</span> <span class="n">q</span><span class="o">.</span><span class="na">val</span> <span class="o">&lt;</span> <span class="n">root</span><span class="o">.</span><span class="na">val</span> <span class="o">)</span> <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">lowestCommonAncestor</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">p</span><span class="o">,</span> <span class="n">q</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(</span> <span class="n">p</span><span class="o">.</span><span class="na">val</span> <span class="o">&gt;</span> <span class="n">root</span><span class="o">.</span><span class="na">val</span> <span class="o">&amp;&amp;</span> <span class="n">q</span><span class="o">.</span><span class="na">val</span> <span class="o">&gt;</span> <span class="n">root</span><span class="o">.</span><span class="na">val</span> <span class="o">)</span> <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">lowestCommonAncestor</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">p</span><span class="o">,</span> <span class="n">q</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">root</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+:ET

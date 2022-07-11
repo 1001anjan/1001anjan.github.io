@@ -4,7 +4,7 @@ title: Sqrt(x)
 parent: Data Structure Easy Set 1
 grand_parent: Data Structure
 nav_order: 15
-permalink: /problem-14-Sqrt/
+permalink: /problem-15-sqrt/
 ---
 # Sqrt(x)
 Given a non-negative integer x, compute and return the square root of x.
@@ -30,3 +30,24 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
 * 0 <= x <= 231 - 1
 
 ### Solution
+```java
+class Solution {
+    public int mySqrt(int x) {
+        if(x<2) return x;
+        int start = 2;
+        int end   = x/2;
+        int mid = (start+end)/2;
+        long res;
+        while(start <= end){
+            res = (long)mid*mid;
+            if(res == x) return mid;
+            if(res>x)
+                end = mid - 1;
+            else
+                start = mid + 1;
+            mid = (start+end)/2;
+        }
+        return mid;
+    }
+}
+```

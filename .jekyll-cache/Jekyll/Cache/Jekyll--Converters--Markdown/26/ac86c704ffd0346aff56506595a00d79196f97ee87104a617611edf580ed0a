@@ -1,0 +1,41 @@
+I"
+<h1 id="single-number">Single Number</h1>
+<p>Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.</p>
+
+<p>You must implement a solution with a linear runtime complexity and use only constant extra space.</p>
+
+<h5 id="example-1">Example 1:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: nums = [2,2,1]
+Output: 1
+</code></pre></div></div>
+<h5 id="example-2">Example 2:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: nums = [4,1,2,1,2]
+Output: 4
+</code></pre></div></div>
+<h5 id="example-3">Example 3:</h5>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input: nums = [1]
+Output: 1
+</code></pre></div></div>
+
+<h5 id="constraints">Constraints:</h5>
+
+<ul>
+  <li>1 &lt;= nums.length &lt;= 3 * 104</li>
+  <li>-3 * 104 &lt;= nums[i] &lt;= 3 * 104</li>
+  <li>Each element in the array appears twice except for one element which appears only once.</li>
+</ul>
+
+<h3 id="solution">Solution</h3>
+<h4 id="xor">XOR</h4>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">singleNumber</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="n">nums</span><span class="o">[</span><span class="mi">0</span><span class="o">];</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">nums</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">^</span><span class="n">nums</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">x</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+:ET
