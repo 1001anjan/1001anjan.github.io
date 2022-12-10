@@ -31,17 +31,34 @@ Output: false
 ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
-        StringBuilder sb = new StringBuilder();
-        int j = 0;
-        for(int i = 0; i<s.length(); i++){
-            while(j<t.length() && s.charAt(i) != t.charAt(j)) j++;
-            if(j>=t.length()) break;
-            else{
-                sb.append(t.charAt(j));
-                j++;
-            }
+        int k = 0;
+        int l = s.length();
+        if(l == 0) return true;
+        for(int i = 0; i < t.length(); i++){
+            if(t.charAt(i) == s.charAt(k)) k++;
+            if(k == l) return true;
         }
-        return s.equals(sb.toString());
+        if(k >= l) return true;
+        return false;
+    }
+}
+```
+```java
+class Solution {
+    public boolean isSubsequence(String s, String t) {
+        
+        int i = 0, j = 0;
+        int sLength = s.length();
+        int tLength = t.length();
+        
+        while(i < sLength && j < tLength){
+            if(s.charAt(i) == t.charAt(j)){
+                i++;
+            }
+            j++;
+        }
+        
+        return i == sLength;
     }
 }
 ```

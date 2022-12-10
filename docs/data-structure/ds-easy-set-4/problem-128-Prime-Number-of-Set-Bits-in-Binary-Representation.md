@@ -4,7 +4,7 @@ title: Prime Number of Set Bits in Binary Representation
 parent: Data Structure Easy Set 4
 grand_parent: Data Structure
 nav_order: 28
-permalink: /problem-127-Prime-Number-of-Set-Bits-in-Binary-Representation/
+permalink: /problem-128-Prime-Number-of-Set-Bits-in-Binary-Representation/
 ---
 # Prime Number of Set Bits in Binary Representation
 
