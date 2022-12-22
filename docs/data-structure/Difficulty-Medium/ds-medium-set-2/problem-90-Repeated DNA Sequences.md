@@ -1,0 +1,44 @@
+---
+layout: default
+title: Repeated DNA Sequences
+parent: Data Structure Medium Set 2
+grand_parent: Data Structure
+nav_order: 40
+permalink: /problem-90-Repeated DNA Sequences/
+---
+# Repeated DNA Sequences
+The DNA sequence is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T'.
+
+* For example, "ACGAATTCCG" is a DNA sequence.
+When studying DNA, it is useful to identify repeated sequences within the DNA.
+
+Given a string s that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule. You may return the answer in any order.
+
+###### Example 1:
+```markdown
+Input: s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+Output: ["AAAAACCCCC","CCCCCAAAAA"]
+```
+##### Example 2:
+```markdown
+Input: s = "AAAAAAAAAAAAA"
+Output: ["AAAAAAAAAA"]
+```
+##### Constraints:
+* 1 <= s.length <= 10^5
+* s[i] is either 'A', 'C', 'G', or 'T'.
+
+### Solution:
+```java
+class Solution {
+    public List<String> findRepeatedDnaSequences(String s) {
+        Set seen = new HashSet(), repeated = new HashSet();
+        for (int i = 0; i + 9 < s.length(); i++) {
+            String ten = s.substring(i, i + 10);
+            if (!seen.add(ten))
+                repeated.add(ten);
+        }
+        return new ArrayList(repeated);
+    }
+}
+```

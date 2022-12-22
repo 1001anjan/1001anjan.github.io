@@ -4,7 +4,7 @@ title: Min Stack
 parent: Data Structure Easy Set 2
 grand_parent: Data Structure
 nav_order: 1
-permalink: /problem-31-Min-Stack/
+permalink: /problem-32-Min-Stack/
 ---
 #  Min Stack
 
@@ -47,50 +47,32 @@ minStack.getMin(); // return -2
 ### Solution
 ```java
 class MinStack {
-    public class Node {
-        int val;
-        Node above;
-        Node below;
-        Node() {
-            val = 0;
-            above = null;
-            below = null;
-        }
-    }
-    
-    Node top;
+    Stack<Integer[]> stack;
     public MinStack() {
-        top = new Node();
+        stack = new Stack<>();
     }
-    
+
     public void push(int val) {
-        Node newNode = new Node();
-        newNode.val = val;
-        top.above = newNode;
-        newNode.below = top;
-        top = newNode;
-    }
-    
-    // old top node gets lost to the abyss of rubbish data
-    public void pop() {
-        top = top.below;
-        top.above = null;
-    }
-    
-    public int top() {
-        return top.val;
-    }
-    
-    public int getMin() {
-        int min = 2147483647;  // max int
-        Node traverse = top;
-        while (traverse.below != null) {
-            if (traverse.val < min) min = traverse.val;
-            traverse = traverse.below;
+        if(stack.isEmpty()){
+            stack.push(new Integer[]{val, val});
+        }else{
+            stack.push(new Integer[]{val, Math.min(val, getMin())});
         }
-        return min;
+    }
+
+    public void pop() {
+        stack.pop();
+    }
+
+    public int top() {
+        return stack.peek()[0];
+    }
+
+    public int getMin() {
+        return stack.peek()[1];
     }
 }
+
 
 /**
  * Your MinStack object will be instantiated and called as such:
