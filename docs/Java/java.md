@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Java
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
-# UI Components
+# Java Quick Notes
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation.
 {: .fs-6 .fw-300 }

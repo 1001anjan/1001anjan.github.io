@@ -2,100 +2,82 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Learning with Anjan."
+description: "Learning with Anjan"
 permalink: /
 ---
 
 # Learning with Anjan.
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive  that is easily customizable.
+All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. 
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Have Some Fun Now](#have-some-fun){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## Getting started
+## Have Some Fun
 
-### Dependencies
+Hey.. There. It's ME. *Name toh upar dekha hoga.* What can I do for YOU? or for ME? Technically it's NOTHING... Humans are self+ish(oriented). But,
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
-
-### Quick start: Use as a GitHub Pages remote theme
-
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+All leaders/politicians are not wrong. So,
 
 ```yaml
-remote_theme: just-the-docs/just-the-docs
+KEEP LEARNING... KEEP LEARNING... KEEP LEARNING...
 ```
 
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+Once you started to learn, You start to IMAGINE. So, 
 
-### Local installation: Use the gem-based theme
+```yaml
+KEEP IMAGINING... KEEP IMAGINING... KEEP IMAGINING...
+```
 
-1. Install the Ruby Gem
-  ```bash
-  $ gem install just-the-docs
-  ```
-  ```yaml
-  # .. or add it to your your Jekyll site’s Gemfile
-  gem "just-the-docs"
-  ```
+Start Imagining at point ONE To FINISH Line. And,
 
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-  ```yaml
-  theme: "just-the-docs"
-  ```
+```yaml
+YOUR THOUGHTS CONVERT INTO FREQUENCY... 
+```
 
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-  ```bash
-  $ bundle exec just-the-docs rake search:init
-  ```
+Once the Word started to accept your frequencies. The MAGIC will happen. Now,
 
-3. Run you local Jekyll server
-  ```bash
-  $ jekyll serve
-  ```
-  ```bash
-  # .. or if you're using a Gemfile (bundler)
-  $ bundle exec jekyll serve
-  ```
+```yaml
+KEEP BELIEVING... KEEP LISTINING... KEEP BELIEVING... KEEP LISTINING...   
+```
 
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+Or ELSE. try,
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+[Dark Theme](#dark){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+<script> 
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
+jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); 
+toggleDarkMode.textContent = 'Preview dark color scheme'; 
+} else
+{ jtd.setTheme('dark'); 
+toggleDarkMode.textContent = 'Return to the light side'; 
+}}); 
+</script>
 
-### Configure Just the Docs
+### And finally stay `HAPPY`, and Have `SOME MORE FUN`.   Because,
 
+```yaml
+The Circle will be maintained always! You cant't Escape it. The Only Answer GOD Knows. 
+```
 
+## Now, take a Deep Breath. Sometimes we forget to do this.
 ---
 
-## About the project
+* ##### Find my Android News APP on Google Play Store. [ONE MORE LIGHT](https://play.google.com/store/apps/details?id=io.oneMoreLightOpen.starter)
 
-Just the Docs is &copy; 2022-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
+* ##### Try out my web app for Video, Audio, and Text messaging. [iMeet](https://github.com/link2anjan/iMeet/blob/main/README.md) 
+---
+#### Do you like to offer some coffee? 
+* 
+[Contact Me](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
-
-#### Thank you to the contributors of Just the Docs!
-
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
+## Contact
+```markdown
+email: link2anjan@gmail.com
+location 1: Bangalore, India
+location 2: Kolkata, India
+location 3: Digha, India
+```
