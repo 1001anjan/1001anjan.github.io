@@ -46,15 +46,20 @@ KEEP BELIEVING... KEEP LISTINING... KEEP BELIEVING... KEEP LISTINING...
 
 Or ELSE. try,
 
-[Dark Theme](#dark){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-<script> 
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
-jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); 
-toggleDarkMode.textContent = 'Preview dark color scheme'; 
-} else
-{ jtd.setTheme('dark'); 
-toggleDarkMode.textContent = 'Return to the light side'; 
-}}); 
+<button class="btn js-toggle-dark-mode">Dark Theme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Dark Theme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Light Theme';
+  }
+});
 </script>
 
 ### And finally stay `HAPPY`, and Have `SOME MORE FUN`.   Because,
