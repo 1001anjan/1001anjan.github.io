@@ -19,6 +19,25 @@ jtd.onReady = function(ready) {
   });
 }
 
+/// get cookies for theme
+function initTheme() {
+    var allcookies = document.cookie;
+    // Get all the cookies pairs in an array
+    cookiearray = allcookies.split(';');
+    var theme = 'theme';
+    // Now take key value pair out of this array
+    for(var i=0; i<cookiearray.length; i++) {
+        var name = cookiearray[i].split('=')[0];
+        var value = cookiearray[i].split('=')[1];
+        if(name.trim() == theme){
+            if(jtd.getTheme() != value) jtd.setTheme(value);
+            break;
+        }
+    }
+}
+
+
+
 // Show/hide mobile menu
 
 function initNav() {
@@ -437,9 +456,31 @@ jtd.setTheme = function(theme) {
 
 jtd.onReady(function(){
   initNav();
+ // initTheme();
   initSearch();
 });
 
 })(window.jtd = window.jtd || {});
 
 
+
+
+
+function setTheme(theme) {
+  var cssFile = document.querySelector('[rel="stylesheet"]');
+  cssFile.setAttribute('href', 'https://1001anjan.github.io/assets/css/just-the-docs-' + theme + '.css');
+}
+
+ var allcookies = document.cookie;
+    // Get all the cookies pairs in an array
+    cookiearray = allcookies.split(';');
+    var theme = 'theme';
+    // Now take key value pair out of this array
+    for(var i=0; i<cookiearray.length; i++) {
+        var name = cookiearray[i].split('=')[0];
+        var value = cookiearray[i].split('=')[1];
+        if(name.trim() == theme){
+            setTheme(value);
+            break;
+        }
+    }

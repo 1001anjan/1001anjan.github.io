@@ -32,7 +32,7 @@ Once you started to learn, You start to IMAGINE. So,
 KEEP IMAGINING... KEEP IMAGINING... KEEP IMAGINING...
 ```
 
-Start Imagining at point ONE To FINISH Line. And,
+Start Imagining from point ONE To FINISH Line. And,
 
 ```yaml
 YOUR THOUGHTS CONVERT INTO FREQUENCY... 
@@ -46,17 +46,34 @@ KEEP BELIEVING... KEEP LISTINING... KEEP BELIEVING... KEEP LISTINING...
 
 Or ELSE. try,
 
-<button class="btn js-toggle-dark-mode">Dark Theme</button>
+<button class="btn js-toggle-dark-mode btn-primary">Dark Theme</button>
 
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
+    var allcookies = document.cookie;
+    cookiearray = allcookies.split(';');
+    for(var i=0; i<cookiearray.length; i++) {
+        var name = cookiearray[i].split('=')[0];
+        var value = cookiearray[i].split('=')[1];
+        if(name.trim() == 'theme'){
+            if(value.trim() == "dark"){
+                toggleDarkMode.textContent = 'Light Theme';
+            }else{
+                toggleDarkMode.textContent = 'Dark Theme';
+            }
+            break;
+        }
+    }
+
 jtd.addEvent(toggleDarkMode, 'click', function(){
   if (jtd.getTheme() === 'dark') {
     jtd.setTheme('light');
+    document.cookie = 'theme=' + 'light';
     toggleDarkMode.textContent = 'Dark Theme';
   } else {
     jtd.setTheme('dark');
+    document.cookie = 'theme=' + 'dark';
     toggleDarkMode.textContent = 'Light Theme';
   }
 });

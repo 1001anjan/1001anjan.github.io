@@ -1,5 +1,6 @@
 ---
 ---
+
 (function (jtd, undefined) {
 
 // Event handling
@@ -20,6 +21,25 @@ jtd.onReady = function(ready) {
       if (document.readyState=='complete') ready();
   });
 }
+
+/// get cookies for theme
+function initTheme() {
+    var allcookies = document.cookie;
+    // Get all the cookies pairs in an array
+    cookiearray = allcookies.split(';');
+    var theme = 'theme';
+    // Now take key value pair out of this array
+    for(var i=0; i<cookiearray.length; i++) {
+        var name = cookiearray[i].split('=')[0];
+        var value = cookiearray[i].split('=')[1];
+        if(name.trim() == theme){
+            if(jtd.getTheme() != value) jtd.setTheme(value);
+            break;
+        }
+    }
+}
+
+
 
 // Show/hide mobile menu
 
@@ -461,6 +481,7 @@ jtd.setTheme = function(theme) {
 
 jtd.onReady(function(){
   initNav();
+ // initTheme();
   {%- if site.search_enabled != false %}
   initSearch();
   {%- endif %}
@@ -469,3 +490,24 @@ jtd.onReady(function(){
 })(window.jtd = window.jtd || {});
 
 {% include js/custom.js %}
+
+
+
+function setTheme(theme) {
+  var cssFile = document.querySelector('[rel="stylesheet"]');
+  cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | absolute_url }}' + theme + '.css');
+}
+
+ var allcookies = document.cookie;
+    // Get all the cookies pairs in an array
+    cookiearray = allcookies.split(';');
+    var theme = 'theme';
+    // Now take key value pair out of this array
+    for(var i=0; i<cookiearray.length; i++) {
+        var name = cookiearray[i].split('=')[0];
+        var value = cookiearray[i].split('=')[1];
+        if(name.trim() == theme){
+            setTheme(value);
+            break;
+        }
+    }
