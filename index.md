@@ -82,7 +82,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 ### And finally stay `HAPPY`, and Have `SOME MORE FUN`.   Because,
 
 ```yaml
-The Circle will be maintained always! You cant't Escape it. The Only Answer GOD Knows. 
+The Circle will be maintained! You cant't Escape it. The Only Answer GOD Knows OR made by someone. 
 ```
 
 ## Now, take a Deep Breath. Sometimes we forget to do this.
