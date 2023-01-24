@@ -54,3 +54,28 @@ class Solution {
     }
 }
 ```
+```java
+class Solution {
+    public List<String> restoreIpAddresses(String s) {
+        List<String> ans = new ArrayList<>();
+        processIpAddress(s, 0, new String(), s.length(), 0, ans);
+        return ans;
+    }
+
+    private void processIpAddress(String s, int start, String sb, int len, int dotCount, List<String> ans){
+        if(dotCount > 4) return;
+        if(dotCount == 4 && start == len){
+            ans.add(sb);
+            return;
+        }
+        for(int i = 1; i < 4; i++){
+            if(start + i > len) break;
+            String str = s.substring(start, start + i);
+            if(str.startsWith("0") && i > 1) continue;
+            if(i == 3 && Integer.parseInt(str) > 255) continue;
+            if(dotCount < 3) str = str + ".";
+            processIpAddress(s, start + i, sb + str, len, dotCount + 1, ans);
+        }
+    }   
+}
+```
