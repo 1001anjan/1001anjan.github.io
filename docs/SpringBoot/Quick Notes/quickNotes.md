@@ -4,7 +4,6 @@ title: Quick Notes
 nav_order: 1
 parent: Spring Boot
 has_children: true
-permalink: /docs/springboot/quickNotes
 ---
 
 # Quick Notes

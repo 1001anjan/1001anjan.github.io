@@ -4,7 +4,6 @@ title: Can we use @value in java interface?
 parent: Quick Notes
 grand_parent: Spring Boot
 nav_order: 2
-permalink: /qn-2-Can we use @value in java interface/
 ---
 # Can we use @value in java interface?
 

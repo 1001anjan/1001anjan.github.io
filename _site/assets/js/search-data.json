@@ -3920,32 +3920,32 @@
     "doc": "Access application.yml property in springBoot app",
     "title": "Access application.yml property in springBoot app",
     "content": "In a Spring Boot application, you can access properties defined in the application.yml file by using the @Value annotation and specifying the property key. For example, if you have a property app.name defined in the application.yml file, you can access its value in a controller class like this: . @Value(\"${app.name}\") private String appName; . You can also use the @ConfigurationProperties annotation on a class to bind the properties in the application.yml file to that class. For example, if you have the following properties defined in the application.yml file: . app: name: MyApp version: 1.0 . You can create a class like this: . @ConfigurationProperties(prefix = \"app\") public class AppProperties { private String name; private String version; //getters and setters } . And then autowire it in your controller or service class: . @Autowired private AppProperties appProperties; . You can then access the properties using this object. String appName = appProperties.getName(); String appVersion = appProperties.getVersion(); . Note that for @ConfigurationProperties you’ll need to enable it by adding the following annotation in your configuration class or main class . @EnableConfigurationProperties(AppProperties.class) . ",
-    "url": "https://1001anjan.github.io/qn-1-Access%20application.yml%20property%20in%20springBoot%20app/",
-    "relUrl": "/qn-1-Access application.yml property in springBoot app/"
+    "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/qn-1-How-to-access%20application_yml%20property%20in%20springBoot%20app/",
+    "relUrl": "/docs/SpringBoot/Quick%20Notes/qn-1-How-to-access%20application_yml%20property%20in%20springBoot%20app/"
   },"654": {
     "doc": "Can we use @value in java interface?",
     "title": "Can we use @value in java interface?",
     "content": "No, you cannot use the @Value annotation in a Java interface. The @Value annotation is used to inject a property value into a field, constructor or setter method, and it can only be used on a class or bean. Since an interface is not a class or bean, it cannot be used to hold state, therefore it is not possible to use @Value annotation on interface. It’s worth noting that interfaces in Java do not have any implementation, they only define method signatures. And Spring uses @Value annotation to set the value of a field in a specific instance of a class, which is not possible for interfaces. If you want to share some properties across multiple classes, you can use the @ConfigurationProperties annotation on a class and autowire it in other classes. Alternatively, you can use Environment object to access the property values, or use PropertySourcesPlaceholderConfigurer for XML based configuration. ",
-    "url": "https://1001anjan.github.io/qn-2-Can%20we%20use%20@value%20in%20java%20interface/",
-    "relUrl": "/qn-2-Can we use @value in java interface/"
+    "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/qn-2-can%20we%20use%20@value%20in%20java%20interface/",
+    "relUrl": "/docs/SpringBoot/Quick%20Notes/qn-2-can%20we%20use%20@value%20in%20java%20interface/"
   },"655": {
     "doc": "How to access application.conf properties in spring boot",
     "title": "How to access application.conf properties in spring boot",
     "content": "In Spring Boot, you can access properties defined in the application.conf file by using the @Value annotation and specifying the property key. For example, if you have a property app.name defined in the application.conf file, you can access its value in a controller class like this: . @Value(\"${app.name}\") private String appName; . You can also use the @ConfigurationProperties annotation on a class to bind the properties in the application.conf file to that class. For example, if you have the following properties defined in the application.conf file: . app { name = \"MyApp\" version = \"1.0\" } . You can create a class like this: . @ConfigurationProperties(prefix = \"app\") public class AppProperties { private String name; private String version; //getters and setters } . And then autowire it in your controller or service class: . @Autowired private AppProperties appProperties; . You can then access the properties using this object. String appName = appProperties.getName(); String appVersion = appProperties.getVersion(); . In order to use application.conf you need to configure the application to use it, the most common way of doing this is by adding the following dependency in your pom.xml file: . &lt;dependency&gt; &lt;groupId&gt;com.typesafe&lt;/groupId&gt; &lt;artifactId&gt;config&lt;/artifactId&gt; &lt;version&gt;1.4.0&lt;/version&gt; &lt;/dependency&gt; . And then, you need to configure the application to look for the application.conf file in the classpath, by adding this to your application.properties or application.yml file: . spring.config.name=application spring.config.location=classpath: . Note that for @ConfigurationProperties you’ll need to enable it by adding the following annotation in your configuration class or main class . @EnableConfigurationProperties(AppProperties.class) . ",
-    "url": "https://1001anjan.github.io/qn-3-How%20to%20access%20application.conf%20properties%20in%20spring%20boot/",
-    "relUrl": "/qn-3-How to access application.conf properties in spring boot/"
+    "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/qn-3-how%20to%20access%20application.conf%20properties%20in%20spring%20boot/",
+    "relUrl": "/docs/SpringBoot/Quick%20Notes/qn-3-how%20to%20access%20application.conf%20properties%20in%20spring%20boot/"
   },"656": {
     "doc": "Example of @EnableConfigurationProperties(AppConfig.class)",
     "title": "Example of @EnableConfigurationProperties(AppConfig.class)",
     "content": "Here is an example of how to use the @EnableConfigurationProperties annotation to enable a configuration class called AppConfig: . @Configuration @EnableConfigurationProperties(AppConfig.class) public class AppConfig { @Value(\"${app.name}\") private String appName; public String getAppName() { return appName; } } . In this example, the @EnableConfigurationProperties annotation is used on the AppConfig class to indicate that it should be used as a source for configuration properties. The @Value annotation is used to inject a property called app.name from the application.properties file. You can then autowire this configuration class in other beans. @Autowired AppConfig appConfig; . ",
-    "url": "https://1001anjan.github.io/qn-3-Example%20of%20@EnableConfigurationProperties(AppConfig.class)/",
-    "relUrl": "/qn-3-Example of @EnableConfigurationProperties(AppConfig.class)/"
+    "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/qn-4-example%20@EnableConfigurationProperties/",
+    "relUrl": "/docs/SpringBoot/Quick%20Notes/qn-4-example%20@EnableConfigurationProperties/"
   },"657": {
     "doc": "Quick Notes",
     "title": "Quick Notes",
     "content": "All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. ",
-    "url": "https://1001anjan.github.io/docs/springboot/quickNotes",
-    "relUrl": "/docs/springboot/quickNotes"
+    "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/quickNotes/",
+    "relUrl": "/docs/SpringBoot/Quick%20Notes/quickNotes/"
   },"658": {
     "doc": "Spring Boot",
     "title": "Spring Boot",

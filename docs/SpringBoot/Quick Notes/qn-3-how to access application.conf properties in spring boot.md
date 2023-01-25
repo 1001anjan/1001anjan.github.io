@@ -4,7 +4,6 @@ title: How to access application.conf properties in spring boot
 parent: Quick Notes
 grand_parent: Spring Boot
 nav_order: 3
-permalink: /qn-3-How to access application.conf properties in spring boot/
 ---
 # How to access application.conf properties in spring boot
 In Spring Boot, you can access properties defined in the `application.conf` file by using the `@Value` annotation and specifying the property key. For example, if you have a property app.name defined in the `application.conf` file, you can access its value in a controller class like this:

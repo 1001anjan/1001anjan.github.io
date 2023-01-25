@@ -4,7 +4,6 @@ title: Example of @EnableConfigurationProperties(AppConfig.class)
 parent: Quick Notes
 grand_parent: Spring Boot
 nav_order: 4
-permalink: /qn-3-Example of @EnableConfigurationProperties(AppConfig.class)/
 ---
 # Example of @EnableConfigurationProperties(AppConfig.class)
 Here is an example of how to use the `@EnableConfigurationProperties` annotation to enable a configuration class called AppConfig:

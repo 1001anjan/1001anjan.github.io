@@ -4,7 +4,6 @@ title: Access application.yml property in springBoot app
 parent: Quick Notes
 grand_parent: Spring Boot
 nav_order: 1
-permalink: /qn-1-Access application.yml property in springBoot app/
 ---
 # Access application.yml property in springBoot app
 
