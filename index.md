@@ -14,7 +14,7 @@ permalink: /
 All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. 
 {: .fs-6 .fw-300 }
 
-[Have Some Fun Now](#have-some-fun){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 } [Contact Me](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Have Some Fun Now](#have-some-fun){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contact Me](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 
 ---
