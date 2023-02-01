@@ -3965,18 +3965,24 @@
     "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/qn-3Neo4j-health-check/",
     "relUrl": "/docs/SpringBoot/Quick%20Notes/qn-3Neo4j-health-check/"
   },"661": {
+    "doc": "Add Swagger to a Spring Boot project",
+    "title": "Add Swagger to a Spring Boot project",
+    "content": "To add Swagger to a Spring Boot project in Java, you can follow these steps: . | Add the following dependencies to your pom.xml file: | . &lt;dependency&gt; &lt;groupId&gt;io.springfox&lt;/groupId&gt; &lt;artifactId&gt;springfox-swagger2&lt;/artifactId&gt; &lt;version&gt;2.9.2&lt;/version&gt; &lt;/dependency&gt; &lt;dependency&gt; &lt;groupId&gt;io.springfox&lt;/groupId&gt; &lt;artifactId&gt;springfox-swagger-ui&lt;/artifactId&gt; &lt;version&gt;2.9.2&lt;/version&gt; &lt;/dependency&gt; . | Create a SwaggerConfig.java file with the following content: ```java import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration; import springfox.documentation.builders.ApiInfoBuilder; import springfox.documentation.builders.PathSelectors; import springfox.documentation.builders.RequestHandlerSelectors; import springfox.documentation.service.ApiInfo; import springfox.documentation.spi.DocumentationType; import springfox.documentation.spring.web.plugins.Docket; import springfox.documentation.swagger2.annotations.EnableSwagger2; | . @Configuration @EnableSwagger2 public class SwaggerConfig { @Bean public Docket api() { return new Docket(DocumentationType.SWAGGER_2) .select() .apis(RequestHandlerSelectors.any()) .paths(PathSelectors.any()) .build() .apiInfo(apiInfo()); } . private ApiInfo apiInfo() { return new ApiInfoBuilder() .title(\"API Documentation\") .description(\"API for your Spring Boot application\") .version(\"1.0\") .build(); } } ``` 3. Start your Spring Boot application and access the Swagger UI at `http://localhost:8080/swagger-ui.html`. Note: The URLs and versions may differ based on your setup. ",
+    "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/qn-4-add%20Swagger%20to%20a%20Spring%20Boot%20project/",
+    "relUrl": "/docs/SpringBoot/Quick%20Notes/qn-4-add%20Swagger%20to%20a%20Spring%20Boot%20project/"
+  },"662": {
     "doc": "Quick Notes",
     "title": "Quick Notes",
     "content": "All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. ",
     "url": "https://1001anjan.github.io/docs/Kafka/Quick%20Notes/quickNotes/",
     "relUrl": "/docs/Kafka/Quick%20Notes/quickNotes/"
-  },"662": {
+  },"663": {
     "doc": "Quick Notes",
     "title": "Quick Notes",
     "content": "All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. ",
     "url": "https://1001anjan.github.io/docs/SpringBoot/Quick%20Notes/quickNotes/",
     "relUrl": "/docs/SpringBoot/Quick%20Notes/quickNotes/"
-  },"663": {
+  },"664": {
     "doc": "Spring Boot",
     "title": "Spring Boot",
     "content": "All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. ",
