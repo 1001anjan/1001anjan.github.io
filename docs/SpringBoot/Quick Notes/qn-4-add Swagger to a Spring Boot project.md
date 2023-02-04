@@ -3,7 +3,7 @@ layout: default
 title: Add Swagger to a Spring Boot project
 parent: Quick Notes
 grand_parent: Spring Boot
-nav_order: 3
+nav_order: 4
 ---
 # Add Swagger to a Spring Boot project
 To add Swagger to a Spring Boot project in Java, you can follow these steps:
