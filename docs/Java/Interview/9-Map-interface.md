@@ -1,6 +1,11 @@
-
-
-# TreeMap and HashMap
+---
+layout: default
+title: Map Interface
+parent: Interview Preparation
+grand_parent: Java
+nav_order: 9
+---
+### TreeMap and HashMap
 
 1. HashMap and TreeMap are both implementations of the Map interface in Java, but they have some key differences:
 

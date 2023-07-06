@@ -1,11 +1,11 @@
 ---
 layout: default
-title: String, Heap Memory 
+title: String, StringBuffer, StringBuilder
 parent: Interview Preparation
 grand_parent: Java
 nav_order: 1
 ---
-# Difference between string, stringBuffer, stringBuilder
+### Difference between String, StringBuffer, StringBuilder
 The main differences between `String`, `StringBuffer`, and `StringBuilder` in Java are related to their immutability, synchronization, and performance characteristics:
 
 * String: `String` objects are immutable in Java, meaning their values cannot be changed once created. When you perform operations on a `String`, such as concatenation or substring, a new String object is created in memory. This immutability ensures thread-safety but can be less efficient for frequent modifications because of object creation overhead.

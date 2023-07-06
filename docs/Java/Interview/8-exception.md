@@ -1,5 +1,11 @@
-
-# What is the difference between checked and unchecked exceptions in Java? Provide examples of each.
+---
+layout: default
+title: Exception
+parent: Interview Preparation
+grand_parent: Java
+nav_order: 8
+---
+### What is the difference between checked and unchecked exceptions in Java? Provide examples of each.
 In Java, exceptions are categorized into two types: checked exceptions and unchecked exceptions.
 
 ### Checked Exceptions:

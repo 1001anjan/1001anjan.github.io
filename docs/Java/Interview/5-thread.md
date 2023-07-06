@@ -1,4 +1,10 @@
-
+---
+layout: default
+title: Thread
+parent: Interview Preparation
+grand_parent: Java
+nav_order: 5
+---
 # Thread in Java
 
 In Java, a thread is a lightweight unit of execution that allows concurrent execution of code within a program. It represents a single sequential flow of control within a program.

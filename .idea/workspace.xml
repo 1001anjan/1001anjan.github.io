@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efad801a-763b-454c-beae-8ed50fac5f5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/js/search-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/search-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/db-1-DataBase Session and Connection/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/db-1-DataBase Session and Connection/index.html" afterDir="false" />
@@ -64,7 +62,17 @@
       <change beforePath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/1-String-heap-memory/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/2-comparator vs comparable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/2-comparator vs comparable/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/3-List Set/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/3-List Set/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/4-Springbot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/4-Springbot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/5-thread.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/6-java8.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/7-java-opps.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/8-exception.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/9-Map-interface.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/collection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/interviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/interviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/java/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/problem-1-Max Points on a Line/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-1-Max Points on a Line/index.html" afterDir="false" />
@@ -655,6 +663,12 @@
       <change beforePath="$PROJECT_DIR$/_site/problem-98-Minimum Size Subarray Sum/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-98-Minimum Size Subarray Sum/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/problem-99-Design Add and Search Words Data Structure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-99-Design Add and Search Words Data Structure/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/problem-99-Student-Attendance-Record-I/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-99-Student-Attendance-Record-I/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/1-String-heap-memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/1-String-StringBuffer-StringBuilder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/5-thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/5-thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/6-java8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/6-java8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/7-java-opps.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/7-java-opps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/8-exception.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/8-exception.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/9-Map-interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/9-Map-interface.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

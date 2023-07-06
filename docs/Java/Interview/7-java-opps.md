@@ -1,5 +1,11 @@
-
-# Composition, Aggregation, and Association
+---
+layout: default
+title: Composition, Aggregation, and Association
+parent: Interview Preparation
+grand_parent: Java
+nav_order: 7
+---
+### Composition, Aggregation, and Association
 In Java design, composition, aggregation, and association are three different relationships between classes that define how objects interact with each other. These relationships play a crucial role in designing the structure and behavior of an application. Let's explore each one in more detail:
 
 ### Composition:
