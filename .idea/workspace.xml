@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efad801a-763b-454c-beae-8ed50fac5f5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/1-Introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/2-caching_mechanishm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/3-hazelcast-with-db.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/4-hazelcast-with-cloud.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/5-hazelcast-annotations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/6-hazelcast-cache-annotations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/7-hazelcast_xml.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/hazelcast.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/js/search-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/search-data.json" afterDir="false" />
@@ -62,15 +70,15 @@
       <change beforePath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/data-structure/ds-medium-set-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/1-String-heap-memory/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/1-String-StringBuffer-StringBuilder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/1-String-StringBuffer-StringBuilder/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/2-comparator vs comparable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/2-comparator vs comparable/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/3-List Set/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/3-List Set/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/4-Springbot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/4-Springbot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/5-thread.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/6-java8.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/7-java-opps.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/8-exception.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/9-Map-interface.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/5-thread/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/5-thread/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/6-java8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/6-java8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/7-java-opps/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/7-java-opps/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/8-exception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/8-exception/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/java/Interview/9-Map-interface/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/Interview/9-Map-interface/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/collection.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/interviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/interviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/java/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/java/java/index.html" afterDir="false" />
@@ -663,12 +671,6 @@
       <change beforePath="$PROJECT_DIR$/_site/problem-98-Minimum Size Subarray Sum/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-98-Minimum Size Subarray Sum/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/problem-99-Design Add and Search Words Data Structure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-99-Design Add and Search Words Data Structure/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/problem-99-Student-Attendance-Record-I/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/problem-99-Student-Attendance-Record-I/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/1-String-heap-memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/1-String-StringBuffer-StringBuilder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/5-thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/5-thread.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/6-java8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/6-java8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/7-java-opps.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/7-java-opps.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/8-exception.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/8-exception.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java/Interview/9-Map-interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java/Interview/9-Map-interface.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -686,13 +688,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/anjanjana/Documents/GitHub/1001anjan.github.io"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anjanjana/Documents/GitHub/1001anjan.github.io&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/SpringBoot/Hazelcast" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
