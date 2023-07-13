@@ -7,10 +7,10 @@ nav_order: 6
 ---
 ### Here are the annotations provided by Hazelcast for handling caching:
 
-* `@Cacheable`: This annotation is used to indicate that a method's result should be cached. When a method annotated with @Cacheable is invoked, Hazelcast checks if the cache already contains the requested data. If it does, the cached result is returned instead of executing the method.
-* `@CachePut`: This annotation is used to update the cache with the result of a method invocation. When a method annotated with @CachePut is invoked, Hazelcast updates the cache with the method's return value, regardless of whether the cache already contains an entry for the given key.
-* `@CacheEvict`: This annotation is used to remove entries from the cache. When a method annotated with @CacheEvict is invoked, Hazelcast removes the corresponding entry from the cache. This annotation supports various options for cache eviction, such as evicting a specific entry, all entries in a cache, or entries based on certain conditions.
-* `@Caching`: This annotation is used to apply multiple cache-related annotations to a single method. With @Caching, you can combine multiple caching annotations like @Cacheable, @CachePut, and @CacheEvict to define complex caching behavior for a method.
+* `@Cacheable`: This annotation is used to indicate that a method's result should be cached. When a method annotated with `@Cacheable` is invoked, Hazelcast checks if the cache already contains the requested data. If it does, the cached result is returned instead of executing the method.
+* `@CachePut`: This annotation is used to update the cache with the result of a method invocation. When a method annotated with `@CachePut` is invoked, Hazelcast updates the cache with the method's return value, regardless of whether the cache already contains an entry for the given key.
+* `@CacheEvict`: This annotation is used to remove entries from the cache. When a method annotated with `@CacheEvict` is invoked, Hazelcast removes the corresponding entry from the cache. This annotation supports various options for cache eviction, such as evicting a specific entry, all entries in a cache, or entries based on certain conditions.
+* `@Caching`: This annotation is used to apply multiple cache-related annotations to a single method. With @Caching, you can combine multiple caching annotations like `@Cacheable`, `@CachePut`, and `@CacheEvict` to define complex caching behavior for a method.
 
 ### Here's an example that demonstrates the usage of Hazelcast caching annotations in a Spring Boot application with MongoDB as the data store.
 `pom.xml`

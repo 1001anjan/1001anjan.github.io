@@ -1,7 +1,7 @@
 ---
 layout: default
 title: hazelcast.xml
-parent: Quick Notes
+parent: Hazelcast
 grand_parent: Spring Boot
 nav_order: 7
 ---
