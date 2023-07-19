@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efad801a-763b-454c-beae-8ed50fac5f5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/1-Introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/2-setup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/3-kafka-producer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/4-kafka-consumer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/5-Kafka-broker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/6-kafka-miscellaneous.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/Kafka/kafka.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/MongoDb/1-Introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/MongoDb/2-mongoDb-query.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/MongoDb/2-springBoot_example.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/MongoDb/3-spring-reactor-example.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/MongoDb/4-aggrigation-springBoot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SpringBoot/MongoDb/mongoDb.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/1-Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/1-Introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/6-hazelcast-cache-annotations.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/6-hazelcast-cache-annotations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/7-hazelcast_xml.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SpringBoot/Hazelcast/7-hazelcast_xml.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +29,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/anjanjana/Documents/GitHub/1001anjan.github.io/docs/SpringBoot/Kafka",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anjanjana/Documents/GitHub/1001anjan.github.io/docs/SpringBoot/MongoDb&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/SpringBoot/MongoDb" />
       <recent name="$PROJECT_DIR$/docs/SpringBoot/Kafka" />
       <recent name="$PROJECT_DIR$/docs/SpringBoot/Hazelcast" />
     </key>
