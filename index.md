@@ -16,30 +16,25 @@ All contents and pictures on this website come from the Internet and are updated
 
 [Have Some Fun Now](#have-some-fun){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contact Me](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-
 ---
+Welcome to my blog!
 
-## Have Some Fun
+Hey, there! I'm Anjan Jana, and I am thrilled to have you visit my corner of the internet. Let me introduce myself—I hail from the serene coastal town of Digha, located in the beautiful state of West Bengal, India. As a software professional, I'm passionate about all things tech and love exploring the ever-evolving world of computer science and engineering.
 
-Hey.. There. It's ME. *Name toh upar dekha hoga.* What can I do for YOU? or for ME? Technically it's NOTHING... Humans are self+ish(oriented). But,
+Back in 2015, I completed my M.tech in computer science and engineering from the prestigious University of Calcutta, and since then, I've been on an exciting journey of continuous learning and growth in the tech industry. This blog is a manifestation of my zeal to share my knowledge and experiences with the world.
 
-All leaders/politicians are not wrong. So,
+I created this website with a simple goal in mind—to serve as a repository for all the fascinating concepts and ideas I come across in my learning process. By documenting my learnings here, not only do I get to solidify my understanding of various technologies, but I also have a handy reference point for the future.
 
-```yaml
-KEEP LEARNING... KEEP LEARNING... KEEP LEARNING...
-```
+You might be wondering, "Why share all this on a blog?" Well, the answer is simple. I strongly believe that knowledge is most valuable when shared. By putting my insights, discoveries, and experiments out there, I hope to contribute to the vast pool of information on the internet and help others in their learning journey as well.
 
-Once you started to learn, You start to IMAGINE. Now, 
+Technology never stands still, and neither do I. This blog is a living testament to my continuous effort to stay up-to-date with the latest trends and breakthroughs in the tech world. Expect regular updates, insightful articles, tutorials, and reviews—all aimed at fostering a community of like-minded learners and professionals.
 
-```yaml
-KEEP IMAGINING... KEEP IMAGINING... KEEP IMAGINING...
-```
+So, whether you're a fellow tech enthusiast, a student eager to dive into the world of computer science, or simply someone curious about what drives us software professionals, this blog is for you. Feel free to explore, ask questions, and engage in discussions—I'm always eager to connect with fellow knowledge-seekers.
 
-Once the World started to accept your frequencies. The MAGIC will happen. Till then,
+Thank you for joining me on this journey of constant learning and growth. Together, let's embrace the vast expanse of the tech universe and make our mark in the digital landscape. Happy reading!
 
-```yaml
-KEEP BELIEVING... KEEP LISTINING... KEEP BELIEVING... KEEP LISTINING...   
-```
+Stay curious,
+Anjan Jana.
     
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
@@ -72,14 +67,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-### And finally stay `HAPPY`, and Have `SOME MORE FUN`.   Because,
-
-```yaml
-The Circle will be maintained! You cant't Escape it. The Only Answer GOD Knows OR made by someone. 
-```
-
-## Now, take a Deep Breath. Sometimes we forget to do this.
----
 
 * ##### Find my Android News APP on Google Play Store. [ONE MORE LIGHT](https://play.google.com/store/apps/details?id=io.oneMoreLightOpen.starter)
 
@@ -89,8 +76,5 @@ The Circle will be maintained! You cant't Escape it. The Only Answer GOD Knows O
 
 ## Contact
 ```markdown
-email: link2anjan@gmail.com
-location 1: Bangalore, India
-location 2: Kolkata, India
-location 3: Digha, India
+Email: link2anjan@gmail.com
 ```
