@@ -11,10 +11,10 @@ permalink: /
 <span style="color:red"> *Apply* </span>
 <button class="btn js-toggle-dark-mode btn-primary">Dark Theme</button>
 
-All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation. 
+No matter what you're going through, there's a light at the end of the tunnel, and it may seem hard to get to it, but you can do it and just keep working towards it.
 {: .fs-6 .fw-300 }
 
-[Have Some Fun Now](#have-some-fun){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contact Me](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Interested Work](#interested-work){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contact](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 Welcome to my blog!
@@ -67,13 +67,13 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-
-* ##### Find my Android News APP on Google Play Store. [ONE MORE LIGHT](https://play.google.com/store/apps/details?id=io.oneMoreLightOpen.starter)
-
-* ##### Try out my web app for Video, Audio, and Text messaging. [iMeet](https://github.com/link2anjan/iMeet/blob/main/README.md) 
 ---
-#### Do you like to offer some coffee? 
+## Interested Work
+* ##### Android News APP on Google Play Store. [ONE MORE LIGHT](https://play.google.com/store/apps/details?id=io.oneMoreLightOpen.starter)
 
+* ##### Video, Audio, and Text messaging. [iMeet](https://github.com/link2anjan/iMeet/blob/main/README.md) 
+
+---
 ## Contact
 ```markdown
 Email: link2anjan@gmail.com
