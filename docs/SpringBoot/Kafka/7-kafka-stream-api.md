@@ -28,3 +28,280 @@ Key features of the Kafka Streams API include:
 
 These are just a few examples, but Kafka Streams API can be applied to various other use cases that involve real-time data processing, analytics, and event-driven architectures. Its flexibility, scalability, and integration capabilities make it a powerful tool for building stream processing applications.
 
+#### Example Code
+The code example below implements a WordCount application that is elastic, highly scalable, fault-tolerant, stateful, and ready to run in production at large scale
+
+```java
+package com.example.kafkaStream.dsl;
+
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.common.utils.Bytes;
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.KTable;
+import org.apache.kafka.streams.kstream.Materialized;
+import org.apache.kafka.streams.kstream.Produced;
+import org.apache.kafka.streams.state.KeyValueStore;
+
+import java.util.Arrays;
+import java.util.Properties;
+
+public class WordCountApplication {
+
+    public static void main(final String[] args) throws Exception {
+        Properties props = new Properties();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "wordcount-application");
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+
+
+        StreamsBuilder builder = new StreamsBuilder();
+        KStream<String, String> textLines = builder.stream("example-topic");
+        KTable<String, Long> wordCounts = textLines
+                .flatMapValues(textLine -> Arrays.asList(textLine.toLowerCase().split("\\W+")))
+                .groupBy((key, word) -> word)
+                .count(Materialized.<String, Long, KeyValueStore<Bytes, byte[]>>as("counts-store"));
+        wordCounts.toStream().peek((key, value) -> System.out.println("[key: "+key+"] [value: "+value+"]")).to("output-topic", Produced.with(Serdes.String(), Serdes.Long()));
+
+        KafkaStreams streams = new KafkaStreams(builder.build(), props);
+        streams.start();
+    }
+
+}
+```
+
+* Official Link for DSL api: https://kafka.apache.org/35/documentation/streams/developer-guide/dsl-api
+* Kafka Stream Processor Api: https://kafka.apache.org/35/documentation/streams/developer-guide/dsl-api
+
+### Basic Steam Example
+```java
+package com.example.kafkaStream.dsl;
+
+import org.apache.kafka.common.serialization.Serde;
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.Consumed;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.Produced;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class BasicStream {
+
+    public static void main(String arg[]) throws IOException {
+        Properties streamProperties = new Properties();
+        try(FileInputStream fis = new FileInputStream("src/main/resources/stream.properties")){
+            streamProperties.load(fis);
+        }
+        streamProperties.put(StreamsConfig.APPLICATION_ID_CONFIG, "basic-stream");
+        StreamsBuilder streamsBuilder = new StreamsBuilder();
+        final String inputTopic = streamProperties.getProperty("input.topic.name");
+        final String outputTopic = streamProperties.getProperty("output.topic.name");
+
+        final String orderNumberStart = "orderNumber-";
+
+        KStream<String, String> firstStream = streamsBuilder.stream(inputTopic, Consumed.with(Serdes.String(), Serdes.String()));
+
+        firstStream.peek(((key, value) -> System.out.println("key: "+key+" Value: "+value)))
+                .filter((key, value) -> value.contains(orderNumberStart))
+                .mapValues(value -> value.substring(value.indexOf("-") + 1))
+                .filter((key, value) -> Long.parseLong(value) > 1000)
+                .peek((key, value) -> System.out.println("key: "+key+" Value: "+value))
+                .to(outputTopic, Produced.with(Serdes.String(), Serdes.String()));
+
+        KafkaStreams kafkaStreams = new KafkaStreams(streamsBuilder.build(), streamProperties);
+        kafkaStreams.start();
+    }
+}
+```
+### KTable Example:
+```java
+package com.example.kafkaStream.dsl;
+
+import ch.qos.logback.core.net.SyslogOutputStream;
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.*;
+import org.apache.kafka.streams.state.KeyValueStore;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class KTableExample {
+
+    public static void main(String arg[]) throws IOException {
+        Properties streamProperties = new Properties();
+        try(FileInputStream fis = new FileInputStream("src/main/resources/stream.properties")){
+            streamProperties.load(fis);
+        }
+        streamProperties.put(StreamsConfig.APPLICATION_ID_CONFIG, "basic-stream");
+        StreamsBuilder streamsBuilder = new StreamsBuilder();
+        final String inputTopic = streamProperties.getProperty("input.topic.name");
+        final String outputTopic = streamProperties.getProperty("output.topic.name");
+
+        final String orderNumberStart = "orderNumber-";
+
+        KTable<String, String> firstKTable = streamsBuilder.table(inputTopic,
+                Materialized.as("ktable-store"));
+
+        firstKTable.filter((key, value) -> value.contains(orderNumberStart))
+                .mapValues(value -> value.substring(value.indexOf("-") + 1))
+                .filter((key, value) -> Long.parseLong(value) > 1000)
+                .toStream().peek((key, value) -> System.out.println("key: "+key+" Value: "+value)).to(outputTopic);
+        
+        KafkaStreams kafkaStreams = new KafkaStreams(streamsBuilder.build(), streamProperties);
+        kafkaStreams.start();
+    }
+}
+```
+### SpringBoot Example
+`KafkaStreamsConfig.java`
+```java
+package com.example.kafkaStream;
+
+import com.example.kafkaStream.model.UserActivityJoinResult;
+import com.example.kafkaStream.model.UserClicks;
+import com.example.kafkaStream.model.UserPurchases;
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.kstream.*;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.annotation.EnableKafka;
+import org.springframework.kafka.annotation.EnableKafkaStreams;
+import org.springframework.kafka.config.KafkaStreamsConfiguration;
+import org.springframework.kafka.config.StreamsBuilderFactoryBean;
+import org.springframework.kafka.support.serializer.JsonSerde;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@Configuration
+@EnableKafka
+@EnableKafkaStreams
+public class KafkaStreamsConfig {
+
+    @Bean
+    public KStream<String, String> kStream(StreamsBuilder streamsBuilder) {
+        KStream<String, String> stream = streamsBuilder.stream("example-topic");
+        stream.mapValues(value -> value.toUpperCase()).to("output-topic");
+        return stream;
+    }
+
+
+    @Bean
+    public KStream<String, UserClicks> userClicksStream(StreamsBuilder streamsBuilder) {
+        KStream<String, UserClicks> stream = streamsBuilder.stream("user-clicks");
+        return stream;
+    }
+
+    @Bean
+    public KStream<String, UserPurchases> userPurchasesStream(StreamsBuilder streamsBuilder) {
+        KStream<String, UserPurchases> stream = streamsBuilder.stream("user-purchases");
+        return stream;
+    }
+
+    @Bean
+    public KTable<String, Long> clicksAggregation(KStream<String, UserClicks> userClicksStream) {
+        return userClicksStream
+                .groupBy((key, value) -> value.getUserId(), Grouped.with(Serdes.String(), new JsonSerde<>(UserClicks.class)))
+                .count();
+    }
+
+    @Bean
+    public KTable<String, Double> purchasesAggregation(KStream<String, UserPurchases> userPurchasesStream) {
+        return userPurchasesStream
+                .groupBy((key, value) -> value.getUserId(), Grouped.with(Serdes.String(), new JsonSerde<>(UserPurchases.class)))
+                .aggregate(
+                        () -> 0.0,
+                        (key, value, aggregate) -> aggregate + value.getAmount(),
+                        Materialized.with(Serdes.String(), Serdes.Double())
+                );
+    }
+
+    @Bean
+    public KStream<String, UserActivityJoinResult> userActivityJoin(KTable<String, Long> clicksAggregation,
+                                                                   KTable<String, Double> purchasesAggregation) {
+
+        ValueJoiner<Long, Double, UserActivityJoinResult>  valueJoiner =
+                (clickCounts, purchasesCount) -> new UserActivityJoinResult(null, clickCounts, purchasesCount);
+
+        KStream<String, UserActivityJoinResult> userActivityStream =  clicksAggregation
+                .join(purchasesAggregation,valueJoiner).toStream();
+        userActivityStream.to("user-activity-output-topic");
+        return userActivityStream;
+    }
+    
+    @Bean
+    public KafkaStreamsConfiguration kStreamsConfig() {
+        Map<String, Object> props = new HashMap<>();
+        props.put("bootstrap.servers", "localhost:9092");
+        props.put("application.id", "my-kafka-streams-app");
+        props.put("default.key.serde", Serdes.String().getClass().getName());
+        props.put("default.value.serde", Serdes.String().getClass().getName());
+        return new KafkaStreamsConfiguration(props);
+    }
+    @Bean
+    public StreamsBuilderFactoryBean defaultKafkaStreamsBuilder(KafkaStreamsConfiguration streamsConfig) {
+        return new StreamsBuilderFactoryBean(streamsConfig);
+    }
+}
+```
+`KafkaStreamApiApplication.java`
+```java
+@SpringBootApplication
+public class KafkaStreamApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(KafkaStreamApiApplication.class, args);
+	}
+}
+```
+`build.gradle`
+```groovy
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.1.2'
+	id 'io.spring.dependency-management' version '1.1.2'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:2022.0.3"
+	}
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.kafka:spring-kafka'
+	implementation 'org.apache.kafka:kafka-streams'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+```
+
