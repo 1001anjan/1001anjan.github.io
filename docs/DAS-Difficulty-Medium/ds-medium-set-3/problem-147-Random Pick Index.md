@@ -2,7 +2,7 @@
 layout: default
 title: Random Pick Index
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 47
 permalink: /problem-147-Random Pick Index/
 ---

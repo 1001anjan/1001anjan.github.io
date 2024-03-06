@@ -2,7 +2,7 @@
 layout: default
 title: Unique Paths II
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 36
 permalink: /problem-36-Unique Paths II/
 ---

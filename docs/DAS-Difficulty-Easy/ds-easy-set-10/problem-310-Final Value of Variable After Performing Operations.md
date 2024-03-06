@@ -2,7 +2,7 @@
 layout: default
 title: Final Value of Variable After Performing Operations
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-310-Final Value of Variable After Performing Operations/
 ---

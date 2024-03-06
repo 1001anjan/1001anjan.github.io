@@ -2,7 +2,7 @@
 layout: default
 title: Longest Repeating Character Replacement
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 42
 permalink: /problem-142-Longest Repeating Character Replacement/
 ---

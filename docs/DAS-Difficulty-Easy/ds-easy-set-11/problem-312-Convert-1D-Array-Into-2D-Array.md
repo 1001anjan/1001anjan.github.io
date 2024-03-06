@@ -2,7 +2,7 @@
 layout: default
 title: Convert 1D Array Into 2D Array
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-312-Convert 1D Array Into 2D Array/
 ---

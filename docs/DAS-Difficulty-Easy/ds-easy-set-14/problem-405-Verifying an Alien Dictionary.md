@@ -2,7 +2,7 @@
 layout: default
 title: Verifying an Alien Dictionary
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-405-Verifying an Alien Dictionary/
 ---

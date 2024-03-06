@@ -2,7 +2,7 @@
 layout: default
 title: Design Add and Search Words Data Structure
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 49
 permalink: /problem-99-Design Add and Search Words Data Structure/
 ---

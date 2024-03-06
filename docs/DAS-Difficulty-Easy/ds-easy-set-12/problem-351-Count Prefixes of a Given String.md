@@ -2,7 +2,7 @@
 layout: default
 title: Count Prefixes of a Given String
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-351-Count Prefixes of a Given String/
 ---

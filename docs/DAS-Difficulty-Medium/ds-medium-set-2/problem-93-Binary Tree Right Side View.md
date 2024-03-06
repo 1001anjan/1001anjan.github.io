@@ -2,7 +2,7 @@
 layout: default
 title: Binary Tree Right Side View
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 43
 permalink: /problem-93-Binary Tree Right Side View/
 ---

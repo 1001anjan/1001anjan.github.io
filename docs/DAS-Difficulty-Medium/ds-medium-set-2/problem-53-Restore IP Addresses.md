@@ -2,7 +2,7 @@
 layout: default
 title: Restore IP Addresses
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 3
 permalink: /problem-53-Restore IP Addresses/
 ---

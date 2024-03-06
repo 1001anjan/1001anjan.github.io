@@ -2,7 +2,7 @@
 layout: default
 title: Replace All ?'s to Avoid Consecutive Repeating Characters
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-238-Replace-All-?'s-to-Avoid-Consecutive-Repeating-Characters/
 ---

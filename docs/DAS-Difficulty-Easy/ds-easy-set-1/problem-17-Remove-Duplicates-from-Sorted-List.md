@@ -2,7 +2,7 @@
 layout: default
 title: Remove Duplicates from Sorted Linked List
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-17-remove-duplicates-from-sorted-list/
 ---

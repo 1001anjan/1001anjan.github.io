@@ -2,7 +2,7 @@
 layout: default
 title: Course Schedule
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 31
 permalink: /problem-131-Course Schedule/
 ---

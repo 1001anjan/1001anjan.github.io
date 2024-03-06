@@ -2,7 +2,7 @@
 layout: default
 title: Unique Morse Code Words
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-396-Unique Morse Code Words/
 ---

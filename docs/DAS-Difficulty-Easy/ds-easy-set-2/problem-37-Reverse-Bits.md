@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Bits
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-37-Reverse-Bits/
 ---

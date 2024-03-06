@@ -2,7 +2,7 @@
 layout: default
 title: Pascal's Triangle
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-27-Pascal-Triangle/
 ---

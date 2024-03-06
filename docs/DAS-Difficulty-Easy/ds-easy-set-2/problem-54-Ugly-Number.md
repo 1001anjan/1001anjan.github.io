@@ -2,7 +2,7 @@
 layout: default
 title: Ugly Number
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-54-Ugly-Number/
 ---

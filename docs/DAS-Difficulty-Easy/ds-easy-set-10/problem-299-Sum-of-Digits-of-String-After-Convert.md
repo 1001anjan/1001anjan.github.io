@@ -2,7 +2,7 @@
 layout: default
 title: Sum of Digits of String After Convert
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-299-Sum of Digits of String After Convert/
 ---

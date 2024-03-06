@@ -2,7 +2,7 @@
 layout: default
 title: Lexicographical Numbers
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 46
 permalink: /problem-146-Lexicographical Numbers/
 ---

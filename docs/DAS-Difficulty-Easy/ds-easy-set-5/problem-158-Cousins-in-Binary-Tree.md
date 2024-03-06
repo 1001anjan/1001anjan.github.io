@@ -2,7 +2,7 @@
 layout: default
 title: Cousins in Binary Tree
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-158-Cousins-in-Binary-Tree/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Longest Substring Without Repeating Characters
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 3
 permalink: /problem-3-Longest Substring Without Repeating Characters/
 ---

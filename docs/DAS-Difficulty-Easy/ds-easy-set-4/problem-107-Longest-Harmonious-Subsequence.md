@@ -2,7 +2,7 @@
 layout: default
 title: Longest Harmonious Subsequence
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-107-Longest-Harmonious-Subsequence/
 ---

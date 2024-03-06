@@ -2,7 +2,7 @@
 layout: default
 title: Check if All A's Appears Before All B's
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-330-Check if All A's Appears Before All B's/
 ---

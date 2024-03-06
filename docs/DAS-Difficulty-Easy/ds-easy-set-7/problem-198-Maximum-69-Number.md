@@ -2,7 +2,7 @@
 layout: default
 title: Maximum 69 Number
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-198-Maximum-69-Number/
 ---

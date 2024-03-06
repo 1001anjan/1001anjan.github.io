@@ -2,7 +2,7 @@
 layout: default
 title: Count the Number of Consistent Strings
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-254-Count-the-Number-of-Consistent-Strings/
 ---

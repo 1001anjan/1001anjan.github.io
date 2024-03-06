@@ -2,7 +2,7 @@
 layout: default
 title: Sort Array By Parity II
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-146-Sort-Array-By-Parity-II/
 ---

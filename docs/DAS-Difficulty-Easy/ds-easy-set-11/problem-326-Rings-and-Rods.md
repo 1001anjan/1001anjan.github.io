@@ -2,7 +2,7 @@
 layout: default
 title: Rings and Rods
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-326-Rings and Rods/
 ---

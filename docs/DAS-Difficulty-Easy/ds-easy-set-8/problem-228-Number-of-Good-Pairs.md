@@ -2,7 +2,7 @@
 layout: default
 title: Number of Good Pairs
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-228-Number-of-Good-Pairs/
 ---

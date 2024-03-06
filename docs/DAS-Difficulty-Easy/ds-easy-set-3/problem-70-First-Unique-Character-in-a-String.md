@@ -2,7 +2,7 @@
 layout: default
 title: First Unique Character in a String
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-70-First-Unique-Character-in-a-String/
 ---

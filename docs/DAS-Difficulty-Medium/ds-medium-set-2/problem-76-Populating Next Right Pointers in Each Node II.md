@@ -2,7 +2,7 @@
 layout: default
 title: Populating Next Right Pointers in Each Node II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 26
 permalink: /problem-76-Populating Next Right Pointers in Each Node II/
 ---

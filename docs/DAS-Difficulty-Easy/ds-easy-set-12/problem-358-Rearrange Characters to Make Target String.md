@@ -2,7 +2,7 @@
 layout: default
 title: Rearrange Characters to Make Target String
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-358-Rearrange Characters to Make Target String/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Count Good Triplets
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-231-Count-Good-Triplets/
 ---

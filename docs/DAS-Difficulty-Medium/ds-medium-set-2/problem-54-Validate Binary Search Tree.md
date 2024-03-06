@@ -2,7 +2,7 @@
 layout: default
 title: Validate Binary Search Tree
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 4
 permalink: /problem-54-Validate Binary Search Tree/
 ---

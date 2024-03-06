@@ -2,7 +2,7 @@
 layout: default
 title: Linked List Random Node
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 39
 permalink: /problem-139-Linked List Random Node/
 ---

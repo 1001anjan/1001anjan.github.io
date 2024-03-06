@@ -2,7 +2,7 @@
 layout: default
 title: Height Checker
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-170-Height-Checker/
 ---

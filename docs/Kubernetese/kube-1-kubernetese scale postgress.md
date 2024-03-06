@@ -2,8 +2,7 @@
 layout: default
 title: Getting Started Spring Reactor
 parent: Kubernetes
-grand_parent: Spring Boot
-nav_order: 2
+nav_order: 12
 ---
 # Scale postgres DB in kubernetes
 In `Kubernetes`, you can scale a `PostgreSQL` database by increasing or decreasing the number of replicas in a `StatefulSet`. This allows you to handle an increase in traffic and number of connections by creating additional replicas of your database.

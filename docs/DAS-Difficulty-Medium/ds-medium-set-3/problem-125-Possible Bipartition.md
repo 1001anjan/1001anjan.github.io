@@ -2,7 +2,7 @@
 layout: default
 title: Possible Bipartition
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 25
 permalink: /problem-125-Possible Bipartition/
 ---

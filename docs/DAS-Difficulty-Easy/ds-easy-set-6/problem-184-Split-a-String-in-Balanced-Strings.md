@@ -2,7 +2,7 @@
 layout: default
 title: Split a String in Balanced Strings
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-184-Split-a-String-in-Balanced-Strings/
 ---

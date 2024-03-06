@@ -2,7 +2,7 @@
 layout: default
 title: Longest Consecutive Sequence
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 4
 permalink: /problem-154-Longest Consecutive Sequence/
 ---

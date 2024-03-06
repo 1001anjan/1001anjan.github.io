@@ -2,7 +2,7 @@
 layout: default
 title: Bitwise AND of Numbers Range
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 45
 permalink: /problem-95-Bitwise AND of Numbers Range/
 ---

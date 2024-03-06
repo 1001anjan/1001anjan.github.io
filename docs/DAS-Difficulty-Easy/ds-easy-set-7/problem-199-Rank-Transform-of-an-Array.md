@@ -2,7 +2,7 @@
 layout: default
 title: Rank Transform of an Array
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-199-Rank-Transform-of-an-Array/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Final Prices With a Special Discount in a Shop
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-221-Final-Prices-With-a-Special-Discount-in-a-Shop/
 ---

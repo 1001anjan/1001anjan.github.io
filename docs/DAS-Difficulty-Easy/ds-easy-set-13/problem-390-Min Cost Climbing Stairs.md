@@ -2,7 +2,7 @@
 layout: default
 title: Min Cost Climbing Stairs
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-390-Min Cost Climbing Stairs/
 ---

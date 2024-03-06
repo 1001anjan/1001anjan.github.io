@@ -2,7 +2,7 @@
 layout: default
 title: Largest 3-Same-Digit Number in String
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-353-Largest 3-Same-Digit Number in String/
 ---

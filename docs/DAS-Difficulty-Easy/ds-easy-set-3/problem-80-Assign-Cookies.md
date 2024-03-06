@@ -2,7 +2,7 @@
 layout: default
 title: Assign Cookies
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-80-Assign-Cookies/
 ---

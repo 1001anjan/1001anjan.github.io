@@ -2,7 +2,7 @@
 layout: default
 title: Find K Pairs with Smallest Sums
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 12
 permalink: /problem-162-Find K Pairs with Smallest Sums/
 ---

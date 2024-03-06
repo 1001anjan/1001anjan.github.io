@@ -2,7 +2,7 @@
 layout: default
 title: Shuffle the Array
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-220-Shuffle-the-Array/
 ---

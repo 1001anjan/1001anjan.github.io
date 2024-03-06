@@ -2,7 +2,7 @@
 layout: default
 title: Jump Game
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 30
 permalink: /problem-30-Jump Game/
 ---

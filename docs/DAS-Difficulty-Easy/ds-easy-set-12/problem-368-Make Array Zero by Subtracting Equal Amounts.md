@@ -2,7 +2,7 @@
 layout: default
 title: Make Array Zero by Subtracting Equal Amounts
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-368-Make Array Zero by Subtracting Equal Amounts/
 ---

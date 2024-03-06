@@ -2,7 +2,7 @@
 layout: default
 title: Check If a Word Occurs As a Prefix of Any Word in a Sentence
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-217-Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/
 ---

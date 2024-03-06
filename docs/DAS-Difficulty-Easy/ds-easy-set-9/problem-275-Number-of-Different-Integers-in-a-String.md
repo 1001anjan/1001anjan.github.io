@@ -2,7 +2,7 @@
 layout: default
 title: Number of Different Integers in a String
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-275-Number-of-Different-Integers-in-a-String/
 ---

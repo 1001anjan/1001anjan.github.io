@@ -2,7 +2,7 @@
 layout: default
 title: Clone Graph
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 34
 permalink: /problem-84-Clone Graph/
 ---

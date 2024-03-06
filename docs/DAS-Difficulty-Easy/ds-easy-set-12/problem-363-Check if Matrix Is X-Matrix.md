@@ -2,7 +2,7 @@
 layout: default
 title: Check if Matrix Is X-Matrix
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-363-Check if Matrix Is X-Matrix/
 ---

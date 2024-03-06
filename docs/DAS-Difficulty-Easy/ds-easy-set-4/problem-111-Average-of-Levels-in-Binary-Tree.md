@@ -2,7 +2,7 @@
 layout: default
 title: Average of Levels in Binary Tree
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-111-Average-of-Levels-in-Binary-Tree/
 ---

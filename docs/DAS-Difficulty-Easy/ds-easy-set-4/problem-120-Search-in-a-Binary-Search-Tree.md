@@ -2,7 +2,7 @@
 layout: default
 title: Search in a Binary Search Tree
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-120-Search-in-a-Binary-Search-Tree/
 ---

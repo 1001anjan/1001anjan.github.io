@@ -2,7 +2,7 @@
 layout: default
 title: Number Complement
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-83-Number-Complement/
 ---

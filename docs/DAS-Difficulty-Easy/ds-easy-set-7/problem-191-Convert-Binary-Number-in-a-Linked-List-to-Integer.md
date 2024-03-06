@@ -2,7 +2,7 @@
 layout: default
 title: Convert Binary Number in a Linked List to Integer
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-191-Convert-Binary-Number-in-a-Linked-List-to-Integer/
 ---

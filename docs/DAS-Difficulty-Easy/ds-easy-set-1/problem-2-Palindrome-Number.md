@@ -2,7 +2,7 @@
 layout: default
 title: Palindrome Number
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 ---
 

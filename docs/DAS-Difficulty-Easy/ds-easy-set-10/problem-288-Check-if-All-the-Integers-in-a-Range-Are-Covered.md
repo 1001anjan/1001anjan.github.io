@@ -2,7 +2,7 @@
 layout: default
 title: Check if All the Integers in a Range Are Covered
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-288-Check-if-All-the-Integers-in-a-Range-Are-Covered/
 ---

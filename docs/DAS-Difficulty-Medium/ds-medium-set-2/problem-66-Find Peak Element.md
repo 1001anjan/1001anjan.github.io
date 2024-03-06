@@ -2,7 +2,7 @@
 layout: default
 title: Find Peak Element
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 16
 permalink: /problem-66-Find Peak Element/
 ---

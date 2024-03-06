@@ -2,7 +2,7 @@
 layout: default
 title: Repeated DNA Sequences
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 40
 permalink: /problem-90-Repeated DNA Sequences/
 ---

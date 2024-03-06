@@ -2,7 +2,7 @@
 layout: default
 title: Kth Smallest Element in a BST
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 4
 permalink: /problem-104-Kth Smallest Element in a BST/
 ---

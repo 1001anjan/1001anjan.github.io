@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Linked List
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-41-Reverse-Linked-List/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: The K Weakest Rows in a Matrix
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-201-The-K-Weakest-Rows-in-a-Matrix/
 ---

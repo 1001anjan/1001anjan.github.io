@@ -2,7 +2,7 @@
 layout: default
 title: Count Special Quadruplets
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-307-Count Special Quadruplets/
 ---

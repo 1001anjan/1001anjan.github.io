@@ -2,7 +2,7 @@
 layout: default
 title: Strong Password Checker II
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-360-Strong Password Checker II/
 ---

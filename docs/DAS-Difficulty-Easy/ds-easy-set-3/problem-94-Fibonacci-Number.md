@@ -2,7 +2,7 @@
 layout: default
 title: Fibonacci Number
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 31
 permalink: /problem-94-Fibonacci-Number/
 ---

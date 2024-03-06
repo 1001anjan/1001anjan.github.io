@@ -2,7 +2,7 @@
 layout: default
 title: Merge Intervals
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 31
 permalink: /problem-31-Merge Intervals/
 ---

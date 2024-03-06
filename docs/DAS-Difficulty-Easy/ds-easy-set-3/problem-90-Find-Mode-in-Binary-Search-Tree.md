@@ -2,7 +2,7 @@
 layout: default
 title: Find Mode in Binary Search Tree
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-90-Find-Mode-in-Binary-Search-Tree/
 ---

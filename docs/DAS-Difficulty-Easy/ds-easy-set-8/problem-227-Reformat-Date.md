@@ -2,7 +2,7 @@
 layout: default
 title: Reformat Date
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-227-Reformat-Date/
 ---

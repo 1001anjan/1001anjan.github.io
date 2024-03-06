@@ -2,7 +2,7 @@
 layout: default
 title: Largest Substring Between Two Equal Characters
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-246-Largest-Substring-Between-Two-Equal-Characters/
 ---

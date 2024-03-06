@@ -2,7 +2,7 @@
 layout: default
 title: Decrypt String from Alphabet to Integer Mapping
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-195-Decrypt-String-from-Alphabet-to-Integer-Mapping/
 ---

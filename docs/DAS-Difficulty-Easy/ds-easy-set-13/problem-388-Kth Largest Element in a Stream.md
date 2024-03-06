@@ -2,7 +2,7 @@
 layout: default
 title: Kth Largest Element in a Stream
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-388-Kth Largest Element in a Stream/
 ---

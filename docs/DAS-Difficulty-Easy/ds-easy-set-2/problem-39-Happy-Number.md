@@ -2,7 +2,7 @@
 layout: default
 title: Happy Number
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-39-Number-of-1-Bits/
 ---

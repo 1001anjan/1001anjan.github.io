@@ -2,7 +2,7 @@
 layout: default
 title: Different Ways to Add Parentheses
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 12
 permalink: /problem-112-Different Ways to Add Parentheses/
 ---

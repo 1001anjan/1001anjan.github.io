@@ -2,7 +2,7 @@
 layout: default
 title: Flatten Nested List Iterator
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 22
 permalink: /problem-122-Flatten Nested List Iterator/
 ---

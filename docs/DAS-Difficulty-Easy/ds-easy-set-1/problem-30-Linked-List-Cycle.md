@@ -2,7 +2,7 @@
 layout: default
 title: Linked List Cycle
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-30-Linked-List-Cycle/
 ---

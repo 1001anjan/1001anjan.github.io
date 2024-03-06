@@ -2,7 +2,7 @@
 layout: default
 title: Balanced Binary Tree
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-24-Balanced-Binary-Tree/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: House Robber III
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 23
 permalink: /problem-123-House Robber III/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Divisor Game
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-166-Divisor-Game/
 ---

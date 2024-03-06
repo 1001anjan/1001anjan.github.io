@@ -2,7 +2,7 @@
 layout: default
 title: Determine Color of a Chessboard Square
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-276-Determine-Color-of-a-Chessboard-Square/
 ---

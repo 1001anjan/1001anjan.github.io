@@ -2,7 +2,7 @@
 layout: default
 title: Letter Combinations of a Phone Number
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 11
 permalink: /problem-11-Letter Combinations of a Phone Number/
 ---

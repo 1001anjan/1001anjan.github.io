@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Score After Splitting a String
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-211-Maximum-Score-After-Splitting-a-String/
 ---

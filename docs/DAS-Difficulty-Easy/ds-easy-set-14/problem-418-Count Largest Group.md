@@ -2,7 +2,7 @@
 layout: default
 title: Count Largest Group
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-418-Count Largest Group/
 ---

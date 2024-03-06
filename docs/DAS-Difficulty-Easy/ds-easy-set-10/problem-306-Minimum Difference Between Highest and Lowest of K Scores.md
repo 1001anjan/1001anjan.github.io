@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Difference Between Highest and Lowest of K Scores
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-306-Minimum Difference Between Highest and Lowest of K Scores/
 ---

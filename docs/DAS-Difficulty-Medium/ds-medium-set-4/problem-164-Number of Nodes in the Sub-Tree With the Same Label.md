@@ -2,7 +2,7 @@
 layout: default
 title: Number of Nodes in the Sub-Tree With the Same Label
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 14
 permalink: /problem-164-Number of Nodes in the Sub-Tree With the Same Label/
 ---

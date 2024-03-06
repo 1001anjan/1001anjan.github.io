@@ -2,7 +2,7 @@
 layout: default
 title: Reverse String II
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 34
 permalink: /problem-97-Reverse-String-II/
 ---

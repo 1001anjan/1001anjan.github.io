@@ -2,7 +2,7 @@
 layout: default
 title: Replace Elements with Greatest Element on Right Side
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-193-Replace-Elements-with-Greatest-Element-on-Right-Side/
 ---

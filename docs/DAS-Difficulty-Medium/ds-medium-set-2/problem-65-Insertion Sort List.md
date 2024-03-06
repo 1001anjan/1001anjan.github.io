@@ -2,7 +2,7 @@
 layout: default
 title: Insertion Sort List
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 15
 permalink: /problem-65-Insertion Sort List/
 ---

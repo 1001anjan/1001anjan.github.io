@@ -2,7 +2,7 @@
 layout: default
 title: Find Pivot Index
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-124-Find-Pivot-Index/
 ---

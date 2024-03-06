@@ -2,7 +2,7 @@
 layout: default
 title: Buddy Strings
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-135-Buddy-Strings/
 ---

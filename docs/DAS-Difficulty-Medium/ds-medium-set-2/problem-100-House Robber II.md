@@ -2,7 +2,7 @@
 layout: default
 title: House Robber II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 50
 permalink: /problem-100-House Robber II/
 ---

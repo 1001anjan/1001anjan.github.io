@@ -2,7 +2,7 @@
 layout: default
 title: Majority Element II
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 3
 permalink: /problem-103-Majority Element II/
 ---

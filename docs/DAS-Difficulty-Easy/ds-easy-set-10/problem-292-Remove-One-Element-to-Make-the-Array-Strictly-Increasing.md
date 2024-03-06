@@ -2,7 +2,7 @@
 layout: default
 title: Remove One Element to Make the Array Strictly Increasing
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-292-Remove-One-Element-to-Make-the-Array-Strictly-Increasing/
 ---

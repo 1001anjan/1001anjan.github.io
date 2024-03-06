@@ -2,7 +2,7 @@
 layout: default
 title: Power of Two
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-47-Power-of-Two/
 ---

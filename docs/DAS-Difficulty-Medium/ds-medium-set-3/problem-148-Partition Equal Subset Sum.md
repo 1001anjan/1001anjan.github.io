@@ -2,7 +2,7 @@
 layout: default
 title: Partition Equal Subset Sum
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 48
 permalink: /problem-148-Partition Equal Subset Sum/
 ---

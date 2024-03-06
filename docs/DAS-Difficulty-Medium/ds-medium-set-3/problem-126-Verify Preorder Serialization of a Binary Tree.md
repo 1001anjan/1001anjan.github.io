@@ -2,7 +2,7 @@
 layout: default
 title: Verify Preorder Serialization of a Binary Tree
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 26
 permalink: /problem-126-Verify Preorder Serialization of a Binary Tree/
 ---

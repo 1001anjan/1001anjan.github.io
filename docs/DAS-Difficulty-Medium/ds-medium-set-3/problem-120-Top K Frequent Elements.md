@@ -2,7 +2,7 @@
 layout: default
 title: Top K Frequent Elements
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 20
 permalink: /problem-120-Top K Frequent Elements/
 ---

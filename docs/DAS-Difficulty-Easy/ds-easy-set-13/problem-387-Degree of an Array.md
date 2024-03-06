@@ -2,7 +2,7 @@
 layout: default
 title: Degree of an Array
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-387-Degree of an Array/
 ---

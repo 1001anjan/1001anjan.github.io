@@ -2,7 +2,7 @@
 layout: default
 title: Check if Word Equals Summation of Two Words
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-289-Check-if-Word-Equals-Summation-of-Two-Words/
 ---

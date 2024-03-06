@@ -2,7 +2,7 @@
 layout: default
 title: Detect Pattern of Length M Repeated K or More Times
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-236-Detect-Pattern-of-Length-M-Repeated-K-or-More-Times/
 ---

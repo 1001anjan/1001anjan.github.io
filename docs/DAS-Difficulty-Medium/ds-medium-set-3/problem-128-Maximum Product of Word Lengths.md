@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Product of Word Lengths
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 28
 permalink: /problem-128-Maximum Product of Word Lengths/
 ---

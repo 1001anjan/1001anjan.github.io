@@ -2,7 +2,7 @@
 layout: default
 title: Number of Islands
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 44
 permalink: /problem-94-Number of Islands/
 ---

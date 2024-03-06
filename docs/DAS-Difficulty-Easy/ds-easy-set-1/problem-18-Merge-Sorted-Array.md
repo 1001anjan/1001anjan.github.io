@@ -2,7 +2,7 @@
 layout: default
 title: Merge Sorted Array
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-18-merge-sorted-array/
 ---

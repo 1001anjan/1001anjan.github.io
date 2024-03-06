@@ -2,7 +2,7 @@
 layout: default
 title: Basic Calculator II
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 11
 permalink: /problem-111-Basic Calculator II/
 ---

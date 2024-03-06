@@ -2,7 +2,7 @@
 layout: default
 title: Truncate Sentence
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-277-Truncate-Sentence/
 ---

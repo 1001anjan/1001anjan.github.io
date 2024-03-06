@@ -2,7 +2,7 @@
 layout: default
 title: Lemonade Change
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-136-Lemonade-Change/
 ---

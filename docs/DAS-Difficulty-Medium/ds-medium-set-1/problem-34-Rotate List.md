@@ -2,7 +2,7 @@
 layout: default
 title: Rotate List
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 34
 permalink: /problem-34-Rotate List/
 ---

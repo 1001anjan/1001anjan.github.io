@@ -2,7 +2,7 @@
 layout: default
 title:  Reverse Vowels of a String
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-64-Reverse-Vowels-of-a-String/
 ---

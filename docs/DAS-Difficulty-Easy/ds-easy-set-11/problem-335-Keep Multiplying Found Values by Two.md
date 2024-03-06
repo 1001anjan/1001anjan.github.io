@@ -2,7 +2,7 @@
 layout: default
 title: Keep Multiplying Found Values by Two
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-335-Keep Multiplying Found Values by Two/
 ---

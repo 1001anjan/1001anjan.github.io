@@ -2,7 +2,7 @@
 layout: default
 title: Detect Capital
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 32
 permalink: /problem-95-Detect-Capital/
 ---

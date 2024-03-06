@@ -2,7 +2,7 @@
 layout: default
 title: Symmetric Tree
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-21-Symmetric-Tree/
 ---

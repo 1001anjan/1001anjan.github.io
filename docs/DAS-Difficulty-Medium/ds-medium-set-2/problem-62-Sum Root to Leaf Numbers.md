@@ -2,7 +2,7 @@
 layout: default
 title: Sum Root to Leaf Numbers
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 12
 permalink: /problem-62-Sum Root to Leaf Numbers/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Check if Every Row and Column Contains All Numbers
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-332-Check if Every Row and Column Contains All Numbers/
 ---

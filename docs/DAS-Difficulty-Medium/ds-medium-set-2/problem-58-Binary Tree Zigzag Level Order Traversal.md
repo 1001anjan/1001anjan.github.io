@@ -2,7 +2,7 @@
 layout: default
 title: Binary Tree Zigzag Level Order Traversal
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 8
 permalink: /problem-58-Binary Tree Zigzag Level Order Traversal/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Reconstruct Original Digits from English
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 44
 permalink: /problem-144-Reconstruct Original Digits from English/
 ---

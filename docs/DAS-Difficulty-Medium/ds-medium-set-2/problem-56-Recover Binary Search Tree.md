@@ -2,7 +2,7 @@
 layout: default
 title: Recover Binary Search Tree
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 6
 permalink: /problem-56-Recover Binary Search Tree/
 ---

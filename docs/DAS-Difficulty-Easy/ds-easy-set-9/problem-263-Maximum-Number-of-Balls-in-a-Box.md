@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Number of Balls in a Box
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-263-Maximum-Number-of-Balls-in-a-Box/
 ---

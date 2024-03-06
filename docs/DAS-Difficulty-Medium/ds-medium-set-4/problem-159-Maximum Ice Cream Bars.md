@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Ice Cream Bars
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 9
 permalink: /problem-159-Maximum Ice Cream Bars/
 ---

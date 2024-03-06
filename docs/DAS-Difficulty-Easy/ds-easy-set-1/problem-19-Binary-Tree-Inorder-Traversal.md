@@ -2,7 +2,7 @@
 layout: default
 title: Binary Tree Inorder Traversal
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-19-Binary-Tree-Inorder-Traversal/
 ---

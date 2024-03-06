@@ -2,7 +2,7 @@
 layout: default
 title: Roman to Integer
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 ---
 # 3.  Roman to Integer

@@ -2,7 +2,7 @@
 layout: default
 title: XOR Operation in an Array
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-223-XOR-Operation-in-an-Array/
 ---

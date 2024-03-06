@@ -2,7 +2,7 @@
 layout: default
 title: Reformat The String
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-210-Reformat-The-String/
 ---

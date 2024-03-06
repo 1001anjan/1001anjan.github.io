@@ -2,7 +2,7 @@
 layout: default
 title: Toeplitz Matrix
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-392-Toeplitz Matrix/
 ---

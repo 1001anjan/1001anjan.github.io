@@ -2,7 +2,7 @@
 layout: default
 title: Find All Duplicates in an Array
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 17
 permalink: /problem-167-Find All Duplicates in an Array/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Set Mismatch
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-385-Set Mismatch/
 ---

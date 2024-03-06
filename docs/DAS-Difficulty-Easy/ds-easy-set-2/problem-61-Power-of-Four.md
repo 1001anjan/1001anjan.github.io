@@ -2,7 +2,7 @@
 layout: default
 title: Power of Four
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-61-a-Power-of-Four/
 ---

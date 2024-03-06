@@ -2,7 +2,7 @@
 layout: default
 title: Fair Candy Swap
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-400-Fair Candy Swap/
 ---

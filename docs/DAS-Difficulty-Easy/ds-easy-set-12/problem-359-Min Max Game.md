@@ -2,7 +2,7 @@
 layout: default
 title: Min Max Game
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-359-Min Max Game/
 ---

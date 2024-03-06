@@ -2,7 +2,7 @@
 layout: default
 title: Second Largest Digit in a String
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-273-Second-Largest-Digit-in-a-String/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Day of the Year
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-410-Day of the Year/
 ---

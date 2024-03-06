@@ -2,7 +2,7 @@
 layout: default
 title: Wiggle Sort II
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 27
 permalink: /problem-127-Wiggle Sort II/
 ---

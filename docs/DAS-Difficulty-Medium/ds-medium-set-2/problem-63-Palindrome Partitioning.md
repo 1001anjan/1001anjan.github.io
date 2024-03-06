@@ -2,7 +2,7 @@
 layout: default
 title: Palindrome Partitioning
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 13
 permalink: /problem-63-Palindrome Partitioning/
 ---

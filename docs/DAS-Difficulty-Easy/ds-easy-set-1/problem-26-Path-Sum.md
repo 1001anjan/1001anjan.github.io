@@ -2,7 +2,7 @@
 layout: default
 title: Path Sum
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-26-Path-Sum/
 ---

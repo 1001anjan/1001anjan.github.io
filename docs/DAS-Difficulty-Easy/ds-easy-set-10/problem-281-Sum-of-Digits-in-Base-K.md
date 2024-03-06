@@ -2,7 +2,7 @@
 layout: default
 title: Sum of Digits in Base K
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-281-Sum-of-Digits-in-Base-K/
 ---

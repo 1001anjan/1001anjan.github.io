@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Distance to the Target Element
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-283-Minimum-Distance-to-the-Target-Element/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Sort Colors
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 41
 permalink: /problem-41-Sort Colors/
 ---

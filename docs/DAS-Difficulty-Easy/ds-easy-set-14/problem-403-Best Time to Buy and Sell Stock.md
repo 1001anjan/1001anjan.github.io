@@ -2,7 +2,7 @@
 layout: default
 title: Best Time to Buy and Sell Stock
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-403-Best Time to Buy and Sell Stock/
 ---

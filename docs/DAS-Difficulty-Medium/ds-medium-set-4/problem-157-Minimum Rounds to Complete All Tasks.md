@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Rounds to Complete All Tasks
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 7
 permalink: /problem-157-Minimum Rounds to Complete All Tasks/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Generate Parentheses
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 13
 permalink: /problem-13-Generate Parentheses/
 ---

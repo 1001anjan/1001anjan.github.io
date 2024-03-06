@@ -2,7 +2,7 @@
 layout: default
 title: Number of Equivalent Domino Pairs
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-177-Number-of-Equivalent-Domino-Pairs/
 ---

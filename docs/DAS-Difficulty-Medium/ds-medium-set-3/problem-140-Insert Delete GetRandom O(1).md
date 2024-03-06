@@ -2,7 +2,7 @@
 layout: default
 title: Insert Delete GetRandom O(1)
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 40
 permalink: /problem-140-Insert Delete GetRandom O(1)/
 ---

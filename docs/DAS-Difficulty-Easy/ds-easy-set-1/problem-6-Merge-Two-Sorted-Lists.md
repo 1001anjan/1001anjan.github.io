@@ -2,7 +2,7 @@
 layout: default
 title: Merge Two Sorted Lists
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-6-merge-two-sorted-lists/
 ---

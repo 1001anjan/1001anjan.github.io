@@ -2,7 +2,7 @@
 layout: default
 title: Remove K Digits
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 1
 permalink: /problem-151-Remove K Digits/
 ---

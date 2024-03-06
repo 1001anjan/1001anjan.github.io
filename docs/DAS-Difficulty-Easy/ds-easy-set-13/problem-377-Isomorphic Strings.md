@@ -2,7 +2,7 @@
 layout: default
 title: Isomorphic Strings
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-377-Isomorphic Strings/
 ---

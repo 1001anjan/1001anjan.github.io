@@ -2,7 +2,7 @@
 layout: default
 title: Two Sum II - Input Array Is Sorted
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 17
 permalink: /problem-67-Two Sum II - Input Array Is Sorted/
 ---

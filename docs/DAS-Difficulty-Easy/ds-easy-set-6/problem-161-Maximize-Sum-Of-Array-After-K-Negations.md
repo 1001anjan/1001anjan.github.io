@@ -2,7 +2,7 @@
 layout: default
 title: Maximize Sum Of Array After K Negations
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-161-Maximize-Sum-Of-Array-After-K-Negations/
 ---

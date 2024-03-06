@@ -2,7 +2,7 @@
 layout: default
 title: Subtract the Product and Sum of Digits of an Integer
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 29
 permalink: /problem-189-Subtract-the-Product-and-Sum-of-Digits-of-an-Integer/
 ---

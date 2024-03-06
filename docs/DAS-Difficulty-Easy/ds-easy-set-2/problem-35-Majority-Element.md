@@ -2,7 +2,7 @@
 layout: default
 title: Majority Element
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-35-Majority-Element/
 ---

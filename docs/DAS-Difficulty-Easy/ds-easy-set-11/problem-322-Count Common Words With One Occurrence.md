@@ -2,7 +2,7 @@
 layout: default
 title: Count Common Words With One Occurrence
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-322-Count Common Words With One Occurrence/
 ---

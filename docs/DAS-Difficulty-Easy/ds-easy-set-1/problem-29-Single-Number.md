@@ -2,7 +2,7 @@
 layout: default
 title: Single Number
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 29
 permalink: /problem-29-Single-Number/
 ---

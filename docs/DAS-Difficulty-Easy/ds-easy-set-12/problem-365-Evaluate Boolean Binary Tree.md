@@ -2,7 +2,7 @@
 layout: default
 title: Evaluate Boolean Binary Tree
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-365-Evaluate Boolean Binary Tree/
 ---

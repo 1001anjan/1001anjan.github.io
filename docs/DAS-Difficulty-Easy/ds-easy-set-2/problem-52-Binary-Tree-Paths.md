@@ -2,7 +2,7 @@
 layout: default
 title: Binary Tree Paths
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-52-Binary-Tree-Paths/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Determine if String Halves Are Alike
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-257-Determine-if-String-Halves-Are-Alike/
 ---

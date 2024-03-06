@@ -2,7 +2,7 @@
 layout: default
 title: Keyboard Row
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-89-Keyboard-Row/
 ---

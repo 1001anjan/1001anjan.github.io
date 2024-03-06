@@ -2,7 +2,7 @@
 layout: default
 title: Sign of the Product of an Array
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-278-Sign-of-the-Product-of-an-Array/
 ---

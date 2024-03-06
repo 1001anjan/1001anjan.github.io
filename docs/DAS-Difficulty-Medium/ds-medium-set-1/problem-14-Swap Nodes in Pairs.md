@@ -2,7 +2,7 @@
 layout: default
 title: Swap Nodes in Pairs
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 14
 permalink: /problem-14-Swap Nodes in Pairs/
 ---

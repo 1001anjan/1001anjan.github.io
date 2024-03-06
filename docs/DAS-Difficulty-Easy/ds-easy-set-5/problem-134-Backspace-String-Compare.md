@@ -2,7 +2,7 @@
 layout: default
 title: Backspace String Compare
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-134-Backspace-String-Compare/
 ---

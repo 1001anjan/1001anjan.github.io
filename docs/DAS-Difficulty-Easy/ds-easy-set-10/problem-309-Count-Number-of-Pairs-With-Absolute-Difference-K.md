@@ -2,7 +2,7 @@
 layout: default
 title: Count Number of Pairs With Absolute Difference K
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 29
 permalink: /problem-309-Count-Number-of-Pairs-With-Absolute-Difference-K/
 ---

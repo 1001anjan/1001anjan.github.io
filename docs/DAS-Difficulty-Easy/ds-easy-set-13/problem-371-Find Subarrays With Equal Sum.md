@@ -2,7 +2,7 @@
 layout: default
 title: Find Subarrays With Equal Sum
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-371-Find Subarrays With Equal Sum/
 ---

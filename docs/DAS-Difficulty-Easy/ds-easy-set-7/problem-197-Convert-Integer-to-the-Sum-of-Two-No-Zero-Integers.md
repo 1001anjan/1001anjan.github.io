@@ -2,7 +2,7 @@
 layout: default
 title: Convert Integer to the Sum of Two No-Zero Integers
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-197-Convert-Integer-to-the-Sum-of-Two-No-Zero Integers/
 ---

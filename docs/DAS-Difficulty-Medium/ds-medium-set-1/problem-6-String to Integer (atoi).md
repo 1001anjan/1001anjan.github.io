@@ -2,7 +2,7 @@
 layout: default
 title: String to Integer (atoi)
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 6
 permalink: /problem-6-String to Integer (atoi)/
 ---

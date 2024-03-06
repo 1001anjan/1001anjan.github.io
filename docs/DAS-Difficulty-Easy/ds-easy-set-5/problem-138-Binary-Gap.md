@@ -2,7 +2,7 @@
 layout: default
 title: Binary Gap
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-138-Binary-Gap/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Number of Words You Can Type
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-297-Maximum-Number-of-Words-You-Can-Type/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Flipping an Image
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-133-Flipping-an-Image/
 ---

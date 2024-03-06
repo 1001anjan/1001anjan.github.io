@@ -2,7 +2,7 @@
 layout: default
 title: Surrounded Regions
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 28
 permalink: /problem-78-Surrounded Regions/
 ---

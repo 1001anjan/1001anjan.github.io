@@ -2,7 +2,7 @@
 layout: default
 title: Sum of Two Integers
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 35
 permalink: /problem-135-Sum of Two Integers/
 ---

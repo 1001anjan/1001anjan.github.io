@@ -2,7 +2,7 @@
 layout: default
 title: Design Twitter
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 33
 permalink: /problem-133-Design Twitter/
 ---

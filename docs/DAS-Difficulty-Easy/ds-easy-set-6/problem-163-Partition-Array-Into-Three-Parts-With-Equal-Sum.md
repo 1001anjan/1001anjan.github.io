@@ -2,7 +2,7 @@
 layout: default
 title: Partition-Array-Into-Three-Parts-With-Equal-Sum
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-161-Partition-Array-Into-Three-Parts-With-Equal-Sum/
 ---

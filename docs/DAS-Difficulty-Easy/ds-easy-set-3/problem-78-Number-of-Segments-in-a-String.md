@@ -2,7 +2,7 @@
 layout: default
 title: Number of Segments in a String
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-78-Number-of-Segments-in-a-String/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Shift 2D Grid
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-188-Shift-2D-Grid/
 ---

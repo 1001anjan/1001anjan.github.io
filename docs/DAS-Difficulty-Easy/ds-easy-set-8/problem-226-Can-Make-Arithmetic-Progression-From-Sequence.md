@@ -2,7 +2,7 @@
 layout: default
 title: Can Make Arithmetic Progression From Sequence
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-226-Can-Make-Arithmetic-Progression-From-Sequence/
 ---

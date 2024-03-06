@@ -2,7 +2,7 @@
 layout: default
 title: Find the Highest Altitude
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-260-Find-the-Highest-Altitude/
 ---

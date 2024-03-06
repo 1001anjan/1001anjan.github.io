@@ -2,7 +2,7 @@
 layout: default
 title: Longest Increasing Subsequence
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 19
 permalink: /problem-119-Longest Increasing Subsequence/
 ---

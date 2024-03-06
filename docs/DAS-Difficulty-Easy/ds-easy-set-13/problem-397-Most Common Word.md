@@ -2,7 +2,7 @@
 layout: default
 title: Most Common Word
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-397-Most Common Word/
 ---

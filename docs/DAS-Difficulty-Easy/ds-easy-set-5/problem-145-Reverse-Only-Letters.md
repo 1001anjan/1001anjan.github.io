@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Only Letters
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-145-Reverse-Only-Letters/
 ---

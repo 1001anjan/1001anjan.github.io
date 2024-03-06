@@ -2,7 +2,7 @@
 layout: default
 title: Is Subsequence
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-72-Is-Subsequence/
 ---

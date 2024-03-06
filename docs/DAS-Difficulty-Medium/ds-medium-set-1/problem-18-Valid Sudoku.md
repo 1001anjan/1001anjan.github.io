@@ -2,7 +2,7 @@
 layout: default
 title: Valid Sudoku
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 18
 permalink: /problem-18-Valid Sudoku/
 ---

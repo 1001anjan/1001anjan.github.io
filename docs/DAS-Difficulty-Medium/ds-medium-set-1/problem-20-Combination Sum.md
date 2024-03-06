@@ -2,7 +2,7 @@
 layout: default
 title: Combination Sum
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 20
 permalink: /problem-20-Combination Sum/
 ---

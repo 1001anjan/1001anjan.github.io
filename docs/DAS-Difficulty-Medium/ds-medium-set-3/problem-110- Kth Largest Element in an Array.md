@@ -2,7 +2,7 @@
 layout: default
 title: Kth Largest Element in an Array
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 10
 permalink: /problem-110-Kth Largest Element in an Arrays/
 ---

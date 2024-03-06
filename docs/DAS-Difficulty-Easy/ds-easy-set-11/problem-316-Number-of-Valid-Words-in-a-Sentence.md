@@ -2,7 +2,7 @@
 layout: default
 title: Number of Valid Words in a Sentence
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-316-Number of Valid Words in a Sentence/
 ---

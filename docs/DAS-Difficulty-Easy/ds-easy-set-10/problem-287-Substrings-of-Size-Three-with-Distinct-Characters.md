@@ -2,7 +2,7 @@
 layout: default
 title: Substrings of Size Three with Distinct Characters
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-287-Substrings-of-Size-Three-with-Distinct-Characters/
 ---

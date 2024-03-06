@@ -2,7 +2,7 @@
 layout: default
 title: Path Sum II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 10
 permalink: /problem-60-Path Sum II/
 ---

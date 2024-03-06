@@ -2,7 +2,7 @@
 layout: default
 title: Greatest Common Divisor of Strings
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-408-Greatest Common Divisor of Strings/
 ---

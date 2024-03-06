@@ -2,7 +2,7 @@
 layout: default
 title: Sum of Unique Elements
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-264-Sum-of-Unique-Elements/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Factorial Trailing Zeroes
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 37
 permalink: /problem-87-Factorial Trailing Zeroes/
 ---

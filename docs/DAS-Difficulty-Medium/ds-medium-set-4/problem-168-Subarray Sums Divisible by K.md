@@ -2,7 +2,7 @@
 layout: default
 title: Subarray Sums Divisible by K
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 18
 permalink: /problem-168-Subarray Sums Divisible by K/
 ---

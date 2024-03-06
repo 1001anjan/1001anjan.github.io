@@ -2,7 +2,7 @@
 layout: default
 title: Find the K-Beauty of a Number
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-354-Find the K-Beauty of a Number/
 ---

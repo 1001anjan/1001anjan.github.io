@@ -2,7 +2,7 @@
 layout: default
 title: Number of Lines To Write String
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 29
 permalink: /problem-129-Number-of-Lines-To-Write-String/
 ---

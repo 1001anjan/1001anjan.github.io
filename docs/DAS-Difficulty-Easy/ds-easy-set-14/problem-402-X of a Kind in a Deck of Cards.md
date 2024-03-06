@@ -2,7 +2,7 @@
 layout: default
 title: X of a Kind in a Deck of Cards
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-402-X of a Kind in a Deck of Cards/
 ---

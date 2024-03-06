@@ -2,7 +2,7 @@
 layout: default
 title: Largest Triangle Area
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-398-Largest Triangle Area/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Number of Students Unable to Eat Lunch
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-256-Number-of-Students-Unable-to-Eat-Lunch/
 ---

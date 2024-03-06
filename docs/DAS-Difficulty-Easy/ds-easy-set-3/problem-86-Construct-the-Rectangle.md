@@ -2,7 +2,7 @@
 layout: default
 title: Construct the Rectangle
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-86-Construct-the-Rectangle/
 ---

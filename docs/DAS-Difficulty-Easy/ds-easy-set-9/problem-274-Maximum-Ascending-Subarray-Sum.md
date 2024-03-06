@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Ascending Subarray Sum
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-274-Maximum-Ascending-Subarray-Sum/
 ---

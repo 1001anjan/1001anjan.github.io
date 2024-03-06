@@ -2,8 +2,7 @@
 layout: default
 title: Scale microservice depending on cup utilization
 parent: Kubernetes
-grand_parent: Spring Boot
-nav_order: 1
+nav_order: 11
 ---
 # kubernetes scale microservice depending on cup utilization  
 To scale a microservice based on CPU utilization in Kubernetes, you can use the Horizontal Pod Autoscaler (HPA) feature. The HPA will automatically adjust the number of replicas in a deployment based on observed CPU utilization.

@@ -2,7 +2,7 @@
 layout: default
 title: Check If N and Its Double Exist
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-203-Check-If-N-and-Its-Double-Exist/
 ---

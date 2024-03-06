@@ -2,7 +2,7 @@
 layout: default
 title: Convert Sorted Array to Binary Search Tree
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-23-Convert-Sorted-Array-to-Binary-Search-Tree/
 ---

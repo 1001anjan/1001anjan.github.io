@@ -2,7 +2,7 @@
 layout: default
 title: Triangle
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 32
 permalink: /problem-82-Triangle/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Network Delay Time
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 20
 permalink: /problem-170-Network Delay Time/
 ---

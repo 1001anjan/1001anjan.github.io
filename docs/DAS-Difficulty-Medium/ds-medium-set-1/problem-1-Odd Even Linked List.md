@@ -2,7 +2,7 @@
 layout: default
 title: Odd Even Linked List
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 1
 permalink: /problem-1-Odd Even Linked List/
 ---

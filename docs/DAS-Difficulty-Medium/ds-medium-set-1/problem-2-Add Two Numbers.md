@@ -2,7 +2,7 @@
 layout: default
 title: Add Two Numbers
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 2
 permalink: /problem-2-Add Two Numbers/
 ---

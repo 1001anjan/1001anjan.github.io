@@ -2,7 +2,7 @@
 layout: default
 title: Greatest English Letter in Upper and Lower Case
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-361-Greatest English Letter in Upper and Lower Case/
 ---

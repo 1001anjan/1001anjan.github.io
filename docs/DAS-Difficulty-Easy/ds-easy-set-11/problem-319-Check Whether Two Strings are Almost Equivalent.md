@@ -2,7 +2,7 @@
 layout: default
 title: Check Whether Two Strings are Almost Equivalent
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-319-Check Whether Two Strings are Almost Equivalent/
 ---

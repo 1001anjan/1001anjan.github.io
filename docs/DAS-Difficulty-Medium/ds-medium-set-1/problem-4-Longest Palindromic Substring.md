@@ -2,7 +2,7 @@
 layout: default
 title: Longest Palindromic Substring
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 4
 permalink: /problem-4-Longest Palindromic Substring/
 ---

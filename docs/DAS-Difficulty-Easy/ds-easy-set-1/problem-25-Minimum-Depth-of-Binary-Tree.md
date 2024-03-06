@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Depth of Binary Tree
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-25-Minimum-Depth-of-Binary-Tree/
 ---

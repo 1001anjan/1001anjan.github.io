@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Number of Pairs in Array
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-366-Maximum Number of Pairs in Array/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Leaf-Similar Trees
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-139-Leaf-Similar-Trees/
 ---

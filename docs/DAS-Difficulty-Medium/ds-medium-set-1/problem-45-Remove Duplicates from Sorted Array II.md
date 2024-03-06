@@ -2,7 +2,7 @@
 layout: default
 title: Remove Duplicates from Sorted Array II
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 45
 permalink: /problem-45-Remove Duplicates from Sorted Array II/
 ---

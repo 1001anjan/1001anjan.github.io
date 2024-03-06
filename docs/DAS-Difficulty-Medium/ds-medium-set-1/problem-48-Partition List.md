@@ -2,7 +2,7 @@
 layout: default
 title: Partition List
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 48
 permalink: /problem-48-Partition List/
 ---

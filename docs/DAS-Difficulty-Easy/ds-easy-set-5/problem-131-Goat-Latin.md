@@ -2,7 +2,7 @@
 layout: default
 title: Goat Latin
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-131-Goat-Latin/
 ---

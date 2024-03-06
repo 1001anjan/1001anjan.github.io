@@ -2,7 +2,7 @@
 layout: default
 title: Path Sum III
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 16
 permalink: /problem-166-Path Sum III/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Spiral Matrix
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 29
 permalink: /problem-29-Spiral Matrix/
 ---

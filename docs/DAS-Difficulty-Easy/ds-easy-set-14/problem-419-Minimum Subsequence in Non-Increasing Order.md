@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Subsequence in Non-Increasing Order
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-419-Minimum Subsequence in Non-Increasing Order/
 ---

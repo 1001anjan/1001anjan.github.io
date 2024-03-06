@@ -2,7 +2,7 @@
 layout: default
 title: Word Break
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 36
 permalink: /problem-86-Word Break/
 ---

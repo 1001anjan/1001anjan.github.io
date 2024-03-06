@@ -2,7 +2,7 @@
 layout: default
 title:  Ransom Note
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-69-Ransom-Note/
 ---

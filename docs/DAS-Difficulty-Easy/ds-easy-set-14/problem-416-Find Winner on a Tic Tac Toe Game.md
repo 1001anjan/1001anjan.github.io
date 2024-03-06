@@ -2,7 +2,7 @@
 layout: default
 title: Find Winner on a Tic Tac Toe Game
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-416-Find Winner on a Tic Tac Toe Game/
 ---

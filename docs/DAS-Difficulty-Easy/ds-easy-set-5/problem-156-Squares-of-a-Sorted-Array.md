@@ -2,7 +2,7 @@
 layout: default
 title: Squares of a Sorted Array
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-156-Squares-of-a-Sorted Array/
 ---

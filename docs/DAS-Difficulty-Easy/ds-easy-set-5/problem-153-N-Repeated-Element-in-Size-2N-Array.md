@@ -2,7 +2,7 @@
 layout: default
 title: N-Repeated Element in Size 2N Array
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-153-N-Repeated-Element-in-Size-2N-Array/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Jewels and Stones
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-393-Jewels and Stones/
 ---

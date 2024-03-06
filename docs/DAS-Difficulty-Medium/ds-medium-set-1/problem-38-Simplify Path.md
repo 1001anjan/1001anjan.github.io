@@ -2,7 +2,7 @@
 layout: default
 title: Simplify Path
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 38
 permalink: /problem-38-Simplify Path/
 ---

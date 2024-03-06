@@ -2,7 +2,7 @@
 layout: default
 title: Occurrences After Bigram
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-183-Occurrences-After-Bigram/
 ---

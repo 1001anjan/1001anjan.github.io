@@ -2,7 +2,7 @@
 layout: default
 title: Find the Index of the First Occurrence in a String
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 15
 permalink: /problem-15-Find the Index of the First Occurrence in a String/
 ---

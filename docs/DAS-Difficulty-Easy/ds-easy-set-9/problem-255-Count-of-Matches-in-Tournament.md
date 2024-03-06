@@ -2,7 +2,7 @@
 layout: default
 title: Count of Matches in Tournament
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-255-Count-of-Matches-in-Tournament/
 ---

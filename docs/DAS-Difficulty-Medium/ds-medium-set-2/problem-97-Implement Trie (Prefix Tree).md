@@ -2,7 +2,7 @@
 layout: default
 title: Implement Trie (Prefix Tree)
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 47
 permalink: /problem-97-Implement Trie (Prefix Tree)/
 ---

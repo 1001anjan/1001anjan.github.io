@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Difference Between Increasing Elements
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-311-Maximum Difference Between Increasing Elements/
 ---

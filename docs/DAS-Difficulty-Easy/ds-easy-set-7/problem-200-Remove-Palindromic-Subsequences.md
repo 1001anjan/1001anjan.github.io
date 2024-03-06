@@ -2,7 +2,7 @@
 layout: default
 title: Remove Palindromic Subsequences
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-200-Remove-Palindromic-Subsequences/
 ---

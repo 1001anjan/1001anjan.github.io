@@ -2,7 +2,7 @@
 layout: default
 title: Two Furthest Houses With Different Colors
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-321-Two Furthest Houses With Different Colors/
 ---

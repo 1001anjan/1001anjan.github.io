@@ -2,7 +2,7 @@
 layout: default
 title: Set Matrix Zeroes
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 39
 permalink: /problem-39-Set Matrix Zeroes/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Number of Arithmetic Triplets
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-370-Number of Arithmetic Triplets/
 ---

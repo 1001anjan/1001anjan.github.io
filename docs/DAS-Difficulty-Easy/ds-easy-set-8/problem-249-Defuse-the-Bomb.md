@@ -2,7 +2,7 @@
 layout: default
 title: Defuse the Bomb
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 29
 permalink: /problem-249-Defuse-the-Bomb/
 ---

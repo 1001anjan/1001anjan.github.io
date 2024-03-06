@@ -2,7 +2,7 @@
 layout: default
 title: Count Complete Tree Nodes
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 2
 permalink: /problem-102-Count Complete Tree Nodes/
 ---

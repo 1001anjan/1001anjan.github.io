@@ -2,7 +2,7 @@
 layout: default
 title: Path Crossing
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-225-Path-Crossing/
 ---

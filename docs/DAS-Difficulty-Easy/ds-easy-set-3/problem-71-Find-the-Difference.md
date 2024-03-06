@@ -2,7 +2,7 @@
 layout: default
 title: Find the Difference
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-71-Find-the-Difference/
 ---

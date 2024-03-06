@@ -2,7 +2,7 @@
 layout: default
 title: String Matching in an Array
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-185-String-Matching-in-an-Array/
 ---

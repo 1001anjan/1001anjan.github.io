@@ -2,7 +2,7 @@
 layout: default
 title: Calculate Money in Leetcode Bank
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-258-Calculate-Money-in-Leetcode-Bank/
 ---

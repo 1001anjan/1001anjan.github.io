@@ -2,7 +2,7 @@
 layout: default
 title: Best Time to Buy and Sell Stock II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 33
 permalink: /problem-83-Best Time to Buy and Sell Stock II/
 ---

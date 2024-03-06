@@ -2,7 +2,7 @@
 layout: default
 title: Transpose Matrix
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-137-Transpose-Matrix/
 ---

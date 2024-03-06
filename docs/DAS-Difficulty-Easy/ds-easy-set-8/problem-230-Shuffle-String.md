@@ -2,7 +2,7 @@
 layout: default
 title: Shuffle String
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-230-Shuffle-String/
 ---

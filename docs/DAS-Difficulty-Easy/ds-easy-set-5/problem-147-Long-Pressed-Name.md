@@ -2,7 +2,7 @@
 layout: default
 title: Long Pressed Name
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-147-Long-Pressed-Name/
 ---

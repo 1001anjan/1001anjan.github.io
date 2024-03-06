@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Moves to Convert String
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-313-Minimum Moves to Convert String/
 ---

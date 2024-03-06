@@ -2,7 +2,7 @@
 layout: default
 title: Pow(x, n)
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 27
 permalink: /problem-27-Pow(x, n)/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Binary Tree Level Order Traversal II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 7
 permalink: /problem-57-Binary Tree Level Order Traversal II/
 ---

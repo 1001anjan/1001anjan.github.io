@@ -2,7 +2,7 @@
 layout: default
 title: Find Words That Can Be Formed by Characters
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-175-Distance-Between-Bus-Stops/
 ---

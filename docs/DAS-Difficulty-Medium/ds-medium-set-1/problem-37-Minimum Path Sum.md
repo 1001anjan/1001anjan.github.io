@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Path Sum
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 37
 permalink: /problem-37-Minimum Path Sum/
 ---

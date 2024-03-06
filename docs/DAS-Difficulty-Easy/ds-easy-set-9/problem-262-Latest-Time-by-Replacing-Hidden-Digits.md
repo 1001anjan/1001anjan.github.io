@@ -2,7 +2,7 @@
 layout: default
 title: Latest Time by Replacing Hidden Digits
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-262-Latest-Time-by-Replacing-Hidden-Digits/
 ---

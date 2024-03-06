@@ -2,7 +2,7 @@
 layout: default
 title: Flatten Binary Tree to Linked List
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 11
 permalink: /problem-61-Flatten Binary Tree to Linked List/
 ---

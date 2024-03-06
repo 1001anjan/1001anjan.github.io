@@ -2,7 +2,7 @@
 layout: default
 title: Easy Set 4
 nav_order: 4
-parent: DSA Easy Difficulty
+parent: DSA Easy
 has_children: true
 permalink: /docs/data-structure/data-structure-easy-set-4
 ---

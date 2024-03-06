@@ -2,7 +2,7 @@
 layout: default
 title: Single Number II
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 5
 permalink: /problem-155-Single Number II/
 ---

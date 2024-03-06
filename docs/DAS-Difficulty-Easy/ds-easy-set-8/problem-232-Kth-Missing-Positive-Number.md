@@ -2,7 +2,7 @@
 layout: default
 title: Kth Missing Positive Number
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-232-Kth-Missing-Positive-Number/
 ---

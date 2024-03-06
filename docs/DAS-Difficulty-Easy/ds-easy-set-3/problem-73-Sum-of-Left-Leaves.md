@@ -2,7 +2,7 @@
 layout: default
 title: Sum of Left Leaves
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-73-Sum-of-Left-Leaves/
 ---

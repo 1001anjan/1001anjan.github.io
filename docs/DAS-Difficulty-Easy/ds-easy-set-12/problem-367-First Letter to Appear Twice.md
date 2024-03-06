@@ -2,7 +2,7 @@
 layout: default
 title: First Letter to Appear Twice
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-367-First Letter to Appear Twice/
 ---

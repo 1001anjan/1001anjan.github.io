@@ -2,7 +2,7 @@
 layout: default
 title: Power of Three
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-59-Power-of-Three/
 ---

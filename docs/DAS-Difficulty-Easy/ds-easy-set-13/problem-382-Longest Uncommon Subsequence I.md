@@ -2,7 +2,7 @@
 layout: default
 title: Longest Uncommon Subsequence I
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-382-Longest Uncommon Subsequence I/
 ---

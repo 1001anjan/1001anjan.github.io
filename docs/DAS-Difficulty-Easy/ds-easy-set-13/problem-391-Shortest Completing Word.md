@@ -2,7 +2,7 @@
 layout: default
 title: Shortest Completing Word
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-391-Shortest Completing Word/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Integer Break
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 6
 permalink: /problem-156-Integer Break/
 ---

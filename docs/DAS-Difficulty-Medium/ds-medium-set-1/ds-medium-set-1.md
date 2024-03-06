@@ -2,7 +2,7 @@
 layout: default
 title: Medium Set 1
 nav_order: 1
-parent: DSA Medium Difficulty
+parent: DSA Medium
 has_children: true
 permalink: docs/data-structure/ds-medium-set-1/
 ---

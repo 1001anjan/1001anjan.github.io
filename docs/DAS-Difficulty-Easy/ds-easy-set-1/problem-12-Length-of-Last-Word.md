@@ -2,7 +2,7 @@
 layout: default
 title: Length of Last Word
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-12-length-of-last-word/
 ---

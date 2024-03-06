@@ -2,7 +2,7 @@
 layout: default
 title: A Number After a Double Reversal
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-329-A Number After a Double Reversal/
 ---

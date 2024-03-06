@@ -2,7 +2,7 @@
 layout: default
 title: Remove Digit From Number to Maximize Result
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-352-Remove Digit From Number to Maximize Result/
 ---

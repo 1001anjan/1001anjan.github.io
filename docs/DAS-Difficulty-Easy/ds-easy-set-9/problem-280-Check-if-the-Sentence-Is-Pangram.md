@@ -2,7 +2,7 @@
 layout: default
 title: Check if the Sentence Is Pangram
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-280-Check-if-the-Sentence-Is-Pangram/
 ---

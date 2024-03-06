@@ -2,7 +2,7 @@
 layout: default
 title: Check if Binary String Has at Most One Segment of Ones
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-270-Check-if-Binary-String-Has-at-Most-One-Segment-of-Ones/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: LRU Cache
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 29
 permalink: /problem-79-LRU Cache/
 ---

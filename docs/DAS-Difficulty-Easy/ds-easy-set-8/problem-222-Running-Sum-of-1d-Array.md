@@ -2,7 +2,7 @@
 layout: default
 title: Running Sum of 1d Array
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-222-Running-Sum-of-1d-Array/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Largest Divisible Subset
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 37
 permalink: /problem-137-Largest Divisible Subset/
 ---

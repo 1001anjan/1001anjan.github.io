@@ -2,7 +2,7 @@
 layout: default
 title: Find Resultant Array After Removing Anagrams
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-355-Find Resultant Array After Removing Anagrams/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Intersection of Multiple Arrays
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-350-Intersection of Multiple Arrays/
 ---

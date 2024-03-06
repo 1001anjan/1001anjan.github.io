@@ -2,7 +2,7 @@
 layout: default
 title: Interleaving String
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 2
 permalink: /problem-152-Interleaving String/
 ---

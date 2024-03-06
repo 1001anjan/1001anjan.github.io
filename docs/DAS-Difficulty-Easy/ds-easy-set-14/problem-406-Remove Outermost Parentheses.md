@@ -2,7 +2,7 @@
 layout: default
 title: Remove Outermost Parentheses
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-406-Remove Outermost Parentheses/
 ---

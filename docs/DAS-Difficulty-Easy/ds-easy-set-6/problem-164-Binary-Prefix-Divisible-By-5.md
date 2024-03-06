@@ -2,7 +2,7 @@
 layout: default
 title: Binary Prefix Divisible By 5
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-164-Binary-Prefix-Divisible-By-5/
 ---

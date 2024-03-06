@@ -2,7 +2,7 @@
 layout: default
 title: Find Closest Number to Zero
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-348-Find Closest Number to Zero/
 ---

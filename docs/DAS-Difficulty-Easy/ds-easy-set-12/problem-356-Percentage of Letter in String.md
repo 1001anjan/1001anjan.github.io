@@ -2,7 +2,7 @@
 layout: default
 title: Percentage of Letter in String
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-356-Percentage of Letter in String/
 ---

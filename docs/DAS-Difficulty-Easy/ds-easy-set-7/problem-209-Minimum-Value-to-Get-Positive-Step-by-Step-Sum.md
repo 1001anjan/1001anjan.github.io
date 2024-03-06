@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Value to Get Positive Step by Step Sum
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-209-Minimum-Value-to-Get-Positive-Step-by-Step-Sum/
 ---

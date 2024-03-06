@@ -2,7 +2,7 @@
 layout: default
 title: Remove Nth Node From End of List
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 12
 permalink: /problem-12-Remove Nth Node From End of List/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Time to Type Word Using Special Typewriter
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-304-Minimum Time to Type Word Using Special Typewriter/
 ---

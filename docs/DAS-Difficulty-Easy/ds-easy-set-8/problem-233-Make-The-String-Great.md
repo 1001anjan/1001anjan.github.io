@@ -2,7 +2,7 @@
 layout: default
 title: Make The String Great
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-233-Make-The-String-Great/
 ---

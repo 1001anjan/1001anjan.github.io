@@ -2,7 +2,7 @@
 layout: default
 title: Maximum-Population-Year
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-284-Maximum-Population-Year/
 ---

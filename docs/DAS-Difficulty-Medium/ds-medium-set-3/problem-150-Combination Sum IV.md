@@ -2,7 +2,7 @@
 layout: default
 title: Combination Sum IV
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 50
 permalink: /problem-150-Combination Sum IV/
 ---

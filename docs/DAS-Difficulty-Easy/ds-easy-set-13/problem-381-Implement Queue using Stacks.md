@@ -2,7 +2,7 @@
 layout: default
 title: Implement Queue using Stacks
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-381-Implement Queue using Stacks/
 ---

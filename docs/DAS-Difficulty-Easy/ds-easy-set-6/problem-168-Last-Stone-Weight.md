@@ -2,7 +2,7 @@
 layout: default
 title: Last Stone Weight
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-168-Last-Stone-Weight/
 ---

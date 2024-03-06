@@ -2,7 +2,7 @@
 layout: default
 title: Smallest Index With Equal Value
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-318-Smallest Index With Equal Value/
 ---

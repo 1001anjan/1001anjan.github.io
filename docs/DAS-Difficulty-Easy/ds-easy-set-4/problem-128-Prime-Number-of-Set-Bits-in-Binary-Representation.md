@@ -2,7 +2,7 @@
 layout: default
 title: Prime Number of Set Bits in Binary Representation
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-128-Prime-Number-of-Set-Bits-in-Binary-Representation/
 ---

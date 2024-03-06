@@ -2,7 +2,7 @@
 layout: default
 title: Largest Odd Number in String
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-291-Largest-Odd-Number-in-String/
 ---

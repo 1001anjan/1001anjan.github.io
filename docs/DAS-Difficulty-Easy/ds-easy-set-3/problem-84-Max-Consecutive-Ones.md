@@ -2,7 +2,7 @@
 layout: default
 title: Max Consecutive Ones
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-84-Max-Consecutive-Ones/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Valid Boomerang
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-167-Valid-Boomerang/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title:  Guess Number Higher or Lower
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-68-Guess-Number-Higher-or-Lower/
 ---

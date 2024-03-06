@@ -2,7 +2,7 @@
 layout: default
 title: Largest Number
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 39
 permalink: /problem-89-Largest Number/
 ---

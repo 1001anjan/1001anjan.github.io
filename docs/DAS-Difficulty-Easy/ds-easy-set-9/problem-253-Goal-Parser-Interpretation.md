@@ -2,7 +2,7 @@
 layout: default
 title: Goal Parser Interpretation
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-253-Goal-Parser Interpretation/
 ---

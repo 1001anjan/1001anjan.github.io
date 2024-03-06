@@ -2,7 +2,7 @@
 layout: default
 title: Sort Integers by The Number of 1 Bits
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-206-How Many Numbers Are Smaller Than the Current Number/
 ---

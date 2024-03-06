@@ -2,7 +2,7 @@
 layout: default
 title: Calculate Digit Sum of a String
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-349-Calculate Digit Sum of a String/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Fraction to Recurring Decimal
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 35
 permalink: /problem-85-Fraction to Recurring Decimal/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Reformat Phone Number
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-256-Reformat Phone Number/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Time to Collect All Apples in a Tree
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 13
 permalink: /problem-163-Minimum Time to Collect All Apples in a Tree/
 ---

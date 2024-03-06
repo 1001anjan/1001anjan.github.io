@@ -2,7 +2,7 @@
 layout: default
 title: Destination City
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-213-Destination-City/
 ---

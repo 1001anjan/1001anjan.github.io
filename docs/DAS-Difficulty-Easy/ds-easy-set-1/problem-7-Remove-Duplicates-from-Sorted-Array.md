@@ -2,7 +2,7 @@
 layout: default
 title: Remove Duplicates from Sorted Array
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-7-remove-duplicates-from-sorted-array/
 ---

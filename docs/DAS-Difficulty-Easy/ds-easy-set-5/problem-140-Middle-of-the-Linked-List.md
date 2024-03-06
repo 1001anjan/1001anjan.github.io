@@ -2,7 +2,7 @@
 layout: default
 title: Middle of the Linked List
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-140-Middle-of-the-Linked-List/
 ---

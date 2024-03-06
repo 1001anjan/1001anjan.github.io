@@ -2,7 +2,7 @@
 layout: default
 title: Check if Binary String Has at Most One Segment of Ones
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-271-Check-if-One-String-Swap-Can-Make-Strings-Equal/
 ---

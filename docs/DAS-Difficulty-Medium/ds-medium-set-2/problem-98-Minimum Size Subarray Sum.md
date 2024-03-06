@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Size Subarray Sum
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 48
 permalink: /problem-98-Minimum Size Subarray Sum/
 ---

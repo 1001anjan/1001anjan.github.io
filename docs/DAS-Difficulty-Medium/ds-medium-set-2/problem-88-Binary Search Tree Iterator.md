@@ -2,7 +2,7 @@
 layout: default
 title: Binary Search Tree Iterator
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 38
 permalink: /problem-88-Binary Search Tree Iterator/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Delete Node in a Linked List
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-50-Delete-Node-in-a-Linked-List/
 ---

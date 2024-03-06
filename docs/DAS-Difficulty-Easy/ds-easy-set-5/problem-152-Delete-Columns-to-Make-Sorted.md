@@ -2,7 +2,7 @@
 layout: default
 title: Delete Columns to Make Sorted
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-152-Delete-Columns-to-Make-Sorted/
 ---

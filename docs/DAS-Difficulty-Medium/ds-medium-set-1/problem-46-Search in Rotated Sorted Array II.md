@@ -2,7 +2,7 @@
 layout: default
 title: Search in Rotated Sorted Array II
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 46
 permalink: /problem-46-Search in Rotated Sorted Array II/
 ---

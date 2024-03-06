@@ -2,7 +2,7 @@
 layout: default
 title: Check if All Characters Have Equal Number of Occurrences
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-298-Check if All Characters Have Equal Number of Occurrences/
 ---

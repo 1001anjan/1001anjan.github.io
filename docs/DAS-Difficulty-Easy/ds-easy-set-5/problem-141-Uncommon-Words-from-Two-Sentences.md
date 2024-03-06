@@ -2,7 +2,7 @@
 layout: default
 title: Uncommon Words from Two Sentences
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-141-Uncommon-Words-from-Two-Sentences/
 ---

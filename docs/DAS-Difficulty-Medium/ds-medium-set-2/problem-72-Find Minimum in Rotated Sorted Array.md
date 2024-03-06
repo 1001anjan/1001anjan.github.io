@@ -2,7 +2,7 @@
 layout: default
 title: Find Minimum in Rotated Sorted Array
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 22
 permalink: /problem-72-Find Minimum in Rotated Sorted Array/
 ---

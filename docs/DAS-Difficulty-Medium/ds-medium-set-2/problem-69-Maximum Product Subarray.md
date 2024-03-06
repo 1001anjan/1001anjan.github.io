@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Product Subarray
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 19
 permalink: /problem-69-Maximum Product Subarray/
 ---

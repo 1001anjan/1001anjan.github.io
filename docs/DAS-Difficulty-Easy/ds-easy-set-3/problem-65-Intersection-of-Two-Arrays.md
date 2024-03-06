@@ -2,7 +2,7 @@
 layout: default
 title:  Intersection of Two Arrays
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-65-Intersection-of-Two-Arrays/
 ---

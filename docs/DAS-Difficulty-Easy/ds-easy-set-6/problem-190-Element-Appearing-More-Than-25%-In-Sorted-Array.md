@@ -2,7 +2,7 @@
 layout: default
 title: Element Appearing More Than 25% In Sorted Array
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-190-Element-Appearing-More-Than-25%-In-Sorted-Array/
 ---

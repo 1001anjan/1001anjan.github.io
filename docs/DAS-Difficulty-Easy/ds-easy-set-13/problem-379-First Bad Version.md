@@ -2,7 +2,7 @@
 layout: default
 title: First Bad Version
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-379-First Bad Version/
 ---

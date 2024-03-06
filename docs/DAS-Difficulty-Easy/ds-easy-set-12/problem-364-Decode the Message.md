@@ -2,7 +2,7 @@
 layout: default
 title: Decode the Message
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-364-Decode the Message/
 ---

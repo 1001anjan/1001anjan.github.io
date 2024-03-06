@@ -2,7 +2,7 @@
 layout: default
 title: Check If It Is a Straight Line
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-414-Check If It Is a Straight Line/
 ---

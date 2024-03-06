@@ -2,7 +2,7 @@
 layout: default
 title: Count Items Matching a Rule
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-269-Find-Nearest-Point-That-Has-the-Same-X-or-Y-Coordinate/
 ---

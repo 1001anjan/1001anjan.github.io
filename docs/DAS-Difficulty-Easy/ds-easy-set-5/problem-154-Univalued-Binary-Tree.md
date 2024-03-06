@@ -2,7 +2,7 @@
 layout: default
 title: Univalued Binary Tree
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-154-Univalued-Binary-Tree/
 ---

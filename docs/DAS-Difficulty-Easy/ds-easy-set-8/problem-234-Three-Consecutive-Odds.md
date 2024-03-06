@@ -2,7 +2,7 @@
 layout: default
 title: Three Consecutive Odds
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-234-Three-Consecutive-Odds/
 ---

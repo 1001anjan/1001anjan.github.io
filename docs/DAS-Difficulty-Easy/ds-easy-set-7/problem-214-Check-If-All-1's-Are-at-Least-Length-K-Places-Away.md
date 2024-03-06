@@ -2,7 +2,7 @@
 layout: default
 title: Check If All 1's Are at Least Length K Places Away
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-214-Check-If-All-1's-Are-at-Least-Length-K-Places-Away/
 ---

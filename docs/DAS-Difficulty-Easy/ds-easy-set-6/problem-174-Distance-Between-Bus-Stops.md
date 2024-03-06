@@ -2,7 +2,7 @@
 layout: default
 title: Distance Between Bus Stops
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-174-Distance-Between-Bus-Stops/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Merge Strings Alternately
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-267-Merge-Strings-Alternately/
 ---

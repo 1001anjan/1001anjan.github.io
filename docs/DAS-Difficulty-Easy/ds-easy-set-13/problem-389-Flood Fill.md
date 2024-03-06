@@ -2,7 +2,7 @@
 layout: default
 title: Flood Fill
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-389-Flood Fill/
 ---

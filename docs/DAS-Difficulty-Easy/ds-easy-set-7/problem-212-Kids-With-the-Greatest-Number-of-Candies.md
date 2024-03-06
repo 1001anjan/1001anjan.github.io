@@ -2,7 +2,7 @@
 layout: default
 title: Kids With the Greatest Number of Candies
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-212-Kids-With-the-Greatest-Number-of-Candies/
 ---

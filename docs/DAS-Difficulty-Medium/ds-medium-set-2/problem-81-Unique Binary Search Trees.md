@@ -2,7 +2,7 @@
 layout: default
 title: Unique Binary Search Trees
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 31
 permalink: /problem-81-Unique Binary Search Trees/
 ---

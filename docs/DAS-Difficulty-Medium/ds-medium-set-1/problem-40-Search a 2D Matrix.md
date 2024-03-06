@@ -2,7 +2,7 @@
 layout: default
 title: Search a 2D Matrix
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 40
 permalink: /problem-40-Search a 2D Matrix/
 ---

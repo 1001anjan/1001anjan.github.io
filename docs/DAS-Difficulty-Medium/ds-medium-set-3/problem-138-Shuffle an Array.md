@@ -2,7 +2,7 @@
 layout: default
 title: Shuffle an Array
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 38
 permalink: /problem-138-Shuffle an Array/
 ---

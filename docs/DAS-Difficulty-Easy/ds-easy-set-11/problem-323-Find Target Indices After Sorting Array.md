@@ -2,7 +2,7 @@
 layout: default
 title: Find Target Indices After Sorting Array
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-323-Find Target Indices After Sorting Array/
 ---

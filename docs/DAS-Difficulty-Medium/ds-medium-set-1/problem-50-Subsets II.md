@@ -2,7 +2,7 @@
 layout: default
 title: Subsets II
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 50
 permalink: /problem-50-Subsets II/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Sort Integers by The Number of 1 Bits
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-205-Sort-Integers-by-The-Number-of-1-Bits/
 ---

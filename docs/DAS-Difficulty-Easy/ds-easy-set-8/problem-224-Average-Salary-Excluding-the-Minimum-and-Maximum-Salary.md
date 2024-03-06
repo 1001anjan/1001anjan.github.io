@@ -2,7 +2,7 @@
 layout: default
 title: Average Salary Excluding the Minimum and Maximum Salary
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-224-Average-Salary-Excluding-the-Minimum-and-Maximum-Salary/
 ---

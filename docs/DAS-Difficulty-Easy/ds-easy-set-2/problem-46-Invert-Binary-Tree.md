@@ -2,7 +2,7 @@
 layout: default
 title: Invert Binary Tree
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-46-Invert-Binary-Tree/
 ---

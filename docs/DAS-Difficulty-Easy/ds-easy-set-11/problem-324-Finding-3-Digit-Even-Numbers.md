@@ -2,7 +2,7 @@
 layout: default
 title: Finding 3-Digit Even Numbers
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-324-Finding 3-Digit Even Numbers/
 ---

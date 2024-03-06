@@ -2,7 +2,7 @@
 layout: default
 title: Lowest Common Ancestor of a Binary Search Tree
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-49-Lowest-Common-Ancestor-of-a-Binary-Search-Tree/
 ---

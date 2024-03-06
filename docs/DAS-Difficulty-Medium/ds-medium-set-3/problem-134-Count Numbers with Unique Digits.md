@@ -2,7 +2,7 @@
 layout: default
 title: Count Numbers with Unique Digits
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 34
 permalink: /problem-134-Count Numbers with Unique Digits/
 ---

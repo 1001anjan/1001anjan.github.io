@@ -2,7 +2,7 @@
 layout: default
 title: Battleships in a Board
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 43
 permalink: /problem-143-Battleships in a Board/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Compare Version Numbers
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 21
 permalink: /problem-71-Compare Version Numbers/
 ---

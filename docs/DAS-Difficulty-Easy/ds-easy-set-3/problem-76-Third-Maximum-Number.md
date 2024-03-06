@@ -2,7 +2,7 @@
 layout: default
 title: Third Maximum Number
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-76-Third-Maximum-Number/
 ---

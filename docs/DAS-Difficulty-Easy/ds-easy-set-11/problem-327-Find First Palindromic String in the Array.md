@@ -2,7 +2,7 @@
 layout: default
 title: Find First Palindromic String in the Array
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-327-Find First Palindromic String in the Array/
 ---

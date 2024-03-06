@@ -2,7 +2,7 @@
 layout: default
 title: Product of Array Except Self
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 7
 permalink: /problem-107-Product of Array Except Self/
 ---

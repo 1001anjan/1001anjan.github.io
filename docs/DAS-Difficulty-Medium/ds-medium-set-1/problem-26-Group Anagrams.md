@@ -2,7 +2,7 @@
 layout: default
 title: Group Anagrams
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 26
 permalink: /problem-26-Group Anagrams/
 ---

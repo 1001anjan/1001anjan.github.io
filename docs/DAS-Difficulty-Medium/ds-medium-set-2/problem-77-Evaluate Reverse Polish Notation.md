@@ -2,7 +2,7 @@
 layout: default
 title: Evaluate Reverse Polish Notation
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 27
 permalink: /problem-77-Evaluate Reverse Polish Notation/
 ---

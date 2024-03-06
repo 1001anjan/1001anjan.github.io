@@ -2,7 +2,7 @@
 layout: default
 title: Number of 1 Bits
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-38-Number-of-1-Bits/
 ---

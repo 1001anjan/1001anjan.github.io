@@ -2,7 +2,7 @@
 layout: default
 title: Print in Order
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-179-Print-in-Order/
 ---

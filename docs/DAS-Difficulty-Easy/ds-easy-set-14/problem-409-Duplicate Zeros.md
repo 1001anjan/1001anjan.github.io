@@ -2,7 +2,7 @@
 layout: default
 title: Duplicate Zeros
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-409-Duplicate Zeros/
 ---

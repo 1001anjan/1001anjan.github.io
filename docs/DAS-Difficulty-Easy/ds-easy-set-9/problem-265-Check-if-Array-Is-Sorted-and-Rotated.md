@@ -2,7 +2,7 @@
 layout: default
 title: Check if Array Is Sorted and Rotated
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-265-Check-if-Array-Is-Sorted-and-Rotated/
 ---

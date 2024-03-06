@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Words in a String III
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 37
 permalink: /problem-100-Reverse-Words-in-a-String-III/
 ---

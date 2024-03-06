@@ -2,7 +2,7 @@
 layout: default
 title: Find All K-Distant Indices in an Array
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-342-Find All K-Distant Indices in an Array/
 ---

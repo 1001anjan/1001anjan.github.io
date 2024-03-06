@@ -2,7 +2,7 @@
 layout: default
 title: Island Perimeter
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-82-Island Perimeter/
 ---

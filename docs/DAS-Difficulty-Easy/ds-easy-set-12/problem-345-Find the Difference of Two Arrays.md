@@ -2,7 +2,7 @@
 layout: default
 title: Find the Difference of Two Arrays
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-345-Find the Difference of Two Arrays/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Absolute Difference in BST
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-383-Minimum Absolute Difference in BST/
 ---

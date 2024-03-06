@@ -2,7 +2,7 @@
 layout: default
 title: Max Points on a Line
 parent: Hard Set 1
-grand_parent: DSA Hard Difficulty
+grand_parent: DSA Hard
 nav_order: 1
 permalink: /problem-1-Max Points on a Line/
 ---

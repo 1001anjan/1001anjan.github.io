@@ -2,7 +2,7 @@
 layout: default
 title: Remove Element
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-8-remove-element/
 ---

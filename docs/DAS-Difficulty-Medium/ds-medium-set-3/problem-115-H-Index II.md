@@ -2,7 +2,7 @@
 layout: default
 title: H-Index II
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 15
 permalink: /problem-115-H-Index II/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Move Zeroes
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-57-Move-Zeroes/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Combination Sum III
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 1
 permalink: /problem-101-Combination Sum III/
 ---

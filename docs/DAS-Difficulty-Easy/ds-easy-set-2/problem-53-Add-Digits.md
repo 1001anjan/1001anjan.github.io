@@ -2,7 +2,7 @@
 layout: default
 title: Add Digits
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-53-Add-Digits/
 ---

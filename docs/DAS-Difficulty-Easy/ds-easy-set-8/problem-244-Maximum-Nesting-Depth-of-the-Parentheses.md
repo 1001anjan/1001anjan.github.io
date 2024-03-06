@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Nesting Depth of the Parentheses
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-244-Maximum-Nesting-Depth-of-the-Parentheses/
 ---

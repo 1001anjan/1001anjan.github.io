@@ -2,8 +2,7 @@
 layout: default
 title: Scale aws RDS
 parent: Kubernetes
-grand_parent: Spring Boot
-nav_order: 3
+nav_order: 13
 ---
 # Scale aws RDS
 You can scale an `Amazon RDS` instance depending on the number of connections by using Amazon `CloudWatch Alarms` and Amazon RDS `Auto Scaling`. Here's how to set it up:

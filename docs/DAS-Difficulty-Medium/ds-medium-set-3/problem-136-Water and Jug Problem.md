@@ -2,7 +2,7 @@
 layout: default
 title: Water and Jug Problem
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 36
 permalink: /problem-136-Water and Jug Problem/
 ---

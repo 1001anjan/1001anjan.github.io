@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Bit Flips to Convert Number
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-346-Minimum Bit Flips to Convert Number/
 ---

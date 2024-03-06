@@ -2,7 +2,7 @@
 layout: default
 title: Find Smallest Letter Greater Than Target
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-126-Find-Smallest-Letter-Greater-Than-Target/
 ---

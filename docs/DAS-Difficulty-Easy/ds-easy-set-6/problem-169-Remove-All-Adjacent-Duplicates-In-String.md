@@ -2,7 +2,7 @@
 layout: default
 title: Remove All Adjacent Duplicates In String
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-169-Remove-All-Adjacent-Duplicates-In-String/
 ---

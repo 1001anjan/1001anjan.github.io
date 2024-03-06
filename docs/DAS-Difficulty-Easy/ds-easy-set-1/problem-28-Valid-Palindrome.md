@@ -2,7 +2,7 @@
 layout: default
 title: Valid Palindrome
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-27-Valid-Palindrome/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Divide Two Integers
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 16
 permalink: /problem-16-Divide Two Integers/
 ---

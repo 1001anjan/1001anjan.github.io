@@ -2,7 +2,7 @@
 layout: default
 title: Find Numbers with Even Number of Digits
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-192-Find-Numbers-with-Even-Number-of-Digits/
 ---

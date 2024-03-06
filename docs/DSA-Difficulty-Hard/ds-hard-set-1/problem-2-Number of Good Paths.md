@@ -2,7 +2,7 @@
 layout: default
 title: Number of Good Paths
 parent: Hard Set 1
-grand_parent: DSA Hard Difficulty
+grand_parent: DSA Hard
 nav_order: 2
 permalink: /problem-2-Number of Good Paths/
 ---

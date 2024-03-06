@@ -2,7 +2,7 @@
 layout: default
 title: Number of Days Between Two Dates
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 17
 permalink: /problem-417-Number of Days Between Two Dates/
 ---

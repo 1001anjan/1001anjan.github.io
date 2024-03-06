@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Cost to Move Chips to The Same Position
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-413-Minimum Cost to Move Chips to The Same Position/
 ---

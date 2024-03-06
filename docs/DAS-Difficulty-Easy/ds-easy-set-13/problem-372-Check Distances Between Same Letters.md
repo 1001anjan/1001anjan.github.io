@@ -2,7 +2,7 @@
 layout: default
 title: Check Distances Between Same Letters
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-372-Check Distances Between Same Letters/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Container With Most Water
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 7
 permalink: /problem-7-Container With Most Water/
 ---

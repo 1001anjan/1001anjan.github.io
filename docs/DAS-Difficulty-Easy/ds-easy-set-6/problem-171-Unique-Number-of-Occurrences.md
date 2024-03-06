@@ -2,7 +2,7 @@
 layout: default
 title: Unique Number of Occurrences
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 11
 permalink: /problem-171-Unique-Number-of-Occurrences/
 ---

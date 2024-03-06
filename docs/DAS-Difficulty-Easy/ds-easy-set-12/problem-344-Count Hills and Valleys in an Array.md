@@ -2,7 +2,7 @@
 layout: default
 title: Count Hills and Valleys in an Array
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 4
 permalink: /problem-344-Count Hills and Valleys in an Array/
 ---

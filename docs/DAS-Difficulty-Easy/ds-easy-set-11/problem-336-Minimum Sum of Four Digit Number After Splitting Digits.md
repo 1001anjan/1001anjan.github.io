@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Sum of Four Digit Number After Splitting Digits
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 26
 permalink: /problem-336-Minimum Sum of Four Digit Number After Splitting Digits/
 ---

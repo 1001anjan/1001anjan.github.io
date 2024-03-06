@@ -2,7 +2,7 @@
 layout: default
 title: Find All Numbers Disappeared in an Array
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 16
 permalink: /problem-79-Find-All-Numbers-Disappeared-in-an-Array/
 ---

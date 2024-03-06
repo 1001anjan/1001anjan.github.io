@@ -2,7 +2,7 @@
 layout: default
 title: Lowest Common Ancestor of a Binary Tree
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 6
 permalink: /problem-106-Lowest Common Ancestor of a Binary Tree/
 ---

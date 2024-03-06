@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Cost of Buying Candies With Discount
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-334-Minimum Cost of Buying Candies With Discount/
 ---

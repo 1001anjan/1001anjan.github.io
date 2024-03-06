@@ -2,7 +2,7 @@
 layout: default
 title: Lucky Numbers in a Matrix
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-208-Lucky-Numbers-in-a-Matrix/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Special Positions in a Binary Matrix
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-239-Special-Positions-in-a-Binary-Matrix/
 ---

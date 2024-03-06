@@ -2,7 +2,7 @@
 layout: default
 title: Sum of All Odd Length Subarrays
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-240-Sum-of-All-Odd-Length-Subarrays/
 ---

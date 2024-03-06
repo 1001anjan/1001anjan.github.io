@@ -2,7 +2,7 @@
 layout: default
 title: Robot Bounded In Circle
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 21
 permalink: /problem-121-Robot Bounded In Circle/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Next Greater Element I
 parent: Easy Set 3
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-88-Next-Greater-Element-I/
 ---

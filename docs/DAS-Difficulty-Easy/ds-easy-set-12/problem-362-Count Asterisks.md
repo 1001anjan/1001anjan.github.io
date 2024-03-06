@@ -2,7 +2,7 @@
 layout: default
 title: Count Asterisks
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-362-Count Asterisks/
 ---

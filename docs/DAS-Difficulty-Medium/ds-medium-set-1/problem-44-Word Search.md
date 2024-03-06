@@ -2,7 +2,7 @@
 layout: default
 title: Word Search
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 44
 permalink: /problem-44-Word Search/
 ---

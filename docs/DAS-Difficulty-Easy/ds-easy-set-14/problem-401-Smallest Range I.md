@@ -2,7 +2,7 @@
 layout: default
 title: Smallest Range I
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-401-Smallest Range I/
 ---

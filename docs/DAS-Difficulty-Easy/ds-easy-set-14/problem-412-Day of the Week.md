@@ -2,7 +2,7 @@
 layout: default
 title: Day of the Week
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-412-Day of the Week/
 ---

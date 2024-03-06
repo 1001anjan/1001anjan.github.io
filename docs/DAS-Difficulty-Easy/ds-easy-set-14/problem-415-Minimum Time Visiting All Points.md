@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Time Visiting All Points
 parent: Easy Set 14
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-415-Minimum Time Visiting All Points/
 ---

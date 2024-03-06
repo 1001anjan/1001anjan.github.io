@@ -2,7 +2,7 @@
 layout: default
 title: Linked List Cycle II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 24
 permalink: /problem-74-Linked List Cycle II/
 ---

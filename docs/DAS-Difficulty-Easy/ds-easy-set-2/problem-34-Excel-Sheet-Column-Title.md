@@ -2,7 +2,7 @@
 layout: default
 title: Excel Sheet Column Title
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-34-Excel-Sheet-Column-Title/
 ---

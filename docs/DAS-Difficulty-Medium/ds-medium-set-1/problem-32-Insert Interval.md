@@ -2,7 +2,7 @@
 layout: default
 title: Insert Interval
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 32
 permalink: /problem-32-Insert Interval/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Two Sum IV - Input is a BST
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-114-Two-Sum-IV-Input-is-a-BST/
 ---

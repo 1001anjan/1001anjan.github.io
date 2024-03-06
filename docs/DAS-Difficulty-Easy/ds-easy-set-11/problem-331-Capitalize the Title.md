@@ -2,7 +2,7 @@
 layout: default
 title: Capitalize the Title
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-331-Capitalize the Title/
 ---

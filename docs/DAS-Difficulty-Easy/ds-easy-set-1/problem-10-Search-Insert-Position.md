@@ -2,7 +2,7 @@
 layout: default
 title: Search Insert Position
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-10-search-insert-position/
 ---

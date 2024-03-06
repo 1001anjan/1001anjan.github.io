@@ -2,7 +2,7 @@
 layout: default
 title: Rotate String
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 25
 permalink: /problem-395-Rotate String/
 ---

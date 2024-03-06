@@ -2,7 +2,7 @@
 layout: default
 title: 3Sum
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 9
 permalink: /problem-9-3Sum/
 ---

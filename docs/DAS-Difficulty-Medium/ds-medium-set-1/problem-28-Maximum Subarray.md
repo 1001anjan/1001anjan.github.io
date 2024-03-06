@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Subarray
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 28
 permalink: /problem-28-Maximum Subarray/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: N-ary Tree Level Order Traversal
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 45
 permalink: /problem-145-N-ary Tree Level Order Traversal/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Number of Steps to Reduce a Number to Zero
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-202-Number-of-Steps-to-Reduce-a-Number-to-Zero/
 ---

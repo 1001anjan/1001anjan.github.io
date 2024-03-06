@@ -2,7 +2,7 @@
 layout: default
 title: Ugly Number II
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 13
 permalink: /problem-113-Ugly Number II/
 ---

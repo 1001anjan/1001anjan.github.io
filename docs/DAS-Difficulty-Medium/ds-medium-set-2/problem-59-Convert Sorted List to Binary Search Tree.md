@@ -2,7 +2,7 @@
 layout: default
 title: Convert Sorted List to Binary Search Tree
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 9
 permalink: /problem-59-Convert Sorted List to Binary Search Tree/
 ---

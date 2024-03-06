@@ -2,7 +2,7 @@
 layout: default
 title: Increasing Order Search Tree
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-143-Increasing-Order-Search-Tree/
 ---

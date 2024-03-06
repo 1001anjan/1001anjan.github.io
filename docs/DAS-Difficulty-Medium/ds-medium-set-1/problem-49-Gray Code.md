@@ -2,7 +2,7 @@
 layout: default
 title: Gray Code
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 49
 permalink: /problem-49-Gray Code/
 ---

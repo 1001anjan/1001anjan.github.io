@@ -2,7 +2,7 @@
 layout: default
 title: Find Subsequence of Length K With the Largest Sum
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-325-Find Subsequence of Length K With the Largest Sum/
 ---

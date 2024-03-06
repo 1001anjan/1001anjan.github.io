@@ -2,7 +2,7 @@
 layout: default
 title: Longer Contiguous Segments of Ones than Zeros
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 6
 permalink: /problem-286-Longer-Contiguous-Segments-of-Ones-than-Zeros/
 ---

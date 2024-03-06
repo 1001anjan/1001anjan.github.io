@@ -2,7 +2,7 @@
 layout: default
 title: Number of Recent Calls
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 19
 permalink: /problem-149-Number-of-Recent-Calls/
 ---

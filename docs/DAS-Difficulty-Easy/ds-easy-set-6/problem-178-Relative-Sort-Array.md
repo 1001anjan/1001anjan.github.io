@@ -2,7 +2,7 @@
 layout: default
 title: Relative Sort Array
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 18
 permalink: /problem-178-Relative-Sort-Array/
 ---

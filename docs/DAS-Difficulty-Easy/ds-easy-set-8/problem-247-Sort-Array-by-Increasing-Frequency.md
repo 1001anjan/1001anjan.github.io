@@ -2,7 +2,7 @@
 layout: default
 title: Sort Array by Increasing Frequency
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-247-Sort-Array-by-Increasing-Frequency/
 ---

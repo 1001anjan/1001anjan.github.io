@@ -2,7 +2,7 @@
 layout: default
 title: Peeking Iterator
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 17
 permalink: /problem-117-Peeking Iterator/
 ---

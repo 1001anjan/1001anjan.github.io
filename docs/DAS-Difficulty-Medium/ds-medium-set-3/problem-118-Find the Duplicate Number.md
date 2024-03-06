@@ -2,7 +2,7 @@
 layout: default
 title: Find the Duplicate Number
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 18
 permalink: /problem-118-Find the Duplicate Number/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Find the Distance Value Between Two Arrays
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-187-Find-the-Distance-Value-Between-Two-Arrays/
 ---

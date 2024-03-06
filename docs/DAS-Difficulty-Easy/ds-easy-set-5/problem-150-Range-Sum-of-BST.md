@@ -2,7 +2,7 @@
 layout: default
 title: Range Sum of BST
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 20
 permalink: /problem-150-Range-Sum-of-BST/
 ---

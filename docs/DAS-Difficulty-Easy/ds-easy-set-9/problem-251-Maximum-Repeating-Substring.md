@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Repeating Substring
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-251-Maximum-Repeating-Substring/
 ---

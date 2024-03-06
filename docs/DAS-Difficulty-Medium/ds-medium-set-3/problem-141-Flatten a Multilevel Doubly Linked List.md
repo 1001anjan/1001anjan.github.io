@@ -2,7 +2,7 @@
 layout: default
 title: Flatten a Multilevel Doubly Linked List
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 41
 permalink: /problem-141-Flatten a Multilevel Doubly Linked List/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Divide a String Into Groups of Size k
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 23
 permalink: /problem-333-Divide a String Into Groups of Size k/
 ---

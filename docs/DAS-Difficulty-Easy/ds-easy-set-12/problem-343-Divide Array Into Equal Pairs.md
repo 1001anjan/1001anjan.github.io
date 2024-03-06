@@ -2,7 +2,7 @@
 layout: default
 title: Divide Array Into Equal Pairs
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-343-Divide Array Into Equal Pairs/
 ---

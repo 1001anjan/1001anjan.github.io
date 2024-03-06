@@ -2,7 +2,7 @@
 layout: default
 title: Sum of Root To Leaf Binary Numbers
 parent: Easy Set 6
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-165-Sum-of-Root-To-Leaf-Binary-Numbers/
 ---

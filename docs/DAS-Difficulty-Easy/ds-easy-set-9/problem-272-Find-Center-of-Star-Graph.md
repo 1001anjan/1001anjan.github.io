@@ -2,7 +2,7 @@
 layout: default
 title: Find Center of Star Graph
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 22
 permalink: /problem-272-Find-Center-of-Star-Graph/
 ---

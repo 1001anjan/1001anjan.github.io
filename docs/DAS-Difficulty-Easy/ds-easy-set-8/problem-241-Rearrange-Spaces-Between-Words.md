@@ -2,7 +2,7 @@
 layout: default
 title: Rearrange Spaces Between Words
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 21
 permalink: /problem-241-Rearrange-Spaces-Between-Words/
 ---

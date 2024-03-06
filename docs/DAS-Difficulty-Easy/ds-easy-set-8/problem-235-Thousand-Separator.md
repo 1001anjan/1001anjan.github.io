@@ -2,7 +2,7 @@
 layout: default
 title: Thousand Separator
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 15
 permalink: /problem-235-Thousand-Separator/
 ---

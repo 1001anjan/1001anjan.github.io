@@ -2,7 +2,7 @@
 layout: default
 title: Contains Duplicate
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 12
 permalink: /problem-43-Contains-Duplicate/
 ---

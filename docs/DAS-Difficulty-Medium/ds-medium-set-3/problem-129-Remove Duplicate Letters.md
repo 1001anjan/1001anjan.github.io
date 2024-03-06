@@ -2,7 +2,7 @@
 layout: default
 title: Remove Duplicate Letters
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 29
 permalink: /problem-129-Remove Duplicate Letters/
 ---

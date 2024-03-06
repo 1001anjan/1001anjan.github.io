@@ -2,7 +2,7 @@
 layout: default
 title: Redistribute Characters to Make All Strings Equal
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 10
 permalink: /problem-290-Redistribute-Characters-to-Make-All-Strings-Equal/
 ---

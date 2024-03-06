@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Height Trees
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 30
 permalink: /problem-130-Minimum Height Trees/
 ---

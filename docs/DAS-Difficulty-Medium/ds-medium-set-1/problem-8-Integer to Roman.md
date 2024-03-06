@@ -2,7 +2,7 @@
 layout: default
 title: Integer to Roman
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 8
 permalink: /problem-8-Integer to Roman/
 ---

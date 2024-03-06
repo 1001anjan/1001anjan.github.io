@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Linked List II
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 2
 permalink: /problem-52-Reverse Linked List II/
 ---

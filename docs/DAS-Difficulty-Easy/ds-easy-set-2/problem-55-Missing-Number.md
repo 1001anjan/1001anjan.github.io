@@ -2,7 +2,7 @@
 layout: default
 title: Missing Number
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-55-Missing-Number/
 ---

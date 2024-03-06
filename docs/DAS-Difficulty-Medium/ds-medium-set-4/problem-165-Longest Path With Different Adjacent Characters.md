@@ -2,7 +2,7 @@
 layout: default
 title: Longest Path With Different Adjacent Characters
 parent: Medium Set 4
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 15
 permalink: /problem-165-Longest Path With Different Adjacent Characters/
 ---

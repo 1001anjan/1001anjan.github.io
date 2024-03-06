@@ -2,7 +2,7 @@
 layout: default
 title: Get Maximum in Generated Array
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-248-Sort-Array-by-Increasing-Frequency/
 ---

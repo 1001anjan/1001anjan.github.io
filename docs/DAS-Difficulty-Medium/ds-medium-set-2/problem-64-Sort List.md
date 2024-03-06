@@ -2,7 +2,7 @@
 layout: default
 title: Sort List
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 14
 permalink: /problem-64-Sort List/
 ---

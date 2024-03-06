@@ -2,7 +2,7 @@
 layout: default
 title: Build Array from Permutation
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 14
 permalink: /problem-294-Build-Array-from-Permutation/
 ---

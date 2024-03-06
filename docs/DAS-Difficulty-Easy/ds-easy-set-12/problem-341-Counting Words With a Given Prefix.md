@@ -2,7 +2,7 @@
 layout: default
 title: Counting Words With a Given Prefix
 parent: Easy Set 12
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-341-Counting Words With a Given Prefix/
 ---

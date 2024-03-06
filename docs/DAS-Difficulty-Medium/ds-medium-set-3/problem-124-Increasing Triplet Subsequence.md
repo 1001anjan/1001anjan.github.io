@@ -2,7 +2,7 @@
 layout: default
 title: Increasing Triplet Subsequence
 parent: Medium Set 3
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 24
 permalink: /problem-124-Increasing Triplet Subsequence/
 ---

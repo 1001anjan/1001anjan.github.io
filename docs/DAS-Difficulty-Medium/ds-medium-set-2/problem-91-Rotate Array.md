@@ -2,7 +2,7 @@
 layout: default
 title: Rotate Array
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 41
 permalink: /problem-91-Rotate Array/
 ---

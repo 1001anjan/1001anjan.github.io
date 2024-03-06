@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Operations to Make the Array Increasing
 parent: Easy Set 9
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 29
 permalink: /problem-279-Minimum-Operations-to-Make-the-Array-Increasing/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Valid Parentheses
 parent: Easy Set 1
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 5
 permalink: /problem-5-valid-parentheses/
 ---

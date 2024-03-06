@@ -2,7 +2,7 @@
 layout: default
 title: Check If Two String Arrays are Equivalent
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 30
 permalink: /problem-250-Check-If-Two-String-Arrays-are-Equivalent/
 ---

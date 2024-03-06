@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Words in a String
 parent: Medium Set 2
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 20
 permalink: /problem-70-Reverse Words in a String/
 ---

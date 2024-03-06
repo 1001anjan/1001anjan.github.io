@@ -2,7 +2,7 @@
 layout: default
 title: Min Stack
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 1
 permalink: /problem-32-Min-Stack/
 ---

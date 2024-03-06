@@ -2,7 +2,7 @@
 layout: default
 title: Kth Distinct String in an Array
 parent: Easy Set 11
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 7
 permalink: /problem-317-Kth Distinct String in an Array/
 ---

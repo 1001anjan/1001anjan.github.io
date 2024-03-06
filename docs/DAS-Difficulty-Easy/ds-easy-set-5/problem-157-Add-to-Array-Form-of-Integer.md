@@ -2,7 +2,7 @@
 layout: default
 title: Add to Array-Form of Integer
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-157-Add-to-Array-Form-of-Integer/
 ---

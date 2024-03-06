@@ -2,7 +2,7 @@
 layout: default
 title: Positions of Large Groups
 parent: Easy Set 5
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 2
 permalink: /problem-132-Positions-of-Large-Groups/
 ---

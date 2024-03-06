@@ -2,7 +2,7 @@
 layout: default
 title: Hard Set 1
 nav_order: 1
-parent: DSA Hard Difficulty
+parent: DSA Hard
 has_children: true
 permalink: docs/data-structure/ds-hard-set-1/
 ---

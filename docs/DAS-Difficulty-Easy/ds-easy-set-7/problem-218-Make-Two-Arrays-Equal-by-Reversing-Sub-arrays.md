@@ -2,7 +2,7 @@
 layout: default
 title: Make Two Arrays Equal by Reversing Sub-arrays
 parent: Easy Set 7
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 28
 permalink: /problem-218-Make-Two-Arrays-Equal-by-Reversing-Sub-arrays/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Nim Game
 parent: Easy Set 2
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 27
 permalink: /problem-58-Nim-Game/
 ---

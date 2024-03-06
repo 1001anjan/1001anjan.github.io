@@ -2,7 +2,7 @@
 layout: default
 title: Count Odd Numbers in an Interval Range
 parent: Easy Set 8
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 9
 permalink: /problem-229-Count-Odd-Numbers-in-an-Interval-Range/
 ---

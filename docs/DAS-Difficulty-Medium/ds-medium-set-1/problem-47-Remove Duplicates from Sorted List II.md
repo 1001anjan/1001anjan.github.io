@@ -2,7 +2,7 @@
 layout: default
 title: Remove Duplicates from Sorted List II
 parent: Medium Set 1
-grand_parent: DSA Medium Difficulty
+grand_parent: DSA Medium
 nav_order: 47
 permalink: /problem-47-Remove Duplicates from Sorted List II/
 ---

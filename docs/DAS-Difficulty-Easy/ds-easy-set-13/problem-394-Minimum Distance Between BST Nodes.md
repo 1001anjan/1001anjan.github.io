@@ -2,7 +2,7 @@
 layout: default
 title: Minimum Distance Between BST Nodes
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 24
 permalink: /problem-394-Minimum Distance Between BST Nodes/
 ---

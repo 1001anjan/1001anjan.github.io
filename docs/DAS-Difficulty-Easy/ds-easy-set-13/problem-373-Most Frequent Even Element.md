@@ -2,7 +2,7 @@
 layout: default
 title: Most Frequent Even Element
 parent: Easy Set 13
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 3
 permalink: /problem-373-Most Frequent Even Element/
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Construct String from Binary Tree
 parent: Easy Set 4
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 8
 permalink: /problem-108-Construct-String-from-Binary-Tree/
 ---

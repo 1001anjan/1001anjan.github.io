@@ -2,7 +2,7 @@
 layout: default
 title: Maximum Product Difference Between Two Pairs
 parent: Easy Set 10
-grand_parent: DSA Easy Difficulty
+grand_parent: DSA Easy
 nav_order: 13
 permalink: /problem-293-Maximum-Product-Difference-Between-Two-Pairs/
 ---
