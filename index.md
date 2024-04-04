@@ -74,12 +74,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 * ##### Video, Audio, and Text messaging. [iMeet](https://github.com/link2anjan/iMeet/blob/main/README.md) 
 
 ---
-## Contact
-```markdown
-Email: link2anjan@gmail.com
-```
-
----
 ## Certifications
 * [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/account/accomplishments/verify/YAK3Q4EJZ5DV)
 * [API Development on Google Cloud's Apigee API Platform](https://www.coursera.org/account/accomplishments/certificate/M9U4FNB7LVWY)
@@ -97,7 +91,11 @@ Email: link2anjan@gmail.com
 * [Machine Learning with Python](https://www.coursera.org/account/accomplishments/verify/463B3WUTDK2T)
 * [Server-side Development with NodeJS, Express and MongoDB](https://www.coursera.org/account/accomplishments/verify/NHDNA682XAGN)
 
-
+---
+## Contact
+```markdown
+Email: link2anjan@gmail.com
+```
 
 
 
