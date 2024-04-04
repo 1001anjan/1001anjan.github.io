@@ -11,7 +11,7 @@ permalink: /
 <span style="color:red"> *Apply* </span>
 <button class="btn js-toggle-dark-mode btn-primary">Dark Theme</button>
 
-No matter what you're going through, there's a light at the end of the tunnel, and it may seem hard to get to it, but you can do it and just keep working towards it.
+... it may seem hard to get to it, but you can do it and just keep working towards it.
 {: .fs-6 .fw-300 }
 
 [Interested Work](#interested-work){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contact](#contact){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Find me on LinkedIn](https://www.linkedin.com/in/link2anjan/){: .btn .fs-5 .mb-4 .mb-md-0 }
