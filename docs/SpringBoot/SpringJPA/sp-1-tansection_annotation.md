@@ -1,6 +1,6 @@
 ---
 layout: default
-title: @Transactional
+title: Transactional
 parent: Spring JPA
 grand_parent: Spring Boot
 nav_order: 1
