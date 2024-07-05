@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Regularization
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 26
 ---
 # Lab Regularization
@@ -18,8 +19,8 @@ from plt_overfit import overfit_example, output
 from lab_utils_common import sigmoid
 np.set_printoptions(precision=8)
 ```
-![](../../assets/images/docs/awsadada2d3d.png)
-![](../../assets/images/docs/awasas2s3d.png)
+![](../../../assets/images/docs/awsadada2d3d.png)
+![](../../../assets/images/docs/awasas2s3d.png)
 
 ````python
 def compute_cost_linear_reg(X, y, w, b, lambda_ = 1):
@@ -73,7 +74,7 @@ Regularized cost: 0.07917239320214275
   </tr>
 </table>
 
-![](../../assets/images/docs/awsadad21dd3d.png)
+![](../../../assets/images/docs/awsadad21dd3d.png)
 ```python
 def compute_cost_logistic_reg(X, y, w, b, lambda_ = 1):
     """
@@ -126,7 +127,7 @@ print("Regularized cost:", cost_tmp)
 </table>
 
 ## Gradient descent with regularization
-![](../../assets/images/docs/awasada2d3dsd.png)
+![](../../../assets/images/docs/awasada2d3dsd.png)
 ### Gradient function for regularized linear regression
 ```python
 def compute_gradient_linear_reg(X, y, w, b, lambda_): 
@@ -251,7 +252,7 @@ plt.close("all")
 display(output)
 ofit = overfit_example(True)
 ```
-![](../../assets/images/docs/awsdd3s2sd2.png)
+![](../../../assets/images/docs/awsdd3s2sd2.png)
 In the plot above, try out regularization on the previous example. In particular:
 - Categorical (logistic regression)
     - set degree to 6, lambda to 0 (no regularization), fit the data

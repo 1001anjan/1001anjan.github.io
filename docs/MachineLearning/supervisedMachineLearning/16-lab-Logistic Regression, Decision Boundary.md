@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Logistic Regression, Decision Boundary
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 16
 ---
 # Logistic Regression, Decision Boundary
@@ -38,9 +39,9 @@ ax.set_ylabel('$x_1$')
 ax.set_xlabel('$x_0$')
 plt.show()
 ```
-![](../../assets/images/docs/sasasassswqw.png)
-![](../../assets/images/docs/qwqwsxxa.png)
-![](../../assets/images/docs/sasasassasasasqw.png)
+![](../../../assets/images/docs/sasasassswqw.png)
+![](../../../assets/images/docs/qwqwsxxa.png)
+![](../../../assets/images/docs/sasasassasasasqw.png)
 
 ```python
 # Plot sigmoid(z) over a range of values from -10 to 10
@@ -55,8 +56,8 @@ ax.set_ylabel('sigmoid(z)')
 ax.set_xlabel('z')
 draw_vthresh(ax,0)
 ```
-![](../../assets/images/docs/aasasassq.png)
-![](../../assets/images/docs/asasasqsas.png)
+![](../../../assets/images/docs/aasasassq.png)
+![](../../../assets/images/docs/asasasqsas.png)
 ```python
 # Choose values between 0 and 6
 x0 = np.arange(0,6)
@@ -76,8 +77,8 @@ ax.set_ylabel(r'$x_1$')
 ax.set_xlabel(r'$x_0$')
 plt.show()
 ```
-![](../../assets/images/docs/asasasasas.png)
-![](../../assets/images/docs/sqwqadaa.png)
+![](../../../assets/images/docs/asasasasas.png)
+![](../../../assets/images/docs/sqwqadaa.png)
 ## Congratulations!
 You have explored the decision boundary in the context of logistic regression.
 

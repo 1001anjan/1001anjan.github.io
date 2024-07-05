@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Lab Feature Engineering and Polynomial Regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 8
 ---
 # Feature Engineering and Polynomial Regression
-![](../../assets/images/docs/awsaass.png)
+![](../../../assets/images/docs/awsaass.png)
 ## Goals
 In this lab you will:
 - explore feature engineering and polynomial regression which allows you to use the machinery of linear regression to fit very complicated, even very non-linear functions.
@@ -52,7 +53,7 @@ Iteration       800, Cost: 4.44900e+02
 Iteration       900, Cost: 4.42411e+02
 w,b found by gradient descent: w: [18.7], b: -52.0834
 ```
-![](../../assets/images/docs/awsasas.png)
+![](../../../assets/images/docs/awsasas.png)
 Well, as expected, not a great fit. What is needed is something like  𝑦=𝑤0𝑥20+𝑏 , or a polynomial feature. To accomplish this, you can modify the input data to engineer the needed features. If you swap the original data with a version that squares the  𝑥 value, then you can achieve  𝑦=𝑤0𝑥20+𝑏 . Let's try it. Swap X for X**2 below:
 
 ```python
@@ -83,7 +84,7 @@ Iteration      8000, Cost: 2.10884e-01
 Iteration      9000, Cost: 2.08962e-01
 w,b found by gradient descent: w: [1.], b: 0.0490
 ```
-![](../../assets/images/docs/awqsas.png)
+![](../../../assets/images/docs/awqsas.png)
 Great! near perfect fit. Notice the values of  𝐰
 and b printed right above the graph: w,b found by gradient descent: w: [1.], b: 0.0490. Gradient descent modified our initial values of  𝐰,𝑏
 to be (1.0,0.049) or a model of  𝑦=1∗𝑥20+0.049
@@ -122,7 +123,7 @@ Iteration      8000, Cost: 1.08495e+02
 Iteration      9000, Cost: 9.26132e+01
 w,b found by gradient descent: w: [0.08 0.54 0.03], b: 0.0106
 ```
-![](../../assets/images/docs/awsass.png)
+![](../../../assets/images/docs/awsass.png)
 Note the value of  𝐰 , [0.08 0.54 0.03] and b is 0.0106.This implies the model after fitting/training is:0.08𝑥+0.54𝑥2+0.03𝑥3+0.0106
 
 Gradient descent has emphasized the data that is the best fit to the  𝑥2
@@ -156,7 +157,7 @@ for i in range(len(ax)):
 ax[0].set_ylabel("y")
 plt.show()
 ```
-![](../../assets/images/docs/awqdasa.png)
+![](../../../assets/images/docs/awqdasa.png)
 Above, it is clear that the  𝑥2 feature mapped against the target value  𝑦 is linear. Linear regression can then easily generate a model using that feature.
 
 ### Scaling features
@@ -202,7 +203,7 @@ Iteration     80000, Cost: 3.63004e-09
 Iteration     90000, Cost: 2.58497e-10
 w,b found by gradient descent: w: [5.27e-05 1.13e+02 8.43e-05], b: 123.5000
 ```
-![](../../assets/images/docs/aqwaasa.png)
+![](../../../assets/images/docs/aqwaasa.png)
 Feature scaling allows this to converge much faster. Note again the values of  𝐰 . The  𝑤1 term, which is the  𝑥2 term is the most emphasized. Gradient descent has all but eliminated the  𝑥3 term.
 
 ### Complex Functions
@@ -233,7 +234,7 @@ Iteration    900000, Cost: 3.10989e-03
 w,b found by gradient descent: w: [ -1.34 -10.    24.78   5.96 -12.49 -16.26  -9.51   0.59   8.7   11.94
    9.27   0.79 -12.82], b: -0.0073
 ```
-![](../../assets/images/docs/awsaasas.png)
+![](../../../assets/images/docs/awsaasas.png)
 
 ## Congratulations!
 In this lab you:

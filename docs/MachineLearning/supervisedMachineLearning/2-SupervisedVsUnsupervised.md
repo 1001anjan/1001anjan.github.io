@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Supervised Vs Unsupervised
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 2
 ---
 # Supervised Vs Unsupervised Machine Learning

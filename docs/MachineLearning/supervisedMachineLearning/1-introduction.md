@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Introduction
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 1
 ---
 # Machine Learning

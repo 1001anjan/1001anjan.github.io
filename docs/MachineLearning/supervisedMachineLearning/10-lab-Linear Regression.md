@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Linear Regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 10
 ---
 # Lab Linear Regression
@@ -116,13 +117,13 @@ plt.ylabel('Profit in $10,000')
 plt.xlabel('Population of City in 10,000s')
 plt.show()
 ```
-![](../../assets/images/docs/aqssdsdsd.png)
+![](../../../assets/images/docs/aqssdsdsd.png)
 Your goal is to build a linear regression model to fit this data.
 - With this model, you can then input a new city's population, and have the model estimate your restaurant's potential monthly profits for that city.
 
-![](../../assets/images/docs/awdsdsdxscsd.png)
-![](../../assets/images/docs/awqddcxlps.png)
-![](../../assets/images/docs/aqessdps.png)
+![](../../../assets/images/docs/awdsdsdxscsd.png)
+![](../../../assets/images/docs/awqddcxlps.png)
+![](../../../assets/images/docs/aqessdps.png)
 
 ```python
 # UNQ_C1
@@ -243,8 +244,8 @@ print(f'Cost at initial w: {cost:.3f}')
 from public_tests import *
 compute_cost_test(compute_cost)
 ```
-![](../../assets/images/docs/aqwedsdda.png)
-![](../../assets/images/docs/aaasaqa.png)
+![](../../../assets/images/docs/aqwedsdda.png)
+![](../../../assets/images/docs/aaasaqa.png)
 
 ```python
 ## UNQ_C1

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Sigmoid function and logistic regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 14
 ---
 # Lab Sigmoid function and logistic regression
@@ -17,7 +18,7 @@ from plt_one_addpt_onclick import plt_one_addpt_onclick
 from lab_utils_common import draw_vthresh
 plt.style.use('./deeplearning.mplstyle')
 ```
-![](../../assets/images/docs/aqdadada.png)
+![](../../../assets/images/docs/aqdadada.png)
 NumPy has a function called [`exp()`](https://numpy.org/doc/stable/reference/generated/numpy.exp.html), which offers a convenient way to calculate the exponential ( $e^{z}$) of all elements in the input array (`z`).
 
 It also works with a single number as an input, as shown below.
@@ -114,11 +115,11 @@ ax.set_ylabel('sigmoid(z)')
 ax.set_xlabel('z')
 draw_vthresh(ax,0)
 ```
-![](../../assets/images/docs/adadadaed.png)
+![](../../../assets/images/docs/adadadaed.png)
 
 As you can see, the sigmoid function approaches  `0` as `z` goes to large negative values and approaches `1` as `z` goes to large positive values.
 
-![](../../assets/images/docs/aewqdadad.png)
+![](../../../assets/images/docs/aewqdadad.png)
 
 Let's apply logistic regression to the categorical data example of tumor classification.  
 First, load the examples and initial values for the parameters.
@@ -144,7 +145,7 @@ Try the following steps:
 plt.close('all') 
 addpt = plt_one_addpt_onclick( x_train,y_train, w_in, b_in, logistic=True)
 ```
-![](../../assets/images/docs/aasasasass.png)
+![](../../../assets/images/docs/aasasasass.png)
 ## Congratulations!
 You have explored the use of the sigmoid function in logistic regression.
 

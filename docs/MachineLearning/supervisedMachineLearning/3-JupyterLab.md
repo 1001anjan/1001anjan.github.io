@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Jupyter Notebook
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 3
 ---
 ## Jupyter Notebook

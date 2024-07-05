@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Logistic Regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 27
 ---
 # Lab Logistic Regression
@@ -96,7 +97,7 @@ The shape of X_train is: (100, 2)
 The shape of y_train is: (100,)
 We have m = 100 training examples
 ```
-![](../../assets/images/docs/aw1s5d43d.png)
+![](../../../assets/images/docs/aw1s5d43d.png)
 ```python
 # Plot examples
 plot_data(X_train, y_train[:], pos_label="Admitted", neg_label="Not admitted")
@@ -108,11 +109,11 @@ plt.xlabel('Exam 1 score')
 plt.legend(loc="upper right")
 plt.show()
 ```
-![](../../assets/images/docs/awsasa.png)
+![](../../../assets/images/docs/awsasa.png)
 Your goal is to build a logistic regression model to fit this data.
 - With this model, you can then predict if a new student will be admitted based on their scores on the two exams.
 
-![](../../assets/images/docs/aw44d2d.png)
+![](../../../assets/images/docs/aw44d2d.png)
 
 ```python
 # UNQ_C1
@@ -205,7 +206,7 @@ All tests passed!
 
 </table>
 
-![](../../assets/images/docs/awsadad23ffds.png)
+![](../../../assets/images/docs/awsadad23ffds.png)
 
 ```python
 # UNQ_C2
@@ -248,7 +249,7 @@ initial_b = 0.
 cost = compute_cost(X_train, y_train, initial_w, initial_b)
 print('Cost at initial w and b (zeros): {:.3f}'.format(cost))
 ```
-![](../../assets/images/docs/awsdad3dsds.png)
+![](../../../assets/images/docs/awsdad3dsds.png)
 
 ```python
 # Compute and display cost with non-zero w and b
@@ -266,7 +267,7 @@ compute_cost_test(compute_cost)
 Cost at test w and b (non-zeros): 0.218
 All tests passed!
 ```
-![](../../assets/images/docs/awsdscsdsd3.png)
+![](../../../assets/images/docs/awsdscsdsd3.png)
 ```python
 # UNQ_C3
 # GRADED FUNCTION: compute_gradient
@@ -350,7 +351,7 @@ dj_db at test w and b: -0.5999999999991071
 dj_dw at test w and b: [-44.831353617873795, -44.37384124953978]
 All tests passed!
 ```
-![](../../assets/images/docs/qasasas2.png)
+![](../../../assets/images/docs/qasasas2.png)
 
 ```python
 def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters, lambda_): 
@@ -435,7 +436,7 @@ Iteration 8000: Cost     0.30
 Iteration 9000: Cost     0.30   
 Iteration 9999: Cost     0.30  
 ```
-![](../../assets/images/docs/adadawqwqwx3.png)
+![](../../../assets/images/docs/adadawqwqwx3.png)
 ```python
 plot_decision_boundary(w, b, X_train, y_train)
 # Set the y-axis label
@@ -445,8 +446,8 @@ plt.xlabel('Exam 1 score')
 plt.legend(loc="upper right")
 plt.show()
 ```
-![](../../assets/images/docs/asasswsa322.png)
-![](../../assets/images/docs/aasasasw2212s.png)
+![](../../../assets/images/docs/asasswsa322.png)
+![](../../../assets/images/docs/aasasasw2212s.png)
 ```python
 # UNQ_C4
 # GRADED FUNCTION: predict
@@ -567,7 +568,7 @@ The shape of X_train is: (118, 2)
 The shape of y_train is: (118,)
 We have m = 118 training examples
 ```
-![](../../assets/images/docs/SASADAWW.png)
+![](../../../assets/images/docs/SASADAWW.png)
 ```python
 # Plot examples
 plot_data(X_train, y_train[:], pos_label="Accepted", neg_label="Rejected")
@@ -579,8 +580,8 @@ plt.xlabel('Microchip Test 1')
 plt.legend(loc="upper right")
 plt.show()
 ```
-![](../../assets/images/docs/SASASAS2SAS2.png)
-![](../../assets/images/docs/AWSASAWS.png)
+![](../../../assets/images/docs/SASASAS2SAS2.png)
+![](../../../assets/images/docs/AWSASAWS.png)
 ```python
 print("Original shape of data:", X_train.shape)
 
@@ -606,8 +607,8 @@ mapped X_train[0]: [5.12670000e-02 6.99560000e-01 2.62830529e-03 3.58643425e-02
  1.81563032e-08 2.47750473e-07 3.38066048e-06 4.61305487e-05
  6.29470940e-04 8.58939846e-03 1.17205992e-01]
 ````
-![](../../assets/images/docs/AQAasasads3s.png)
-![](../../assets/images/docs/qsasasas.png)
+![](../../../assets/images/docs/AQAasasads3s.png)
+![](../../../assets/images/docs/qsasasas.png)
 
 ```python
 # UNQ_C5
@@ -656,7 +657,7 @@ print("Regularized cost :", cost)
 # UNIT TEST    
 compute_cost_reg_test(compute_cost_reg)
 ```
-![](../../assets/images/docs/aswasasasw3.png)
+![](../../../assets/images/docs/aswasasasw3.png)
 ```python
 # UNQ_C6
 def compute_gradient_reg(X, y, w, b, lambda_ = 1): 
@@ -731,7 +732,7 @@ w,b, J_history,_ = gradient_descent(X_mapped, y_train, initial_w, initial_b,
                                     alpha, iterations, lambda_)
 ````
 
-![](../../assets/images/docs/awqwasaw2.png)
+![](../../../assets/images/docs/awqwasaw2.png)
 ```python
 plot_decision_boundary(w, b, X_mapped, y_train)
 # Set the y-axis label

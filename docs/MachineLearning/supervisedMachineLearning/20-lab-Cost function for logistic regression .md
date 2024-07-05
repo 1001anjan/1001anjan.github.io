@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Cost function for logistic regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 20
 ---
 # Lab Cost function for logistic regression
@@ -35,8 +36,8 @@ ax.set_ylabel('$x_1$', fontsize=12)
 ax.set_xlabel('$x_0$', fontsize=12)
 plt.show()
 ```
-![](../../assets/images/docs/swsaadasa.png)
-![](../../assets/images/docs/aqsasassd.png)
+![](../../../assets/images/docs/swsaadasa.png)
+![](../../../assets/images/docs/aqsasassd.png)
 
 <a name='ex-02'></a>
 #### Code Description
@@ -78,7 +79,7 @@ print(compute_cost_logistic(X_train, y_train, w_tmp, b_tmp))
 ```markdown
 0.36686678640551745
 ```
-![](../../assets/images/docs/aqdss122.png)
+![](../../../assets/images/docs/aqdss122.png)
 ```python
 import matplotlib.pyplot as plt
 
@@ -104,7 +105,7 @@ plt.legend(loc="upper right")
 plt.title("Decision Boundary")
 plt.show()
 ```
-![](../../assets/images/docs/aqddad345.png)
+![](../../../assets/images/docs/aqddad345.png)
 You can see from this plot that `b = -4, w = np.array([1,1])` is a worse model for the training data. Let's see if the cost function implementation reflects this.
 
 ```python

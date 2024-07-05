@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Classification
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 11
 ---
 # Lab Classification
@@ -15,7 +16,7 @@ from lab_utils_common import dlc, plot_data
 from plt_one_addpt_onclick import plt_one_addpt_onclick
 plt.style.use('./deeplearning.mplstyle')
 ```
-![](../../assets/images/docs/cassasa.png)
+![](../../../assets/images/docs/cassasa.png)
 ```python
 x_train = np.array([0., 1, 2, 3, 4, 5])
 y_train = np.array([0,  0, 0, 1, 1, 1])
@@ -48,7 +49,7 @@ ax[1].legend()
 plt.tight_layout()
 plt.show()
 ```
-![](../../assets/images/docs/awddadaa.png)
+![](../../../assets/images/docs/awddadaa.png)
 Note in the plots above:
 - In the single variable plot, positive results are shown both a red 'X's and as y=1. Negative results are blue 'O's and are located at y=0.
     - Recall in the case of linear regression, y would not have been limited to two values but could have been any value.
@@ -72,7 +73,7 @@ b_in = 0
 plt.close('all') 
 addpt = plt_one_addpt_onclick( x_train,y_train, w_in, b_in, logistic=False)
 ```
-![](../../assets/images/docs/aqqqcsa.png)
+![](../../../assets/images/docs/aqqqcsa.png)
 The example above demonstrates that the linear model is insufficient to model categorical data. The model can be extended as described in the following lab.
 
 ## Congratulations!

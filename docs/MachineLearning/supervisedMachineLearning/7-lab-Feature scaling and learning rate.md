@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Feature scaling and learning rate
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 7
 ---
 # Lab Feature scaling and learning rate
@@ -52,9 +53,9 @@ for i in range(len(ax)):
 ax[0].set_ylabel("Price (1000's)")
 plt.show()
 ```
-![](../../assets/images/docs/lab7dsdd.png)
-![](../../assets/images/docs/grsdddad.png)
-![](../../assets/images/docs/hgghjih.png)
+![](../../../assets/images/docs/lab7dsdd.png)
+![](../../../assets/images/docs/grsdddad.png)
+![](../../../assets/images/docs/hgghjih.png)
 
 ### alpha$ = 9.9e-7
 ```python
@@ -81,7 +82,7 @@ It appears the learning rate is too high.  The solution does not converge. Cost 
 ```python
 plot_cost_i_w(X_train, y_train, hist)
 ```
-![](../../assets/images/docs/smmsaa.png)
+![](../../../assets/images/docs/smmsaa.png)
 ### alpha$ = 9e-7
 Let's try a bit smaller value and see what happens.
 ```python
@@ -107,7 +108,7 @@ Cost is decreasing throughout the run showing that alpha is not too large.
 ```python
 plot_cost_i_w(X_train, y_train, hist)
 ```
-![](../../assets/images/docs/cost122.png)
+![](../../../assets/images/docs/cost122.png)
 ## 𝛼 = 1e-7
 Let's try a bit smaller value for 𝛼
 and see what happens.
@@ -134,10 +135,10 @@ Cost is decreasing throughout the run showing that  𝛼 is not too large.
 ```python
 plot_cost_i_w(X_train,y_train,hist)
 ```
-![](../../assets/images/docs/saadadaa.png)
+![](../../../assets/images/docs/saadadaa.png)
 
-![](../../assets/images/docs/dasasa.png)
-![](../../assets/images/docs/sadaa.png)
+![](../../../assets/images/docs/dasasa.png)
+![](../../../assets/images/docs/sadaa.png)
 ```python
 def zscore_normalize_features(X):
     """
@@ -190,7 +191,7 @@ plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 fig.suptitle("distribution of features before, during, after normalization")
 plt.show()
 ```
-![](../../assets/images/docs/asasasas.png)
+![](../../../assets/images/docs/asasasas.png)
 Let's normalize the data and compare it to the original data.
 ```python
 # normalize the original features
@@ -223,7 +224,7 @@ fig.suptitle("distribution of features after normalization")
 
 plt.show()
 ```
-![](../../assets/images/docs/asss.png)
+![](../../../assets/images/docs/asss.png)
 Let's re-run our gradient descent algorithm with normalized data. Note the **vastly larger value of alpha**. This will speed up gradient descent.
 ```python
 w_norm, b_norm, hist = run_gradient_descent(X_norm, y_train, 1000, 1.0e-1, )
@@ -263,7 +264,7 @@ ax[0].set_ylabel("Price"); ax[0].legend();
 fig.suptitle("target versus prediction using z-score normalized model")
 plt.show()
 ```
-![](../../assets/images/docs/awssa.png)
+![](../../../assets/images/docs/awssa.png)
 ```python
 # First, normalize out example.
 x_house = np.array([1200, 3, 1, 40])
@@ -276,11 +277,11 @@ print(f" predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 year
 [-0.53  0.43 -0.79  0.06]
  predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old = $318709
 ```
-![](../../assets/images/docs/awwsaa.png)
+![](../../../assets/images/docs/awwsaa.png)
 ```python
 plt_equal_scale(X_train, X_norm, y_train)
 ```
-![](../../assets/images/docs/qawsax.png)
+![](../../../assets/images/docs/qawsax.png)
 ## Congratulations!
 In this lab you:
 - utilized the routines for linear regression with multiple features you developed in previous labs

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 4
 ---
 # Regression
@@ -124,7 +125,7 @@ The general steps of the gradient descent algorithm can be represented as follow
 Repeat steps 2 and 3 until the algorithm converges to a minimum, as determined by a predefined threshold or a maximum number of iterations.
 
 ## Gradient descent for linear regression
-![](../../assets/images/docs/pppt.png)
+![](../../../assets/images/docs/pppt.png)
 
 ## Learning rate
 The learning rate is a hyperparameter in the gradient descent algorithm that controls the step size or the rate at which the parameters are updated during each iteration. It determines how quickly or slowly the algorithm learns and converges to the optimal solution. Setting the appropriate learning rate is crucial for the convergence and performance of the algorithm.

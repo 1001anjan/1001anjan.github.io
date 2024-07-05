@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Multiple Variable Linear Regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 6
 ---
 # Multiple Variable Linear Regression
@@ -23,17 +24,17 @@ plt.style.use('./deeplearning.mplstyle')
 np.set_printoptions(precision=2)  # reduced display precision on numpy arrays
 ```
 ## Notation
-![](../../assets/images/docs/notayions.png)
+![](../../../assets/images/docs/notayions.png)
 
 ## Problem Statement
-![](../../assets/images/docs/problemstm.png)
+![](../../../assets/images/docs/problemstm.png)
 
 ```python
 X_train = np.array([[2104, 5, 1, 45], [1416, 3, 2, 40], [852, 2, 1, 35]])
 y_train = np.array([460, 232, 178])
 ```
 ### Matrix X containing our examples
-![](../../assets/images/docs/matrescm.png)
+![](../../../assets/images/docs/matrescm.png)
 ```python
 # data is stored in numpy array/matrix
 print(f"X Shape: {X_train.shape}, X Type:{type(X_train)})")
@@ -50,7 +51,7 @@ y Shape: (3,), y Type:<class 'numpy.ndarray'>)
 [460 232 178]
 ```
 ### Parameter vector w, b
-![](../../assets/images/docs/pemtwqd.png)
+![](../../../assets/images/docs/pemtwqd.png)
 For demonstration,  𝐰 and  𝑏 will be loaded with some initial selected values that are near the optimal.  𝐰 is a 1-D NumPy vector.
 ```python
 b_init = 785.1811367994083
@@ -61,7 +62,7 @@ print(f"w_init shape: {w_init.shape}, b_init type: {type(b_init)}")
 w_init shape: (4,), b_init type: <class 'float'>
 ```
 ## Model Prediction With Multiple Variables
-![](../../assets/images/docs/meostsj.png)
+![](../../../assets/images/docs/meostsj.png)
 ### Single Prediction element by element
 Our previous prediction multiplied one feature value by one parameter and added a bias parameter. A direct extension of our previous implementation of prediction to multiple features would be to implement (1) above using loop over each element, performing the multiply with its parameter and then adding the bias parameter at the end.
 ```python
@@ -134,7 +135,7 @@ f_wb shape (), prediction: 459.99999761940825
 The results and shapes are the same as the previous version which used looping. Going forward, `np.dot` will be used for these operations. The prediction is now a single statement. Most routines will implement it directly rather than calling a separate predict routine.
 
 ## Compute Cost With Multiple Variables
-![](../../assets/images/docs/costttqw.png)
+![](../../../assets/images/docs/costttqw.png)
 Below is an implementation of equations (3) and (4). Note that this uses a *standard pattern for this course* where a for loop over all `m` examples is used.
 ```python
 def compute_cost(X, y, w, b): 
@@ -166,9 +167,9 @@ print(f'Cost at optimal w : {cost}')
 Cost at optimal w : 1.5578904880036537e-12
 ```
 ## Gradient Descent With Multiple Variables
-![](../../assets/images/docs/grdseds.png)
+![](../../../assets/images/docs/grdseds.png)
 ### Compute Gradient with Multiple Variables
-![](../../assets/images/docs/coplrsdsd.png)
+![](../../../assets/images/docs/coplrsdsd.png)
 ```python
 def compute_gradient(X, y, w, b): 
     """
@@ -304,7 +305,7 @@ prediction: 426.19, target value: 460
 prediction: 286.17, target value: 232
 prediction: 171.47, target value: 178
 ```
-![](../../assets/images/docs/grsdfsfs.png)
+![](../../../assets/images/docs/grsdfsfs.png)
 *These results are not inspiring*! Cost is still declining and our predictions are not very accurate. The next lab will explore how to improve on this.
 
 

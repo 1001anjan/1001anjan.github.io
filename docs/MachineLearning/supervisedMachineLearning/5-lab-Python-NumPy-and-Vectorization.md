@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Python, NumPy and Vectorization
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 5
 ---
 # Python, NumPy and Vectorization
@@ -188,7 +189,7 @@ b = 5 * a : [ 5 10 15 20]
 ```
 ### Vector Vector dot product
 The dot product is a mainstay of Linear Algebra and NumPy. This is an operation used extensively in this course and should be well understood. The dot product is shown below.
-![](../../assets/images/docs/dotpot.png)
+![](../../../assets/images/docs/dotpot.png)
 The dot product multiplies the values in two vectors element-wise and then sums the result. Vector dot product requires the dimensions of the two vectors to be the same.
 
 Let's implement our own version of the dot product below:

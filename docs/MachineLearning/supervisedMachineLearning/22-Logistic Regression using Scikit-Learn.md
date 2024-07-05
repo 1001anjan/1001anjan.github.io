@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Logistic Regression using Scikit-Learn
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 22
 ---
 # Lab Logistic Regression using Scikit-Learn

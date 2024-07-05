@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Gradient Descent for Logistic Regression
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 21
 ---
 # Gradient Descent for Logistic Regression
@@ -37,9 +38,9 @@ ax.set_ylabel('$x_1$', fontsize=12)
 ax.set_xlabel('$x_0$', fontsize=12)
 plt.show()
 ```
-![](../../assets/images/docs/aaasasdadd.png)
-![](../../assets/images/docs/awqsasaas.png)
-![](../../assets/images/docs/AWQDD32D3.png)
+![](../../../assets/images/docs/aaasasdadd.png)
+![](../../../assets/images/docs/awqsasaas.png)
+![](../../../assets/images/docs/AWQDD32D3.png)
 ```python
 def compute_gradient_logistic(X, y, w, b): 
     """
@@ -169,7 +170,7 @@ x1 = -b_out/w_out[1]
 ax.plot([0,x0],[x1,0], c=dlc["dlblue"], lw=1)
 plt.show()
 ```
-![](../../assets/images/docs/AQSSSADE422.png)
+![](../../../assets/images/docs/AQSSSADE422.png)
 ## Another Data set
 Let's return to a one-variable data set. With just two parameters, $w$, $b$, it is possible to plot the cost function using a contour plot to get a better idea of what gradient descent is up to.
 ```python
@@ -182,7 +183,7 @@ fig,ax = plt.subplots(1,1,figsize=(4,3))
 plt_tumor_data(x_train, y_train, ax)
 plt.show()
 ```
-![](../../assets/images/docs/AWSAAAA4423DD.png)
+![](../../../assets/images/docs/AWSAAAA4423DD.png)
 In the plot below, try:
 - changing $w$ and $b$ by clicking within the contour plot on the upper right.
     - changes may take a second or two

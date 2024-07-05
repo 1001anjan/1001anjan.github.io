@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lab Linear Regression using Scikit-Learn
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 9
 ---
 # Linear Regression using Scikit-Learn
@@ -102,7 +103,7 @@ ax[0].set_ylabel("Price"); ax[0].legend();
 fig.suptitle("target versus prediction using z-score normalized model")
 plt.show()
 ```
-![](../../assets/images/docs/awsqdfsa.png)
+![](../../../assets/images/docs/awsqdfsa.png)
 
 ## Congratulations!
 In this lab you:

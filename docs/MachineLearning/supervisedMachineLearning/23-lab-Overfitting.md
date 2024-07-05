@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Lab Overfitting
-parent: Machine Learning
+parent: Supervised Machine Learning
+grand_parent: Machine Learning
 nav_order: 23
 ---
 # Lab Overfitting
-![](../../assets/images/docs/aws1ssaadad.png)
+![](../../../assets/images/docs/aws1ssaadad.png)
 ## Goals
 In this lab, you will explore:
 - the situations where overfitting can occur
@@ -26,7 +27,7 @@ display(output)
 ofit = overfit_example(False)
 ```
 
-![](../../assets/images/docs/awd1edffgs2.png)
+![](../../../assets/images/docs/awd1edffgs2.png)
 In the plot above you can:
 - switch between Regression and Categorization examples
 - add data
